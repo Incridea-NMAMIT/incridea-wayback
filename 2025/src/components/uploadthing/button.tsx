@@ -1,29 +1,21 @@
-import { generateUploadButton } from "@uploadthing/react";
-import { getSession } from "next-auth/react";
-import { memo, type ComponentProps } from "react";
+import { memo } from "react";
 
-import type { UploadRouter } from "~/server/uploadthing/router";
-import { env } from "~/env";
+type ArchiveUploadProps = {
+  className?: string;
+  [key: string]: unknown;
+};
 
-const InternalUploadButton = generateUploadButton<UploadRouter>({
-  url: `${env.NEXT_PUBLIC_THIS_APP_URL}/api/uploadthing`,
-});
-
-const UploadButton = memo(
-  (
-    props: ComponentProps<typeof InternalUploadButton> & {
-      customId?: string;
-    },
-  ) => (
-    <InternalUploadButton
-      {...props}
-      headers={async () => ({
-        Authorization: (await getSession())?.accessToken ?? "",
-        ...(props.customId ? { custom_id: props.customId } : {}),
-      })}
-    />
-  )
-);
+/** Historical snapshots never upload files or contact the former API. */
+const UploadButton = memo(({ className }: ArchiveUploadProps) => (
+  <button
+    type="button"
+    className={className}
+    disabled
+    title="This is just a snapshot. Data not available."
+  >
+    This is just a snapshot. Data not available.
+  </button>
+));
 
 UploadButton.displayName = "UploadButton";
 
