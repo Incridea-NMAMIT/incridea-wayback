@@ -84,7 +84,7 @@ const SignUp = ({ signIn }) => {
       onSubmit={async (values) => {
         setLoading(true);
         values.mail = values.mail.toLowerCase().replace(/\s+/g, ""); //remove whitespaces
-        if (isNmamit && !values.mail.includes(`x@nmamit.in`)) {
+        if (isNmamit && !values.mail.includes(`@nmamit.in`)) {
           values.mail = `${values.mail}@nmamit.in`;
         }
         try {
