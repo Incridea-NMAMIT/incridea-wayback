@@ -44,8 +44,8 @@
       "sha256": "f7ba476229d458f51b17de0bb4cb8d6a033ca6680e5bf40149038176c8c335a6"
     },
     "https://utfs.io/f/aVR2JOdkpmeK4wN2pNeMudYxAIf6zZ4Pkyosm0viSGV38hDQ": {
-      "path": "/archive-assets/2026/853xxxx032c9bd9ed74066e6e82b5e54b04b177a173e1e0edd9f2bbd39b13a68.webp",
-      "sha256": "853xxxx032c9bd9ed74066e6e82b5e54b04b177a173e1e0edd9f2bbd39b13a68"
+      "path": "/archive-assets/2026/8532239032c9bd9ed74066e6e82b5e54b04b177a173e1e0edd9f2bbd39b13a68.webp",
+      "sha256": "8532239032c9bd9ed74066e6e82b5e54b04b177a173e1e0edd9f2bbd39b13a68"
     },
     "https://9ec732lutu.ufs.sh/f/aVR2JOdkpmeKu6kSRjpw3zeD9ZJNfM7gRQbciqVsmXTO2Knh": {
       "path": "/archive-assets/2026/a677300ad91e9b7243c4b4185bd6f5617ede6ca469044f2c5024fdeb8b99b310.webp",
@@ -56,8 +56,8 @@
       "sha256": "8f95d783e572eba2a7bc64f35cc8ed28f0330e8cc2ad630b1a2eb190a46ee532"
     },
     "https://9ec732lutu.ufs.sh/f/aVR2JOdkpmeKGqN6U4BpBlgj3fnXcFkieD8q9yHx6RCLdMA5": {
-      "path": "/archive-assets/2026/843xxxx903adf60aa54a14c9f415d01954b955d92498a3764d58e4b05f663e44.webp",
-      "sha256": "843xxxx903adf60aa54a14c9f415d01954b955d92498a3764d58e4b05f663e44"
+      "path": "/archive-assets/2026/8438977903adf60aa54a14c9f415d01954b955d92498a3764d58e4b05f663e44.webp",
+      "sha256": "8438977903adf60aa54a14c9f415d01954b955d92498a3764d58e4b05f663e44"
     },
     "https://9ec732lutu.ufs.sh/f/aVR2JOdkpmeK7LOZubLotCYMaRA8D6kunzwyXL10sTOJQh4e": {
       "path": "/archive-assets/2026/a0a99a84abef26fc7073b6c956d019a9cf78ab2d7778d3129f7b61b0b1102d70.webp",
@@ -256,8 +256,8 @@
       "sha256": "7cf18d14d1c694d8f599068fb55b547fc3b7776c9a5032f868f952468227da18"
     },
     "https://9ec732lutu.ufs.sh/f/aVR2JOdkpmeKTLtTuyQZEzmk1nYMjvsbyf95wKGLFO27TRUA": {
-      "path": "/archive-assets/2026/2d523e5f804c65f6e502c09d3e760fdb6e81e9be4c4d2b929xxxx491a592ddc7.webp",
-      "sha256": "2d523e5f804c65f6e502c09d3e760fdb6e81e9be4c4d2b929xxxx491a592ddc7"
+      "path": "/archive-assets/2026/2d523e5f804c65f6e502c09d3e760fdb6e81e9be4c4d2b9298968491a592ddc7.webp",
+      "sha256": "2d523e5f804c65f6e502c09d3e760fdb6e81e9be4c4d2b9298968491a592ddc7"
     },
     "https://9ec732lutu.ufs.sh/f/aVR2JOdkpmeKb4TDfdYz2Q9kNx8IMBmGXPVlOYDue7yALwtT": {
       "path": "/archive-assets/2026/a878c3cf60e58f49f839ac3de4639f014af503ed2d994355e978d07596344e34.webp",
@@ -272,8 +272,8 @@
       "sha256": "38d80e7c65871c39568fbe04160d2514fd5dad8ee06fcf851d5a64894ab034f4"
     },
     "https://utfs.io/f/aVR2JOdkpmeKvDSr2qmSsRHKAThZFouNYqdOf1ekGmQiEyzV": {
-      "path": "/archive-assets/2026/892f96ae7f10ce76e0809ccfd5faca5a749a851xxxx028fd81e364a97be14c3a.webp",
-      "sha256": "892f96ae7f10ce76e0809ccfd5faca5a749a851xxxx028fd81e364a97be14c3a"
+      "path": "/archive-assets/2026/892f96ae7f10ce76e0809ccfd5faca5a749a8514640028fd81e364a97be14c3a.webp",
+      "sha256": "892f96ae7f10ce76e0809ccfd5faca5a749a8514640028fd81e364a97be14c3a"
     },
     "https://utfs.io/f/aVR2JOdkpmeK0noWRhblKc1rQBIR5CYnvitdTLFf3yW6PJH4": {
       "path": "/archive-assets/2026/0f4b38cc3459e9ef8443c5c7511b0279664650b55dd3e1f7c7d16b9104f51b0f.webp",
@@ -900,7 +900,7 @@
         "id": 23,
         "name": "Talent House X",
         "description": "<h1>About the Event:</h1><p>Your talent is your identity—it’s what sets you apart from the rest. While everyone is born with a unique spark, not everyone dares to showcase it. Talent House X is your platform to bring that hidden brilliance to life. Whether it’s music, dance, art, or any other creative expression, this is your moment to shine. If you’ve discovered the X-factor within you, step onto the stage, own the spotlight, and leave the audience spellbound!</p><h1>Event Details:</h1><h2>Round 1: Curtain Raiser  </h2><ol><li>Participants can only perform in the category of talent mentioned during the registration.</li><li>Based on the scores allotted by judges, the shortlisted participants will move to the next round.</li><li>Prior requirements for the performances (like mic, audio jacks, etc.) need to be brought to the notice of the organisers 2 days before the event (subject to availability).</li><li>Participants will be given 4 minutes to complete their performance, and an extra 2 minutes for necessary stage arrangements and clearance.</li></ol><h2>Round 2: The Showdown</h2><ol><li>Participants selected for this round must perform in the same category as mentioned during the registration.</li><li>Participants will be given 7 minutes to complete their performance and an extra 2 minutes for necessary stage arrangements and clearance.</li></ol><h1>Rules and Regulations: </h1><ol><li>Individual participation.</li><li>Participants must present a physical college ID card and PID to participate in the event. </li><li>Only the 'stated' talent at the time of registration is allowed for the first round. Otherwise, it remains the right of the organisers to call for direct elimination, unless it is clarified. </li><li>Participants are not allowed to introduce themselves to the judges throughout the event. </li><li>Participants must be present an hour before the commencement of the event and submit the songs and other media files in advance, if any, through a USB only. </li><li>Participants must inform the organisers in advance if they are taking part in any other event during the time slot allotted to them to perform in Talent House X. </li><li>Participants are not allowed to interact with the judges without the organisers’ permission. </li><li>Vulgarity will not be entertained as an element and will result in direct elimination. </li><li>Performances based on sensitive matters and political issues are strictly prohibited. </li><li>Props can be used as per the participant's requirements. There is a strict prohibition on the use of fire, water, oil, colours, or smoke. </li><li>Performances exceeding the given time limit will result in a deduction of points. </li><li>Participants are responsible for the cleanliness of the stage after the performance. </li><li>The decisions of the judges and the organisers are final and binding.</li></ol><h1 class=\"\">Judging Criteria:</h1><ul><li>Technical ability.</li><li>Creativity.</li><li>Professionalism.</li><li>Preparation and Presentation.</li></ul><p></p>",
-        "image": "/archive-assets/2026/843xxxx903adf60aa54a14c9f415d01954b955d92498a3764d58e4b05f663e44.webp",
+        "image": "/archive-assets/2026/8438977903adf60aa54a14c9f415d01954b955d92498a3764d58e4b05f663e44.webp",
         "minTeamSize": 1,
         "maxTeamSize": 1,
         "maxTeams": 50,
@@ -4187,7 +4187,7 @@
     "coreTeam": [
       {
         "id": 1,
-        "imageSrc": "/archive-assets/2026/892f96ae7f10ce76e0809ccfd5faca5a749a851xxxx028fd81e364a97be14c3a.webp",
+        "imageSrc": "/archive-assets/2026/892f96ae7f10ce76e0809ccfd5faca5a749a8514640028fd81e364a97be14c3a.webp",
         "title": "Shishir Karkera",
         "subtitle": "HEAD OF MEDIA",
         "role": "Head",
@@ -4219,7 +4219,7 @@
       },
       {
         "id": 5,
-        "imageSrc": "/archive-assets/2026/2d523e5f804c65f6e502c09d3e760fdb6e81e9be4c4d2b929xxxx491a592ddc7.webp",
+        "imageSrc": "/archive-assets/2026/2d523e5f804c65f6e502c09d3e760fdb6e81e9be4c4d2b9298968491a592ddc7.webp",
         "title": "Adarsh A S",
         "subtitle": "HEAD OF THORANA",
         "role": "Head",
@@ -4419,7 +4419,7 @@
       },
       {
         "id": 31,
-        "imageSrc": "/archive-assets/2026/853xxxx032c9bd9ed74066e6e82b5e54b04b177a173e1e0edd9f2bbd39b13a68.webp",
+        "imageSrc": "/archive-assets/2026/8532239032c9bd9ed74066e6e82b5e54b04b177a173e1e0edd9f2bbd39b13a68.webp",
         "title": "Sudeep",
         "subtitle": "HEAD OF REQUIREMENTS",
         "role": "Head",
@@ -4451,7 +4451,7 @@
       },
       {
         "id": 35,
-        "imageSrc": "/archive-assets/2026/892f96ae7f10ce76e0809ccfd5faca5a749a851xxxx028fd81e364a97be14c3a.webp",
+        "imageSrc": "/archive-assets/2026/892f96ae7f10ce76e0809ccfd5faca5a749a8514640028fd81e364a97be14c3a.webp",
         "title": "Shishir Karkera",
         "subtitle": "HEAD OF TECHNICAL",
         "role": "Head",
