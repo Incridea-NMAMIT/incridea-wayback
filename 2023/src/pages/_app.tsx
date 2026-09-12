@@ -11,7 +11,6 @@ import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import Loader from "../components/Loader";
 import { Toaster } from "react-hot-toast";
-import { Analytics } from "@vercel/analytics/react";
 import { Alignment, Fit, Layout, useRive } from "@rive-app/react-canvas";
 const Navbar = dynamic(() => import("../components/navbar"), { ssr: false });
 
@@ -41,6 +40,27 @@ export default function App({
   useEffect(() => {
     setLoading(true);
     setTimeout(() => setLoading(false), 0);
+  }, []);
+
+  useEffect(() => {
+    // Releases before Wayback used a service worker. Remove it and its caches
+    // once so a visitor cannot be served stale JavaScript from an old edition.
+    if ("serviceWorker" in navigator) {
+      void navigator.serviceWorker
+        .getRegistrations()
+        .then((registrations) =>
+          Promise.all(registrations.map((registration) => registration.unregister())),
+        );
+    }
+    if ("caches" in window) {
+      void caches.keys().then((keys) =>
+        Promise.all(
+          keys
+            .filter((key) => key.includes("workbox") || key.includes("next-pwa"))
+            .map((key) => caches.delete(key)),
+        ),
+      );
+    }
   }, []);
 
   if (router.pathname === "/theme") return <Component {...pageProps} />;
@@ -87,7 +107,6 @@ export default function App({
         </AnimatePresence>
         <Footer />
       </div>
-      <Analytics />
     </ApolloProvider>
   );
 }
