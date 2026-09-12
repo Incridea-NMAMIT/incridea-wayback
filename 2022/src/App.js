@@ -30,10 +30,23 @@ function App() {
       clearTimeout(timer);
     };
   }, []);
-  return loading ? (
-    <Loader animate={true} />
-  ) : (
-    <AuthProvider>
+  return <>
+    <aside
+      className="fixed inset-x-0 top-0 z-[9999] border-b border-amber-300/40 bg-black/95 px-3 py-2 text-center text-xs font-medium tracking-wide text-[#f5e6c8] shadow-lg backdrop-blur"
+      role="status"
+    >
+      You are viewing the read-only Incridea 2022 archive.{" "}
+      <a
+        className="font-bold text-[#d8ad5d] underline decoration-[#d8ad5d] underline-offset-2 hover:text-white"
+        href="https://incridea.in"
+      >
+        Visit the current Incridea site
+      </a>
+    </aside>
+    {loading ? (
+      <Loader animate={true} />
+    ) : (
+      <AuthProvider>
       <div className="App flex justify-between flex-col min-h-[100vh]">
         <ScrollToTop>
           <Routes>
@@ -51,8 +64,9 @@ function App() {
           <Footer />
         </ScrollToTop>
       </div>
-    </AuthProvider>
-  );
+      </AuthProvider>
+    )}
+  </>;
 }
 
 export default App;

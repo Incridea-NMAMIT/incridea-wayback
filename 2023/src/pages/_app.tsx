@@ -12,6 +12,7 @@ import Image from "next/image";
 import Loader from "../components/Loader";
 import { Toaster } from "react-hot-toast";
 import { Alignment, Fit, Layout, useRive } from "@rive-app/react-canvas";
+import ArchiveBanner from "../components/ArchiveBanner";
 const Navbar = dynamic(() => import("../components/navbar"), { ssr: false });
 
 export default function App({
@@ -71,6 +72,7 @@ export default function App({
         description="Official Website of Incridea 2023, National level techno-cultural fest, NMAMIT, Nitte. Innovate. Create. Ideate."
       />
       <Toaster />
+      <ArchiveBanner />
       <AnimatePresence>{isLoading && <Loader />}</AnimatePresence>
       <div className="bg-gradient-to-bl  from-[#41acc9]  via-[#075985] to-[#2d6aa6]">
         {

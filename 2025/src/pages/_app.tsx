@@ -18,6 +18,7 @@ import { scan } from "react-scan";
 import { env } from "~/env";
 import Notice from "~/components/notice";
 import Navbar from "~/components/navbar";
+import ArchiveBanner from "~/components/ArchiveBanner";
 
 export const trap = LocalFont({
   src: [
@@ -141,6 +142,7 @@ export default function App({
       </AnimatePresence>
 
       <ApolloProvider client={apolloClient}>
+        <ArchiveBanner />
         <Toaster />
 
         <BaseSEO

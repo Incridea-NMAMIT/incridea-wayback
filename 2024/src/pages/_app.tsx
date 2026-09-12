@@ -15,6 +15,7 @@ import HeadComponent from "../components/head";
 import Footer from "../components/footer";
 import localFont from "@next/font/local";
 import { Press_Start_2P } from "@next/font/google";
+import ArchiveBanner from "../components/ArchiveBanner";
 
 export const VikingHell = localFont({
   src: "../font/Viking Hell.otf",
@@ -80,6 +81,7 @@ export default function App({
           title="Incridea"
           description="Official Website of Incridea 2024, National level techno-cultural fest, NMAMIT, Nitte. Innovate. Create. Ideate."
         />
+        <ArchiveBanner />
         <div
           className={`min-h-screen ${VikingHell.variable} ${pressStart.variable} ${garetFont.variable} ${gilroy.variable}`}
         >
@@ -95,6 +97,7 @@ export default function App({
           title="Incridea"
           description="Official Website of Incridea 2024, National level techno-cultural fest, NMAMIT, Nitte. Innovate. Create. Ideate."
         />
+        <ArchiveBanner />
         <Loader />
         <div
           className={`min-h-screen ${VikingHell.variable} ${pressStart.variable} ${garetFont.variable}`}
@@ -111,6 +114,7 @@ export default function App({
           title="Incridea"
           description="Official Website of Incridea 2024, National level techno-cultural fest, NMAMIT, Nitte. Innovate. Create. Ideate."
         />
+        <ArchiveBanner />
         <Toaster />
         <Loader />
         <div
