@@ -24,7 +24,7 @@ const TermsAndConditionsPage = () => {
                 </h1>
               </div>
 
-              <div className="mb-10 h-px w-full bg-gradient-to-r from-transparent via-purple-200/20 to-transparent" />
+              <div className="mb-10 h-px w-full bg-linear-to-r from-transparent via-purple-200/20 to-transparent" />
 
               <div className="flex flex-col gap-8 text-slate-300 text-sm sm:text-sm lg:text-base leading-relaxed">
                 <section className="flex flex-col gap-3">

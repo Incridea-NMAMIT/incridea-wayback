@@ -24,7 +24,7 @@ function RefundPolicy() {
                   REFUND POLICY
                 </h1>
               </header>
-              <div className="mb-10 h-px w-full bg-gradient-to-r from-transparent via-purple-200/20 to-transparent" />
+              <div className="mb-10 h-px w-full bg-linear-to-r from-transparent via-purple-200/20 to-transparent" />
 
               <div className="text-slate-200 space-y-6 sm:space-y-8">
                 <section>
