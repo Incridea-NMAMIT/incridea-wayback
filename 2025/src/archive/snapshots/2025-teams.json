@@ -1,0 +1,455 @@
+{
+  "schemaVersion": 1,
+  "edition": 2025,
+  "source": "Sanitized operator-supplied team export",
+  "technicalTeam": [
+    {
+      "name": "Keerthan K",
+      "role": "3D | Explore Page",
+      "instagram": "https://www.instagram.com/keetha_k11",
+      "github": "https://github.com/keetha1011",
+      "linkedin": "https://www.linkedin.com/in/kkeerthan/",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsak2SSzLUAYWwfIge5Buk6C2r1ycR3MhalptJ",
+      "quote": "passion && :) >>>",
+      "order": 956
+    },
+    {
+      "name": "Satwik Prabhu",
+      "role": "Team Head",
+      "instagram": "https://www.instagram.com/satwikprabhu",
+      "github": "https://github.com/satwikrprabhu",
+      "linkedin": "https://www.linkedin.com/in/satwikprabhu",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYs6qzKjobCTlPYmxF8Jkcz2Aywi4SUW73sObef",
+      "quote": "I know where you live.",
+      "order": 1000
+    },
+    {
+      "name": "Shishir Karkera",
+      "role": "Media Co-Head | Capture Incridea Head",
+      "instagram": "https://www.instagram.com/shishir.karkeraa",
+      "github": "https://github.com/shishirkarkeraa",
+      "linkedin": "https://www.linkedin.com/in/shishir-girish-karkera-a61542262/",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsRU7EN9OF3KquQZe6A5B9lUHcE0MXkmapDGoS",
+      "quote": "Never gonna let you down!",
+      "order": 608
+    },
+    {
+      "name": "A Omkar G Prabhu",
+      "role": "Co-Head",
+      "instagram": null,
+      "github": "https://github.com/Prabhuomkar9",
+      "linkedin": "https://www.linkedin.com/in/prabhuomkar9/",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsNbbMeaYgUCy5AaJk1SQLMRXVq7IcjwsigbOp",
+      "quote": "Control yourself, Not others! Tbh atp idc",
+      "order": 869
+    },
+    {
+      "name": "Samarth H Shetty",
+      "role": "Full Stack",
+      "instagram": "https://www.instagram.com/sammonster1920/",
+      "github": "https://github.com/Sammonster495",
+      "linkedin": "https://www.linkedin.com/in/samarth-shetty-a53018247/",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsHP3gl2xnfILa72RWpcCrVMDuJGhlwi30O1t5",
+      "quote": "Coding and dancing my way through life",
+      "order": 826
+    },
+    {
+      "name": "Pratham A Kadekar",
+      "role": "Full Stack",
+      "instagram": "https://www.instagram.com/pratham_ak2004",
+      "github": "https://github.com/pratham-ak2004",
+      "linkedin": "https://www.linkedin.com/in/pratham-a-kadekar-8397a7249",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsBlXRuuqkWUXGK6wnILoru9xPAvsyRJZftNH3",
+      "quote": "Konnichiwa",
+      "order": 782
+    },
+    {
+      "name": "Karthik Salian",
+      "role": "Frontend",
+      "instagram": "https://www.instagram.com/karthik_s_.salian/",
+      "github": "https://github.com/Karthik-S-Salian",
+      "linkedin": "https://www.linkedin.com/in/karthik-salian-3a7a26246/",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYskUmGfi3f75EiyprLQFWulsoOtNSn2b8xMwBc",
+      "quote": "Once take a deep breath and say NO",
+      "order": 739
+    },
+    {
+      "name": "Rahul N Bangera",
+      "role": "Full Stack",
+      "instagram": "https://www.instagram.com/rahul_n_bangera",
+      "github": "https://github.com/Bnir",
+      "linkedin": "https://www.linkedin.com/in/rahul-n-bangera",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsaWfptC6LUAYWwfIge5Buk6C2r1ycR3Mhalpt",
+      "quote": "Give 200% or Give nothing",
+      "order": 652
+    },
+    {
+      "name": "Nandan R Pai",
+      "role": "Full Stack",
+      "instagram": "https://www.instagram.com/nandanpi__/",
+      "github": "https://github.com/nandanpi",
+      "linkedin": "https://www.linkedin.com/in/nandanpai09",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsoAqnAeTmV3Exd1jb79S2BJHquaiFXMGYtPNL",
+      "quote": "My touch is the solution to all problems 🥰",
+      "order": 695
+    },
+    {
+      "name": "Varshith Pawar H R",
+      "role": "Frontend | Capture Incridea",
+      "instagram": "https://www.instagram.com/mr.pawar_10/",
+      "github": "https://github.com/VarshithPawarHR",
+      "linkedin": "https://www.linkedin.com/in/varshithpawarhr",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsAbfpWCkpZ3yOFKoP9ksNEf04XjJv5UITSilM",
+      "quote": "No bugs here—just your system struggling to keep up with our brilliance",
+      "order": 521
+    },
+    {
+      "name": "Snehal Shetty",
+      "role": "Full Stack",
+      "instagram": "https://www.instagram.com/shettysnehal__05",
+      "github": "https://github.com/shettysnehal",
+      "linkedin": "https://www.linkedin.com/in/snehalshetty105",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYs7SRWqfUWmhgn3FxJEjMV60R2YUlHPbwf1sdX",
+      "quote": "Life so cooked that my luck is on airplane mode",
+      "order": 478
+    },
+    {
+      "name": "Aryan Singh",
+      "role": "3D | Pronite",
+      "instagram": "https://www.instagram.com/just_aryansingh",
+      "github": "https://github.com/Wizhill05",
+      "linkedin": "https://www.linkedin.com/in/justaryansingh",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsz0PJUbAkVLni9IlUhGbwxyXJmDt8KsqSTcjZ",
+      "quote": "but Attendance <<<",
+      "order": 913
+    },
+    {
+      "name": "Athul D Bhandary",
+      "role": "Full Stack",
+      "instagram": "https://www.instagram.com/athul_bhandary",
+      "github": "https://github.com/athul28",
+      "linkedin": "https://www.linkedin.com/in/athul-d-bhandary-0b1912247/",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsmOCFz9Z5GalDMcdKkoseOfrSixqg92IP57HR",
+      "quote": "Hey wassup!!!",
+      "order": 565
+    },
+    {
+      "name": "Karthik P K",
+      "role": "Backend",
+      "instagram": "https://www.instagram.com/_karthik_p_k/",
+      "github": "https://github.com/karthikpk-o",
+      "linkedin": "https://linkedin.com/in/karthik-p-k",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsx82YSacfD7Rd4EMFQmCBav9AunfUTXIybKc5",
+      "quote": "The trouble is, you think you have time.",
+      "order": 434
+    },
+    {
+      "name": "Gaurav Dhanraja",
+      "role": "Frontend | Merch Incridea",
+      "instagram": "https://instagram.com/gaurav.dhanraja",
+      "github": "https://github.com/gauravdhanraja",
+      "linkedin": "https://linkedin.com/in/gauravdhanraja",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYs1hoCvYzeuBm64XfVxryzsUInKvlch8jGYk5o",
+      "quote": "Ishans a stalker",
+      "order": 304
+    },
+    {
+      "name": "Ishan Shetty",
+      "role": "Full Stack | Merch Incridea",
+      "instagram": "https://www.instagram.com/ishanshetty_",
+      "github": "https://github.com/Ishan-Shetty",
+      "linkedin": "https://www.linkedin.com/in/ishan-shetty-0a889821a/",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsQx8FtEomLUzEeRT6fOQK7ZNBYAsISbvlr2at",
+      "quote": "Im just a chill guy 👾",
+      "order": 347
+    },
+    {
+      "name": "Ashton Prince Mathias",
+      "role": "Frontend",
+      "instagram": "https://www.instagram.com/_ashtonmathias_/",
+      "github": "https://github.com/Subtilizer28",
+      "linkedin": "https://www.linkedin.com/in/ashtonmths/",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsZLkd4PpAE5ULRzqKik7X2res0bTNDO8fByP4",
+      "quote": "\\\"your fone linging 📞\\\"",
+      "order": 391
+    },
+    {
+      "name": "Sathwik Nayak",
+      "role": "Frontend | Capture Incridea",
+      "instagram": "https://www.instagram.com/sathwik_hh",
+      "github": "https://github.com/002sathwik",
+      "linkedin": "https://www.linkedin.com/in/sathwik-h-085758246",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsz3TfQIVAkVLni9IlUhGbwxyXJmDt8KsqSTcj",
+      "quote": "Being part of a team is the greatest contribution Ive made.",
+      "order": 173
+    },
+    {
+      "name": "Chaithra S Nayak",
+      "role": "Backend",
+      "instagram": "https://www.instagram.com/chaithrasnayak3/",
+      "github": "https://github.com/Chaithra-S-Nayak",
+      "linkedin": "https://www.linkedin.com/in/chaithra-s-nayak/",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsXpYd8A0wR70aACo8TtYy9qKWzrHGVkx2jm5N",
+      "quote": "git commit, git push, git regret",
+      "order": 130
+    },
+    {
+      "name": "Len Mendonca",
+      "role": "Frontend",
+      "instagram": "https://www.instagram.com/lendanieo/",
+      "github": "https://github.com/len-mendonca",
+      "linkedin": "https://in.linkedin.com/in/len-mendonca",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsfIWyAkED9hmLRUrCZci70YSk35OFaleQw428",
+      "quote": "Maria Pitache",
+      "order": 217
+    },
+    {
+      "name": "Riyaz Ahmed",
+      "role": "Frontend",
+      "instagram": "https://www.instagram.com/ria_yz24",
+      "github": "https://github.com/RiaAug24",
+      "linkedin": "https://www.linkedin.com/in/riyaz-ahmed24",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsEvpOuQO8mqF2GyD8viAZRnWJQ3hjbBM6tUpO",
+      "quote": "Try to be the fitting piece, for a missing piece. 🧩",
+      "order": 260
+    },
+    {
+      "name": "Sourav Bangera",
+      "role": "Digital | Explore Videos",
+      "instagram": "https://www.instagram.com/grungygrid?igsh=OGQ5ZDc2ODk2ZA==",
+      "github": null,
+      "linkedin": "https://www.linkedin.com/in/souravbangera",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsqOWM36eIP0OozeFxE7QCarpgUY8HV1ZmLfvA",
+      "quote": "i wish to be touched by Nandan",
+      "order": 43
+    },
+    {
+      "name": "M Sayeem Ahmed",
+      "role": "Backend",
+      "instagram": "https://www.instagram.com/ahmedmsayeem/",
+      "github": "https://github.com/ahmedmsayeem",
+      "linkedin": "https://www.linkedin.com/in/m-sayeem-ahmed-651a7b254",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsuU9lAqMhiNIPjmaM9C04xk6KFpZJTAsLRe5S",
+      "quote": "womp womp",
+      "order": 86
+    }
+  ],
+  "coreTeam": [
+    {
+      "name": "Ansh P Bhandary",
+      "committee": "Accommodation",
+      "designation": "CO_HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYse4XZjXal54n3Tp2Gu1b9SjLZWwoIPRUNkzDy"
+    },
+    {
+      "name": "Pavan C",
+      "committee": "Digital",
+      "designation": "CO_HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsaEahSRLUAYWwfIge5Buk6C2r1ycR3MhalptJ"
+    },
+    {
+      "name": "Prathvi G Karkera",
+      "committee": "Documentation",
+      "designation": "HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsxOiZQNfD7Rd4EMFQmCBav9AunfUTXIybKc5q"
+    },
+    {
+      "name": "Tvisha Prakash",
+      "committee": "Finance",
+      "designation": "HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsp4ljCESjr7fYckpVUB3JSqI0zhaeMgxFLlKC"
+    },
+    {
+      "name": "Aryan M Chowta",
+      "committee": "Crew",
+      "designation": "HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsxhUTozfD7Rd4EMFQmCBav9AunfUTXIybKc5q"
+    },
+    {
+      "name": "Uday Bhaskar",
+      "committee": "Event Management",
+      "designation": "HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsmOcW4E35GalDMcdKkoseOfrSixqg92IP57HR"
+    },
+    {
+      "name": "Advik A Rai",
+      "committee": "Crew",
+      "designation": "CO_HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYseWPN7pl54n3Tp2Gu1b9SjLZWwoIPRUNkzDyc"
+    },
+    {
+      "name": "Varun S Amin",
+      "committee": "Accommodation",
+      "designation": "HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYspuFAwrSjr7fYckpVUB3JSqI0zhaeMgxFLlKC"
+    },
+    {
+      "name": "Shaun V Karkada",
+      "committee": "Finance",
+      "designation": "CO_HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYslPwSZunMlrQ4V58Wu7dpShRXaAzL0EBFGvwe"
+    },
+    {
+      "name": "Vandya Kamath",
+      "committee": "Cultural",
+      "designation": "HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsZ3sS2lpAE5ULRzqKik7X2res0bTNDO8fByP4"
+    },
+    {
+      "name": "Keshav Nayak",
+      "committee": "Cultural",
+      "designation": "CO_HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYs8olA9Xju8VBznFPtoWLd6bRTDXGlUMjpyxqf"
+    },
+    {
+      "name": "Amrith R Naik",
+      "committee": "Event Management",
+      "designation": "CO_HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsz3k5ozVAkVLni9IlUhGbwxyXJmDt8KsqSTcj"
+    },
+    {
+      "name": "Sannidhi S Shetty",
+      "committee": "Documentation",
+      "designation": "CO_HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYs5bsB5iRRDCa1dQLUHr0VjOTulxqEnfGvXbop"
+    },
+    {
+      "name": "Dhanush Pai",
+      "committee": "Food",
+      "designation": "HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsWLLk5tHN9rYsDubyU3ELWtKnzISch0e8VC24"
+    },
+    {
+      "name": "Eshaprasad",
+      "committee": "House-Keeping",
+      "designation": "CO_HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYslQtjeEMlrQ4V58Wu7dpShRXaAzL0EBFGvweZ"
+    },
+    {
+      "name": "Sakshath S Shetty",
+      "committee": "House-Keeping",
+      "designation": "HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYseWdoytl54n3Tp2Gu1b9SjLZWwoIPRUNkzDyc"
+    },
+    {
+      "name": "Shravan Sp",
+      "committee": "Food",
+      "designation": "CO_HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsJrle7Y22jFyDRPq3aAnvXY7h1W5eolkUE4Tu"
+    },
+    {
+      "name": "Shreya S Rao",
+      "committee": "Inaugural",
+      "designation": "HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYskSYLWI3f75EiyprLQFWulsoOtNSn2b8xMwBc"
+    },
+    {
+      "name": "Avanthi",
+      "committee": "Inaugural",
+      "designation": "CO_HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYs8KmsHMLju8VBznFPtoWLd6bRTDXGlUMjpyxq"
+    },
+    {
+      "name": "Nandan R Pai",
+      "committee": "Jury",
+      "designation": "CO_HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsoAqnAeTmV3Exd1jb79S2BJHquaiFXMGYtPNL"
+    },
+    {
+      "name": "Sumedha S Kini",
+      "committee": "Publicity",
+      "designation": "HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsvGYeZ7KZW7GngJxhIPYBv0rVeKoUlEsj96zM"
+    },
+    {
+      "name": "Apeksha Nayak",
+      "committee": "Jury",
+      "designation": "HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsx9LlAYfD7Rd4EMFQmCBav9AunfUTXIybKc5q"
+    },
+    {
+      "name": "S Abishek",
+      "committee": "Media",
+      "designation": "HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsTyXK9LuW6GBbTQvRKPEzCuDZ3Ldw7gOeaUx8"
+    },
+    {
+      "name": "Sudeep",
+      "committee": "Requirements",
+      "designation": "CO_HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsNllT9BgUCy5AaJk1SQLMRXVq7IcjwsigbOpY"
+    },
+    {
+      "name": "Aaric Johan Rodrigues",
+      "committee": "Social Media",
+      "designation": "CO_HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsPQ9y83kXcR8MhVi19ZnqvfxmzWb4UFuNyOQX"
+    },
+    {
+      "name": "Shishir Girish Karkera",
+      "committee": "Media",
+      "designation": "CO_HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsRU7EN9OF3KquQZe6A5B9lUHcE0MXkmapDGoS"
+    },
+    {
+      "name": "Lakhi A Shetty",
+      "committee": "Publicity",
+      "designation": "CO_HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYse7Vj9ol54n3Tp2Gu1b9SjLZWwoIPRUNkzDyc"
+    },
+    {
+      "name": "Mesha Shetty BM",
+      "committee": "Sponsorship",
+      "designation": "HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsWf5FdK2HN9rYsDubyU3ELWtKnzISch0e8VC2"
+    },
+    {
+      "name": "Cleton Chris Dsouza",
+      "committee": "Sponsorship",
+      "designation": "CO_HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsmOZO1Xe5GalDMcdKkoseOfrSixqg92IP57HR"
+    },
+    {
+      "name": "Saurabh Sunish",
+      "committee": "Social Media",
+      "designation": "HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsWV81W3HN9rYsDubyU3ELWtKnzISch0e8VC24"
+    },
+    {
+      "name": "A Omkar G Prabhu",
+      "committee": "Technical",
+      "designation": "CO_HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsNbbMeaYgUCy5AaJk1SQLMRXVq7IcjwsigbOp"
+    },
+    {
+      "name": "Prathama S J",
+      "committee": "Requirements",
+      "designation": "HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsv2Oz3vrKZW7GngJxhIPYBv0rVeKoUlEsj96z"
+    },
+    {
+      "name": "Satwik R Prabhu",
+      "committee": "Technical",
+      "designation": "HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYs6qzKjobCTlPYmxF8Jkcz2Aywi4SUW73sObef"
+    },
+    {
+      "name": "Adarsh A S",
+      "committee": "Thorana",
+      "designation": "HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYspK89zSjr7fYckpVUB3JSqI0zhaeMgxFLlKCD"
+    },
+    {
+      "name": "P Sandesh Rao",
+      "committee": "Transport",
+      "designation": "CO_HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsH1TFdCxnfILa72RWpcCrVMDuJGhlwi30O1t5"
+    },
+    {
+      "name": "Janardan S Udupa",
+      "committee": "Transport",
+      "designation": "HEAD",
+      "imageUrl": "https://qmahmrnhvk.ufs.sh/f/WiEIO6HN9rYsjJpRFsdvhU3CkWL04SxeiovmztqpYgNBAMl9"
+    }
+  ]
+}
