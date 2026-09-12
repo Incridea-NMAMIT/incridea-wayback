@@ -1,0 +1,1345 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+/* Remove default colors and borders from the mobile buttons */
+.mobile-z-nav .mobile-z-nav-btn {
+    background: transparent !important;
+    /* Removes red/green backgrounds */
+    border: none !important;
+    /* Removes any default outlines */
+    outline: none;
+    box-shadow: none !important;
+    /* Removes default glows */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+/* Ensure the SVGs are visible (White) */
+.mobile-z-nav .mobile-z-nav-btn svg path {
+    stroke: white;
+}
+
+/* Add a subtle interaction effect when clicked */
+.mobile-z-nav .mobile-z-nav-btn:active {
+    transform: scale(0.85);
+    opacity: 0.7;
+}
+
+/* Tighten the glass dock spacing and remove background */
+.nav-glass-dock {
+    padding: 4px !important;
+    /* Makes the glass card wrap tighter around the button */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+}
+
+/* Scope variables to the page container */
+.pronite-page {
+    --pronite-bg: #050505;
+    --pronite-text: #ffffff;
+    --font-primary: "mocoSans", sans-serif;
+    --font-display: "mocoSans", sans-serif;
+    font-family: "mocoSans", sans-serif;
+    font-weight: 700;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    /* cursor: none; -- REMOVED */
+    background: var(--pronite-bg);
+    color: var(--pronite-text);
+    z-index: 1000;
+}
+
+/* Show default cursor on mobile/touch devices */
+/* Show default cursor on mobile/touch devices */
+@media (hover: none) and (pointer: coarse) {
+    .pronite-page {
+        cursor: auto !important;
+    }
+}
+
+/* Reset for children of pronite-page only */
+.pronite-page * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 3D Space */
+.pronite-page #z-space-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    perspective: 1000px;
+    perspective-origin: 50% 50%;
+    overflow: hidden;
+}
+
+.pronite-page .z-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+.pronite-page .z-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-style: preserve-3d;
+    will-change: transform, opacity;
+    transform: translate3d(0, 0, 0);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.pronite-page .hero-layer {
+    opacity: 1;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Hero Partners Row - TribeVibe | Incridea */
+.pronite-page .hero-partners-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.pronite-page .hero-partner-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pronite-page .tribe-vibe-logo {
+    height: 55px;
+    width: auto;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+    opacity: 0.9;
+}
+
+.pronite-page .incridea-logo {
+    height: 65px;
+    width: auto;
+    object-fit: contain;
+}
+
+.pronite-page .nmamit-logo {
+    height: 85px;
+    width: auto;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+    opacity: 1;
+}
+
+.pronite-page .hero-partner-divider {
+    width: 2px;
+    height: 45px;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.pronite-page .pronite-main-logo {
+    max-width: 75%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+/* Navigation */
+.pronite-page .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    z-index: 1000;
+    mix-blend-mode: difference;
+    pointer-events: none;
+}
+
+.pronite-page .nav>* {
+    pointer-events: auto;
+}
+
+.pronite-page .menu-btn {
+    background: none;
+    border: none;
+    cursor: none;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.pronite-page .menu-btn span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: white;
+}
+
+/* Scroll Progress */
+.pronite-page .scroll-progress-container {
+    position: fixed;
+    right: 4rem;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 60vh;
+    width: 60px;
+    z-index: 100;
+    pointer-events: auto;
+    display: flex;
+    justify-content: center;
+    touch-action: none;
+    cursor: grab;
+}
+
+.pronite-page .scroll-progress-container:active {
+    cursor: grabbing;
+}
+
+.pronite-page .scroll-track {
+    position: relative;
+    width: 6px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+    overflow: visible;
+}
+
+.pronite-page .logo-bottom-wrapper {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+    transition: bottom 0.05s linear;
+    pointer-events: none;
+}
+
+.pronite-page .progress-logo-bottom {
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.5));
+    display: block;
+    pointer-events: none;
+}
+
+/* Layers */
+.pronite-page .about-layer,
+.pronite-page .project-layer,
+.pronite-page .contact-layer {
+    opacity: 0;
+    transform: translateY(40px);
+    pointer-events: none;
+}
+
+.pronite-page .about-layer {
+    text-align: center;
+    padding: 0 2rem;
+}
+
+/* Artist Layer - IMPROVED SPACING */
+.pronite-page .artist-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    padding: 2rem 0;
+    will-change: transform, clip-path;
+    transition: none;
+    /* GSAP controls all transforms */
+}
+
+/* Artist Name SVG Styling */
+.pronite-page .artist-name-svg {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    /* INCREASED for larger appearance */
+    height: auto;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* ALO is shorter, so smaller max-width */
+.pronite-page .artist-name-svg.alo-svg {
+    max-width: 350px;
+}
+
+/* Sponsor Row — sits above artist name */
+.pronite-page .sponsor-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    opacity: 0.85;
+    flex-wrap: wrap;
+    clip-path: inset(0 0 100% 0);
+    will-change: clip-path, opacity;
+}
+
+/* Specific layout for the 3rd sponsor row (NMAMIT top, others bottom) */
+.pronite-page .sponsor-row.sponsor-row-3 {
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.pronite-page .splogos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: -4rem;
+}
+
+.pronite-page .sponsor-logo {
+    height: 78px;
+    width: auto;
+    max-width: 160px;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.pronite-page .sponsor-logo.glamfest-logo {
+    filter: none;
+    max-width: 200px;
+    /* Increased to match TribeVibe visual weight */
+    height: 80px;
+    /* Slightly taller */
+}
+
+.pronite-page .sponsor-logo.tribevibe-logo {
+    height: 48px;
+}
+
+.pronite-page .sponsor-logo.nmamit-logo-small {
+    max-width: 250px;
+    height: 200px;
+    /* Increased from 160px */
+}
+
+.pronite-page .sponsor-logo:hover {
+    opacity: 1;
+}
+
+.pronite-page .artist-date {
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    letter-spacing: 0.25em;
+    opacity: 1;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 0.5rem;
+    /* Neon core — bright white center like a real tube */
+    color: #fff;
+    /* Layered glow: tight core → mid bloom → wide ambient */
+    text-shadow:
+        0 0 1px #fff,
+        0 0 5px #fff,
+        0 0 20px #400f4c,
+        0 0 40px #400f4c,
+        0 0 80px #400f4c,
+        0 0 100px #400f4c;
+    /* Subtle neon pulse */
+    animation: neonPulse 2.5s ease-in-out infinite alternate;
+}
+
+@keyframes neonPulse {
+    0% {
+        text-shadow:
+            0 0 2px #fff,
+            0 0 5px #fff,
+            0 0 20px #400f4c,
+            0 0 40px #400f4c,
+            0 0 80px #400f4c,
+            0 0 100px #400f4c;
+    }
+
+    100% {
+        text-shadow:
+            0 0 2px #fff,
+            0 0 8px #fff,
+            0 0 15px #5a1a6e,
+            0 0 30px #5a1a6e,
+            0 0 55px #400f4c,
+            0 0 100px #400f4c;
+    }
+}
+
+/* Text Mask - CRITICAL for animation */
+.pronite-page .text-mask {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
+
+/* Direct children selector for GSAP — non-artist layers use translateY */
+.pronite-page .about-layer .text-mask>img,
+.pronite-page .about-layer .text-mask>p,
+.pronite-page .about-layer .text-mask>h2,
+.pronite-page .about-layer .text-mask>div {
+    display: block;
+    margin: 0;
+    transform: translateY(110%);
+    will-change: transform;
+}
+
+/* Artist layers use clip-path masking instead of translateY */
+.pronite-page .artist-layer .text-mask>img,
+.pronite-page .artist-layer .text-mask>p {
+    display: block;
+    margin: 0;
+    transform: none;
+    clip-path: inset(0 0 100% 0);
+    /* Hidden by default — revealed top-to-bottom */
+    will-change: clip-path, opacity;
+}
+
+/* Artist Image Layers - NEW STYLING */
+.pronite-page .artist-image-layer {
+    pointer-events: none;
+}
+
+.pronite-page .artist-img-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    transform-style: preserve-3d;
+    /* Do NOT add overflow: hidden here */
+}
+
+/* Artist images — natural aspect ratio, constrained by max dimensions */
+.pronite-page .artist-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    /* KEEP NATURAL SIZE - This prevents stretching/cropping */
+    width: auto; 
+    height: auto;
+    max-width: min(600px, 80vw);
+    max-height: min(600px, 80vh);
+    
+    /* Ensure the browser treats it as a single unit */
+    object-fit: contain; 
+
+    /* APPLY ROUNDING */
+    border-radius: 40px !important; /* Adjust this number for how round you want it */
+    
+    /* THE CLIPPER: This is the ONLY way to ensure videos stay rounded while scaling */
+    -webkit-mask-image: -webkit-radial-gradient(white, black);
+    mask-image: radial-gradient(white, black);
+    mask-clip: border-box;
+    
+    /* Visuals */
+    filter: drop-shadow(0 30px 30px rgba(0, 0, 0, 0.8));
+    visibility: hidden;
+    opacity: 0;
+    will-change: transform, opacity;
+    transform-origin: center center;
+    margin-top: -120px;
+}
+/* Both images centered — scale() drives depth emergence */
+.pronite-page .artist-img.left,
+.pronite-page .artist-img.right {
+    transform: translate(-50%, -50%) scale(0.05);
+}
+
+/* Buttons */
+.pronite-page .cta-btn,
+.pronite-page .view-project-btn {
+    padding: 1rem 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 100px;
+    background: transparent;
+    color: white;
+    font-family: var(--font-primary);
+    font-size: 0.875rem;
+    cursor: none;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.pronite-page .cta-btn:hover,
+.pronite-page .view-project-btn:hover {
+    background: white;
+    color: black;
+    transform: translateY(-2px);
+}
+
+.pronite-page .about-text {
+    font-family: var(--font-display);
+    font-size: clamp(1.5rem, 4vw, 3rem);
+    font-weight: 300;
+    line-height: 1.4;
+    max-width: 800px;
+}
+
+/* Starfield */
+.pronite-page #bg-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.card-image-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+}
+
+
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 1024px) {
+
+
+    /* Mobile Artist Images — smaller max size, natural ratio */
+    .pronite-page .artist-img {
+        max-width: min(280px, 85vw);
+        max-height: min(380px, 60vh);
+        border-radius: 25px !important;
+        margin-top: -40px;
+    }
+
+    .pronite-page .artist-img.left,
+    .pronite-page .artist-img.right {
+        transform: translate(-50%, -50%) scale(0.05);
+    }
+
+    .pronite-page .hero-title {
+        font-size: clamp(3rem, 12vw, 5rem);
+    }
+
+    .pronite-page .artist-name-svg {
+        max-width: 85% !important;
+    }
+
+    .pronite-page .artist-name-svg.alo-svg {
+        max-width: 200px !important;
+    }
+
+    .pronite-page .hero-partners-row {
+        flex-direction: row;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .pronite-page .hero-partner-divider {
+        width: 2px;
+        height: 40px;
+        background: rgba(255, 255, 255, 0.3);
+    }
+
+    .pronite-page .tribe-vibe-logo {
+        height: 40px;
+    }
+
+    .pronite-page .incridea-logo {
+        height: 60px;
+    }
+
+    .pronite-page .nmamit-logo {
+        height: 50px;
+    }
+
+    .pronite-page .sponsor-row {
+        gap: 0.5rem;
+        margin-bottom: 0;
+        z-index: 2;
+        position: relative;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        padding: 0 1rem;
+    }
+
+    .pronite-page .sponsor-logo {
+        height: 28px;
+        max-width: 100px;
+    }
+
+    .pronite-page .sponsor-logo.glamfest-logo {
+        height: 40px;
+        max-width: 120px;
+    }
+
+    .pronite-page .sponsor-logo.nmamit-logo-small {
+        height: 140px;
+        max-width: 200px;
+    }
+
+    .pronite-page .artist-content {
+        gap: 0.7rem;
+
+        /* Mobile: Move the WHOLE block up together and scale down to prevent cutting */
+        transform: translateY(-130px) scale(0.85);
+        margin-bottom: 10rem;
+
+    }
+
+    /* Mobile: Reset individual transforms */
+    .pronite-page .text-mask-name {
+        transform: none;
+    }
+
+    /* Mobile: Reset individual transforms */
+    .pronite-page .text-mask-date {
+        transform: none;
+    }
+
+    /* Mobile: Artist images positioned higher */
+    .pronite-page .artist-image-layer {
+        transform: translateY(-40px) !important;
+    }
+
+    /* Hide the desktop heart in controls — mobile has its own in the top row */
+    .pronite-card-heart-desktop {
+        display: none !important;
+    }
+}
+
+.pronite-page .tilt-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transform: rotateX(0deg) rotateY(0deg);
+    transition: transform 0.1s ease-out;
+    pointer-events: none;
+}
+
+.pronite-page .tilt-layer>* {
+    pointer-events: auto;
+}
+
+.pronite-page .z-layer {
+    filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.5));
+}
+
+/* Disable expensive drop-shadow on video layers — prevents GPU rasterisation lag */
+.pronite-page .z-layer.artist-image-layer {
+    filter: none;
+}
+
+.explore-btn {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1rem 2.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 100px;
+    color: white;
+    font-family: var(--font-primary);
+    font-size: 0.9rem;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    overflow: hidden;
+    z-index: 1001;
+    pointer-events: auto;
+}
+
+.explore-btn:hover {
+    background: white;
+    color: black;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+    transform: translateX(-50%) translateY(-2px);
+}
+
+.explore-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,
+            transparent,
+            rgba(255, 255, 255, 0.2),
+            transparent);
+    transition: 0.5s;
+}
+
+.explore-btn:hover::before {
+    left: 100%;
+}
+
+/* Exit Button Styling */
+.pronite-page .exit-btn {
+    position: fixed;
+    top: 2rem;
+    left: 2rem;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    color: white;
+}
+
+.pronite-page .exit-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.4);
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.pronite-page .exit-btn svg {
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 1024px) {
+
+    /* Disable tilt effect on mobile */
+    .pronite-page .tilt-layer {
+        transform: none !important;
+    }
+
+    .pronite-page .exit-btn {
+        width: 40px;
+        height: 40px;
+        top: 1.5rem;
+        left: 1.5rem;
+    }
+
+    .pronite-page .exit-btn svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* ===========================================================
+   MOBILE/TABLET: Hide explore button + progress bar,
+   Show glassmorphic Z-axis navigation buttons
+   =========================================================== */
+@media (max-width: 1024px) {
+
+    /* Hide desktop-only controls on mobile/tablet */
+    .explore-btn {
+        display: none !important;
+    }
+
+    .pronite-page .scroll-progress-container {
+        display: none !important;
+    }
+
+    /* Show mobile Z-nav buttons on mobile/tablet */
+    .mobile-z-nav {
+        display: flex !important;
+    }
+}
+
+/* Mobile Z-Nav — Glassmorphic Vertical Arrow Buttons
+   Hidden by default on desktop, shown via media query on mobile/tablet */
+.mobile-z-nav {
+    position: fixed;
+    right: 1.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    z-index: 1002;
+    pointer-events: auto;
+}
+
+.mobile-z-nav-btn {
+    position: relative;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+}
+
+/* Glossy inner highlight — replicates the glass sheen from the reference image */
+.mobile-z-nav-btn::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 12%;
+    width: 76%;
+    height: 42%;
+    border-radius: 50% 50% 45% 45%;
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0.45) 0%,
+            rgba(255, 255, 255, 0.08) 100%);
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Subtle outer glow ring */
+.mobile-z-nav-btn::after {
+    content: "";
+    position: absolute;
+    inset: -3px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+/* ── Forward (Up Arrow) — Green tinted glass ── */
+.mobile-z-nav-forward {
+    background: linear-gradient(180deg,
+            rgba(76, 175, 80, 0.5) 0%,
+            rgba(27, 94, 32, 0.55) 100%);
+    box-shadow:
+        0 4px 20px rgba(76, 175, 80, 0.25),
+        inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.mobile-z-nav-forward::after {
+    background: radial-gradient(circle,
+            rgba(76, 175, 80, 0.4) 0%,
+            transparent 70%);
+}
+
+.mobile-z-nav-forward:active {
+    transform: scale(0.9);
+    box-shadow:
+        0 2px 12px rgba(76, 175, 80, 0.5),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.mobile-z-nav-forward:active::after {
+    opacity: 1;
+}
+
+/* ── Backward (Down Arrow) — Red tinted glass ── */
+.mobile-z-nav-backward {
+    background: linear-gradient(180deg,
+            rgba(244, 67, 54, 0.5) 0%,
+            rgba(183, 28, 28, 0.55) 100%);
+    box-shadow:
+        0 4px 20px rgba(244, 67, 54, 0.25),
+        inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.mobile-z-nav-backward::after {
+    background: radial-gradient(circle,
+            rgba(244, 67, 54, 0.4) 0%,
+            transparent 70%);
+}
+
+.mobile-z-nav-backward:active {
+    transform: scale(0.9);
+    box-shadow:
+        0 2px 12px rgba(244, 67, 54, 0.5),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.mobile-z-nav-backward:active::after {
+    opacity: 1;
+}
+
+/* SVG arrow icons */
+.mobile-z-nav-btn svg {
+    position: relative;
+    z-index: 2;
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+    transition: transform 0.2s ease;
+}
+
+.mobile-z-nav-btn:active svg {
+    transform: scale(0.85);
+}
+
+/* Smaller buttons on very small screens */
+@media (max-width: 380px) {
+    .mobile-z-nav-btn {
+        width: 48px;
+        height: 48px;
+    }
+
+    .mobile-z-nav-btn svg {
+        width: 22px;
+        height: 22px;
+    }
+
+    /* Container for the buttons */
+    .mobile-z-nav {
+        position: fixed;
+        right: 1.25rem;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        /* Space between the two circular cards */
+        z-index: 1002;
+        pointer-events: auto;
+    }
+
+    /* Force the LiquidGlassCard to be a perfect circle */
+    .nav-glass-dock {
+        width: 60px !important;
+        height: 60px !important;
+        border-radius: 50% !important;
+        /* Makes it a circle */
+        padding: 0 !important;
+        /* Removes internal padding */
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        background: rgba(255,
+                255,
+                255,
+                0.05) !important;
+        /* Removes black/green/red */
+        border: 1px solid rgb(255, 255, 255) !important;
+    }
+
+    /* Clean up the buttons inside the cards */
+    .mobile-z-nav .mobile-z-nav-btn {
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+    }
+
+    /* Remove the glossy 'before' and 'after' elements from previous CSS */
+    .mobile-z-nav-btn::before,
+    .mobile-z-nav-btn::after {
+        display: none !important;
+    }
+
+    /* Specific SVG paths should be white */
+    .mobile-z-nav-btn svg path {
+        stroke: white !important;
+    }
+
+    /* Active interaction */
+    .mobile-z-nav .mobile-z-nav-btn:active {
+        transform: scale(0.85);
+    }
+
+    /* Ensure LiquidGlassCard isn't applying a default black background */
+    .nav-glass-dock div {
+        background: transparent !important;
+    }
+}
+
+/* ============================================================ */
+/* PRONITE RULES BUTTON & MODAL */
+/* ============================================================ */
+
+/* Rules Button - Top Right, Above Mobile Nav */
+.pronite-rules-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    z-index: 1100;
+}
+
+.pronite-rules-btn:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: scale(1.05);
+}
+
+.pronite-rules-btn:active {
+    transform: scale(0.95);
+}
+
+/* Modal Overlay */
+.pronite-rules-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1200;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Modal Container */
+.pronite-rules-modal {
+    /* Override LiquidGlassCard defaults */
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+
+    /* Modal Dimensions */
+    max-width: 600px;
+    width: 90%;
+    /* Strict height limit and flex layout for scrolling */
+    max-height: 80vh !important;
+    height: 80vh !important;
+    display: flex !important;
+    flex-direction: column;
+    pointer-events: auto;
+    /* Ensure interactivity */
+
+    /* Animation */
+    animation: slideIn 0.3s ease;
+}
+
+/* Ensure inner content flexes correctly to allow scrolling */
+.pronite-rules-modal .card__content {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100% !important;
+    max-height: 100% !important;
+    overflow: hidden !important;
+    /* Prevent spillover so inner content scrolls */
+}
+
+/* Make only the content area scrollable */
+.pronite-rules-content {
+    flex: 1;
+    overflow-y: auto !important;
+    padding: 24px;
+    height: 100%;
+    /* Force height to allow overflow */
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Modal Header */
+.pronite-rules-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.pronite-rules-header h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+/* Close Button */
+.pronite-rules-close {
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 28px;
+    cursor: pointer;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.pronite-rules-close:hover {
+    color: white;
+    transform: rotate(90deg);
+}
+
+/* Modal Content */
+.pronite-rules-content {
+    padding: 24px;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Rules Section */
+.rules-section {
+    margin-bottom: 24px;
+}
+
+.rules-section:last-child {
+    margin-bottom: 0;
+}
+
+.rules-section h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #a8d8ff;
+    margin: 0 0 12px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.rules-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rules-section li {
+    padding: 8px 0;
+    padding-left: 24px;
+    position: relative;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.rules-section li:before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: #a8d8ff;
+    font-weight: bold;
+}
+
+/* Scrollbar styling for modal */
+.pronite-rules-modal::-webkit-scrollbar {
+    width: 8px;
+}
+
+.pronite-rules-modal::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.pronite-rules-modal::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+}
+
+.pronite-rules-modal::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .pronite-rules-btn {
+        top: 1.5rem;
+        right: 1.5rem;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .pronite-rules-modal {
+        max-width: 95%;
+        max-height: 85vh;
+    }
+
+    .pronite-rules-header {
+        padding: 16px;
+    }
+
+    .pronite-rules-header h2 {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    .pronite-rules-content {
+        padding: 16px;
+        font-size: 13px;
+    }
+
+    .rules-section h3 {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .rules-section li {
+        padding: 6px 0;
+        padding-left: 20px;
+    }
+
+    /* Artist Content Spacing Fix */
+}
+
+/* Mobile Z-Axis Navigation Buttons */
+.mobile-z-nav {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    z-index: 9999;
+}
+
+.mobile-z-nav-btn {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    outline: none;
+}
+
+.mobile-z-nav-btn:active {
+    transform: scale(0.9);
+}
+
+.mobile-z-nav-btn::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.4) 0%, transparent 60%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.mobile-z-nav-btn:active::before {
+    opacity: 1;
+}
+
+/* Green tint for Forward (Up Arrow) */
+.mobile-z-nav-forward {
+    background: rgba(0, 255, 100, 0.15);
+    border-color: rgba(0, 255, 100, 0.3);
+    box-shadow: 0 0 20px rgba(0, 255, 100, 0.2);
+}
+
+/* Red tint for Backward (Down Arrow) */
+.mobile-z-nav-backward {
+    background: rgba(255, 50, 50, 0.15);
+    border-color: rgba(255, 50, 50, 0.3);
+    box-shadow: 0 0 20px rgba(255, 50, 50, 0.2);
+}
+
+@media (max-width: 480px) {
+    .mobile-z-nav-btn {
+        width: 56px;
+        height: 56px;
+    }
+}

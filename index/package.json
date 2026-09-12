@@ -1,0 +1,7 @@
+{
+  "name": "incridea-wayback-directory",
+  "private": true,
+  "scripts": {
+    "build": "node build.mjs"
+  }
+}

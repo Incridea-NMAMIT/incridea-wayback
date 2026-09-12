@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: /assets/
+Disallow: /Logo56.png
+Disallow: /character.webm
+Disallow: /chill.jpg
+Disallow: /comingsoon/
+Disallow: /eventpagebg/
+Disallow: /i.ico
+Disallow: /i.png
+Disallow: /incridea-logo.png
+Disallow: /landingpage/
+Disallow: /leaderboard/
+Disallow: /models/
+Disallow: /nmamit.png
+Disallow: /notfound/
+Disallow: /portal.png
+Disallow: /bg8.webp
+Disallow: /tempprofile/
+
+Sitemap: https://incridea.in/sitemap.xml
+

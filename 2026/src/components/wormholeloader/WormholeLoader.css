@@ -1,0 +1,660 @@
+:root {
+    --wormhole-bg: #05020a;
+    --animation-duration: 7s;
+}
+
+/* ===== MAIN CONTAINER ===== */
+.wormhole-loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    background-color: var(--wormhole-bg);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: none;
+}
+
+/* ===== PORTAL BACKGROUND ===== */
+.wormhole-portal-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 1;
+    /* Below cockpit */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* Zoom animation on outer wrapper */
+    animation: portal-zoom var(--animation-duration) cubic-bezier(0.42, 0, 0.58, 1) forwards;
+}
+
+.portal-rotation-wrapper {
+    width: 150%;
+    height: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Accelerated rotation synced with cockpit */
+    animation: portal-rotate-accelerated var(--animation-duration) cubic-bezier(0.33, 0, 0.67, 1) forwards;
+}
+
+.portal-background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* No animations - handled by parent wrappers */
+}
+
+@keyframes portal-zoom {
+
+    /* Phase 1: Slow start*/
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    7.14% {
+        transform: translate(-50%, -50%) scale(1.3);
+    }
+
+    /* Phase 2: Steady zoom during shake */
+    14.28% {
+        transform: translate(-50%, -50%) scale(2.0);
+    }
+
+    /* Phase 3: ACCELERATED zoom during pullback */
+    17.86% {
+        transform: translate(-50%, -50%) scale(2.8);
+    }
+
+    /* Phase 4: MAINTAIN FAST SPEED through logo appearance */
+    25% {
+        transform: translate(-50%, -50%) scale(4.0);
+    }
+
+    /* Phase 5: Continue fast zoom to mid-point */
+    50% {
+        transform: translate(-50%, -50%) scale(6.0);
+    }
+
+    /* Phase 6: Sustained speed before finale */
+    84% {
+        transform: translate(-50%, -50%) scale(10);
+    }
+
+    /* Phase 7: Final zoom */
+    88% {
+        transform: translate(-50%, -50%) scale(12);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(12);
+    }
+}
+
+@keyframes portal-zoom-mobile {
+
+    /* Phase 1: Slow start (0-7.14%) = 0-0.5s */
+    0% {
+        transform: translate(-50%, -50%) scale(2);
+    }
+
+    7.14% {
+        transform: translate(-50%, -50%) scale(2.5);
+    }
+
+    /* Phase 2: Steady zoom during shake (7.14-14.28%) = 0.5-1.0s */
+    14.28% {
+        transform: translate(-50%, -50%) scale(3.2);
+    }
+
+    /* Phase 3: ACCELERATED zoom during pullback (14.28-17.86%) = 1.0-1.25s */
+    17.86% {
+        transform: translate(-50%, -50%) scale(4);
+    }
+
+    /* Phase 4: MAINTAIN FAST SPEED through logo appearance */
+    25% {
+        transform: translate(-50%, -50%) scale(5);
+    }
+
+    /* Phase 5: Continue fast zoom to mid-point */
+    50% {
+        transform: translate(-50%, -50%) scale(7.5);
+    }
+
+    /* Phase 6: Sustained speed before finale */
+    84% {
+        transform: translate(-50%, -50%) scale(11);
+    }
+
+    /* Phase 7: Final zoom */
+    88% {
+        transform: translate(-50%, -50%) scale(13);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(13);
+    }
+}
+
+@keyframes portal-rotate-accelerated {
+
+    /* Phase 1: Slow rotation (0-14.28%) = 0-1.0s */
+    0% {
+        transform: rotate(0deg);
+    }
+
+    14.28% {
+        transform: rotate(20deg);
+    }
+
+    /* Phase 2: FAST rotation after cockpit pullback (14.28-50%) = 1.0-3.5s */
+    50% {
+        transform: rotate(400deg);
+    }
+
+    /* Phase 3: Continue fast rotation to end */
+    100% {
+        transform: rotate(720deg);
+        /* Two full rotations */
+    }
+}
+
+/* ===== COCKPIT OVERLAY ===== */
+.cockpit-overlay {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.85);
+    transform-origin: top center;
+    /* Start centered */
+    width: 100vw;
+    height: 90vh;
+    object-fit: cover;
+    z-index: 3;
+    /* Above portal */
+    pointer-events: none;
+    /* Animation Sequence */
+    animation: cockpit-entry var(--animation-duration) cubic-bezier(0.42, 0, 0.58, 1) forwards;
+}
+
+@keyframes cockpit-entry {
+
+    /* Phase 1: Shake starts immediately (0-14.28%) = 0-1.0s - X-axis oscillation */
+    0% {
+        transform: translate(-50%, -50%) scale(0.85);
+        opacity: 1;
+        filter: blur(0px);
+    }
+
+    2.38% {
+        transform: translate(-50.5%, -50%) scale(0.85);
+        opacity: 1;
+        filter: blur(0px);
+    }
+
+    4.76% {
+        transform: translate(-49.5%, -50%) scale(0.85);
+        opacity: 1;
+        filter: blur(0px);
+    }
+
+    7.14% {
+        transform: translate(-50%, -50%) scale(0.85);
+        opacity: 1;
+        filter: blur(0px);
+    }
+
+    9.5% {
+        transform: translate(-50.5%, -50%) scale(0.85);
+        opacity: 1;
+        filter: blur(0px);
+    }
+
+    11.85% {
+        transform: translate(-49.5%, -50%) scale(0.85);
+        opacity: 1;
+        filter: blur(0px);
+    }
+
+    /* Phase 2: Shake ends, ready for forward movement */
+    14.28% {
+        transform: translate(-50%, -50%) scale(0.85);
+        opacity: 1;
+        filter: blur(0px);
+    }
+
+    /* Phase 3: Move forward (14.28-17.86%) = 1.0-1.25s */
+    17.86% {
+        transform: translate(-50%, -50%) scale(0.9);
+        opacity: 1;
+        filter: blur(0px);
+    }
+
+    /* Logo appears at 21.42% - Start blur */
+    21.42% {
+        transform: translate(-50%, -50%) scale(1.1);
+        opacity: 1;
+        filter: blur(0px);
+    }
+
+    /* Blur in when logo is visible (25%) */
+    25% {
+        transform: translate(-50%, -45%) scale(1.5);
+        opacity: 0.95;
+        filter: blur(4px);
+    }
+
+    /* Peak blur during logo display */
+    35% {
+        transform: translate(-50%, -40%) scale(2);
+        opacity: 0.9;
+        filter: blur(5px);
+    }
+
+    /* Blur out as logo fades (45-50%) */
+    45% {
+        transform: translate(-50%, -37%) scale(2.5);
+        opacity: 0.85;
+        filter: blur(3px);
+    }
+
+    /* Phase 4: Continue forward with drift (17.86-50%) = 1.25-3.5s */
+    50% {
+        transform: translate(-50%, -35%) scale(3);
+        opacity: 0.8;
+        filter: blur(0px);
+    }
+
+    /* Phase 5: Final fade out (50-100%) = 3.5-7s */
+    100% {
+        /* Zoom in (Scale 6x) */
+        /* Slide Down (translateY moves from -50% to -20%, effectively +30% height) */
+        transform: translate(-50%, -20%) scale(6);
+        opacity: 0;
+        filter: blur(0px);
+    }
+}
+
+/* ===== STAR PARTICLES ===== */
+.star-layer {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    transform-origin: center center;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Ccircle cx='20' cy='30' r='1' fill='white'/%3E%3Ccircle cx='150' cy='50' r='1.5' fill='white'/%3E%3Ccircle cx='80' cy='120' r='1' fill='white'/%3E%3Ccircle cx='180' cy='170' r='1.2' fill='%23a855f7'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    pointer-events: none;
+    z-index: 2;
+    animation: star-warp 3s linear infinite;
+}
+
+@keyframes star-warp {
+    from {
+        transform: scale(0.3);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(4);
+        opacity: 1;
+    }
+}
+
+/* ===== I LOGO ===== */
+.i-totem {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: auto;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 5;
+    filter: drop-shadow(0 0 20px rgba(251, 191, 36, 0.6));
+    animation: inc-logo-appear var(--animation-duration) ease-in-out forwards;
+}
+
+@keyframes inc-logo-appear {
+
+    /* Hidden until 21.42% (1.5s) */
+    0%,
+    21.42% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.5);
+    }
+
+    /* Fade in and scale up */
+    25% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    /* Hold steady */
+    45% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    /* Fade out at 50% (3.5s) */
+    50% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.8);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.8);
+    }
+}
+
+/* ===== ACCESSIBILITY & RESPONSIVE ===== */
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+    .wormhole-loader-container {
+        cursor: auto;
+    }
+
+    .wormhole-portal-background,
+    .portal-rotation-wrapper,
+    .portal-background-image {
+        animation: none;
+    }
+
+    .cockpit-overlay {
+        animation: none;
+    }
+}
+
+/* Large Screen Optimizations */
+@media (min-width: 1440px) {
+    .wormhole-portal-background {
+        animation-name: portal-zoom-large;
+    }
+}
+
+/* Laptop/Tablet Landscape Optimizations */
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .wormhole-portal-background {
+        animation-name: portal-zoom-medium;
+    }
+}
+
+@keyframes portal-zoom-large {
+
+    /* Phase 1: Slow start (0-7.14%) = 0-0.5s */
+    0% {
+        transform: translate(-50%, -50%) scale(2);
+    }
+
+    7.14% {
+        transform: translate(-50%, -50%) scale(2.5);
+    }
+
+    /* Phase 2: Steady zoom during shake (7.14-14.28%) = 0.5-1.0s */
+    14.28% {
+        transform: translate(-50%, -50%) scale(3.5);
+    }
+
+    /* Phase 3: ACCELERATED zoom during pullback (14.28-17.86%) = 1.0-1.25s */
+    17.86% {
+        transform: translate(-50%, -50%) scale(4.5);
+    }
+
+    /* Phase 4: MAINTAIN FAST SPEED through logo appearance */
+    25% {
+        transform: translate(-50%, -50%) scale(7);
+    }
+
+    /* Phase 5: Continue fast zoom to mid-point */
+    50% {
+        transform: translate(-50%, -50%) scale(12);
+    }
+
+    /* Phase 6: Sustained speed before finale */
+    84% {
+        transform: translate(-50%, -50%) scale(18);
+    }
+
+    /* Phase 7: Final zoom */
+    88% {
+        transform: translate(-50%, -50%) scale(22);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(22);
+    }
+}
+
+@keyframes portal-zoom-medium {
+
+    /* Phase 1: Slow start (0-7.14%) = 0-0.5s */
+    0% {
+        transform: translate(-50%, -50%) scale(1.5);
+    }
+
+    7.14% {
+        transform: translate(-50%, -50%) scale(1.8);
+    }
+
+    /* Phase 2: Steady zoom during shake (7.14-14.28%) = 0.5-1.0s */
+    14.28% {
+        transform: translate(-50%, -50%) scale(2.2);
+    }
+
+    /* Phase 3: ACCELERATED zoom during pullback (14.28-17.86%) = 1.0-1.25s */
+    17.86% {
+        transform: translate(-50%, -50%) scale(3.0);
+    }
+
+    /* Phase 4: MAINTAIN FAST SPEED through logo appearance */
+    25% {
+        transform: translate(-50%, -50%) scale(4.5);
+    }
+
+    /* Phase 5: Continue fast zoom to mid-point */
+    50% {
+        transform: translate(-50%, -50%) scale(7.0);
+    }
+
+    /* Phase 6: Sustained speed before finale */
+    84% {
+        transform: translate(-50%, -50%) scale(11);
+    }
+
+    /* Phase 7: Final zoom */
+    88% {
+        transform: translate(-50%, -50%) scale(13);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(13);
+    }
+}
+
+@media (max-width: 2560px) {
+    .cockpit-overlay {
+        width: 150vw;
+        height: 90vh;
+        top: 70%;
+        bottom: auto;
+        transform: translate(-50%, -50%);
+        transform-origin: top center;
+        animation-name: cockpit-entry-mobile;
+    }
+
+}
+
+@media (max-width:1440px) {
+    .cockpit-overlay {
+        width: 150vw;
+        height: 90vh;
+        top: 70%;
+        bottom: auto;
+        transform: translate(-50%, -50%);
+        transform-origin: top center;
+        animation-name: cockpit-entry-mobile;
+    }
+}
+
+/* Tablet Optimizations */
+@media (max-width: 1024px) {
+    .cockpit-overlay {
+        width: 150vw;
+        height: 90vh;
+        top: 70%;
+        bottom: auto;
+        transform: translate(-50%, -50%);
+        transform-origin: top center;
+        animation-name: cockpit-entry-mobile;
+    }
+}
+
+/* Mobile Optimizations */
+@media (max-width: 768px) {
+    .portal-rotation-wrapper {
+        width: 250%;
+        height: 250%;
+    }
+
+    .wormhole-portal-background {
+        animation-name: portal-zoom-mobile;
+        width: 100vw;
+        height: 100vh;
+        overflow: visible;
+    }
+
+    .portal-background-image {
+        object-fit: contain;
+    }
+
+    .wormhole-portal-background {
+        width: 100vw;
+        height: 100vh;
+        overflow: visible;
+    }
+
+    .i-totem {
+        width: 80px;
+    }
+
+    .cockpit-overlay {
+        width: 150vw;
+        height: 90vh;
+        top: 70%;
+        bottom: auto;
+        transform: translate(-50%, -50%);
+        transform-origin: top center;
+        animation-name: cockpit-entry-mobile;
+    }
+
+}
+
+@keyframes cockpit-entry-mobile {
+
+    /* Phase 1: Shake starts immediately */
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+        filter: blur(0px);
+    }
+
+    2.38% {
+        transform: translate(-50.5%, -50%) scale(1);
+        opacity: 1;
+        filter: blur(0px);
+    }
+
+    4.76% {
+        transform: translate(-49.5%, -50%) scale(1);
+        opacity: 1;
+        filter: blur(0px);
+    }
+
+    7.14% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+        filter: blur(0px);
+    }
+
+    9.5% {
+        transform: translate(-50.5%, -50%) scale(1);
+        opacity: 1;
+        filter: blur(0px);
+    }
+
+    11.85% {
+        transform: translate(-49.5%, -50%) scale(1);
+        opacity: 1;
+        filter: blur(0px);
+    }
+
+    /* Phase 2: Shake ends */
+    14.28% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+        filter: blur(0px);
+    }
+
+    /* Phase 3: Move forward*/
+    17.86% {
+        transform: translate(-50%, -50%) scale(1.05);
+        opacity: 1;
+        filter: blur(0px);
+    }
+
+    /* Logo appears */
+    21.42% {
+        transform: translate(-50%, -50%) scale(1.25);
+        opacity: 1;
+        filter: blur(0px);
+    }
+
+    /* Blur in when logo is visible */
+    25% {
+        transform: translate(-50%, -45%) scale(1.65);
+        opacity: 0.95;
+        filter: blur(4px);
+    }
+
+    35% {
+        transform: translate(-50%, -40%) scale(2.15);
+        opacity: 0.9;
+        filter: blur(5px);
+    }
+
+    /* Blur out as logo fades */
+    45% {
+        transform: translate(-50%, -37%) scale(2.65);
+        opacity: 0.85;
+        filter: blur(3px);
+    }
+
+    /* Phase 4: Continue forward with drift */
+    50% {
+        transform: translate(-50%, -35%) scale(3.15);
+        opacity: 0.8;
+        filter: blur(0px);
+    }
+
+    /* Phase 5: Final fade out */
+    100% {
+        transform: translate(-50%, -20%) scale(7);
+        opacity: 0;
+        filter: blur(0px);
+    }
+}

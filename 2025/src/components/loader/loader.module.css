@@ -1,0 +1,92 @@
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/2025/loader/space-portal-bg.webp");
+  background-size: cover;
+  background-position: center;
+  animation: backgroundScroll 5s linear infinite;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.loader {
+  position: absolute;
+  bottom: 10%;
+}
+
+.hourglass {
+  position: absolute;
+  z-index: 2;
+  top: 20%;
+  animation: rotateHourglass 3s linear infinite;
+  transform-origin: center;
+}
+
+.loadingScreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/2025/loader/space-portal.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.particlesContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 1;
+}
+
+@keyframes rotateHourglass {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes backgroundScroll {
+  0% {
+    transform: scale(1.1);
+    filter: blur(0px);
+    opacity: 0.8;
+  }
+
+  50% {
+    transform: scale(1.25);
+    filter: blur(5px);
+    opacity: 0.6;
+    transform-origin: center center;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    transform: rotateZ(0.25deg) scale(1.25);
+    filter: hue-rotate(15deg);
+  }
+
+  100% {
+    transform: scale(1.1);
+    filter: blur(0px);
+    opacity: 0.8;
+  }
+}

@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"name": "incridea-auth",
+			"path": "../../../incridea-auth"
+		},
+		{
+			"name": "incridea-client-v2",
+			"path": "../.."
+		},
+		{
+			"name": "incridea-server-v2",
+			"path": "../../../incridea-server-v2"
+		},
+		{
+			"name": "incridea-operations",
+			"path": "../../../incridea-operations"
+		},
+		{
+			"name": "incridea-dashboard",
+			"path": "../../../incridea-dashboard"
+		},
+		{
+			"name": "incridea-server-main",
+			"path": "C:/Users/dnshi/Downloads/Softwares/incridea/incridea-server-main"
+		}
+	],
+	"settings": {
+		"prisma.pinToPrisma6": true
+	}
+}

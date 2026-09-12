@@ -1,0 +1,8 @@
+{
+  "installCommand": "npm --prefix index ci",
+  "buildCommand": "npm --prefix index run build",
+  "outputDirectory": "index/dist",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

@@ -1,0 +1,11 @@
+mutation LeaveTeam($teamId: ID!) {
+  leaveTeam(teamId: $teamId) {
+    ... on Error {
+      __typename
+      message
+    }
+    ... on MutationLeaveTeamSuccess {
+      __typename
+    }
+  }
+}

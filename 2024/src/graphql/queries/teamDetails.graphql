@@ -1,0 +1,34 @@
+query TeamDetails($id: ID!) {
+  teamDetails(id: $id) {
+    ... on QueryTeamDetailsSuccess {
+      __typename
+      data {
+        attended
+        confirmed
+        id
+        members {
+          user {
+            college {
+              name
+            }
+            createdAt
+            email
+            id
+            isVerified
+            name
+            phoneNumber
+            role
+          }
+        }
+        name
+        event {
+          eventType
+        }
+      }
+    }
+    ... on Error {
+      __typename
+      message
+    }
+  }
+}

@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* create a youtube-like scrollbar */
+::-webkit-scrollbar {
+  width: 0.4rem;
+}
+::-webkit-scrollbar-track {
+  @apply bg-gray-800;
+  @apply rounded;
+}
+::-webkit-scrollbar-thumb {
+  @apply rounded;
+  @apply bg-gray-400;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-300;
+}
+
+/* Markdown Rendering styles */
+.rendered-markdown h1 {
+  @apply text-3xl;
+  @apply font-bold;
+  @apply mb-4;
+}
+
+.rendered-markdown h2 {
+  @apply text-2xl;
+  @apply font-bold;
+  @apply mb-4;
+}
+
+.rendered-markdown h3 {
+  @apply text-xl;
+  @apply font-bold;
+  @apply mb-4;
+}
+
+.rendered-markdown h4 {
+  @apply text-lg;
+  @apply font-bold;
+  @apply mb-4;
+}
+
+.rendered-markdown h5 {
+  @apply text-base;
+  @apply font-bold;
+  @apply mb-4;
+}
+
+.rendered-markdown h6 {
+  @apply text-sm;
+  @apply font-bold;
+  @apply mb-4;
+}
+
+.rendered-markdown p {
+  @apply mb-4;
+}
+
+.rendered-markdown ul {
+  @apply list-disc;
+  @apply list-inside;
+  @apply mb-4;
+}
+
+.rendered-markdown ol {
+  @apply list-decimal;
+  @apply list-inside;
+  @apply mb-4;
+}
+
+.rendered-markdown li {
+  @apply mb-2;
+}
+
+.rendered-markdown a {
+  @apply text-blue-500;
+  @apply underline;
+}
+
+.rendered-markdown blockquote {
+  @apply border-l-4;
+  @apply border-gray-400;
+  @apply pl-4;
+  @apply italic;
+  @apply mb-4;
+}
+
+.rendered-markdown code {
+  @apply bg-gray-800;
+  @apply text-gray-200;
+  @apply px-1;
+  @apply rounded;
+}
+
+.rendered-markdown pre {
+  @apply bg-gray-800;
+  @apply text-gray-200;
+  @apply px-4;
+  @apply py-2;
+  @apply rounded;
+  @apply mb-4;
+}
+
+.rendered-markdown table {
+  @apply border-collapse;
+  @apply border border-gray-400;
+  @apply mb-4;
+}
+
+.rendered-markdown th {
+  @apply border border-gray-400;
+  @apply bg-gray-800;
+  @apply text-gray-200;
+  @apply px-4;
+  @apply py-2;
+}
+
+.rendered-markdown td {
+  @apply border border-gray-400;
+  @apply px-4;
+  @apply py-2;
+}
+
+.scroll-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.gradient-bg {
+  background: linear-gradient(
+    -170deg,
+    #a5b4fc,
+    #818cf8,
+    #22d3ee,
+    #fefce8,
+    #fff,
+    #fff
+  );
+}
+
+/* Workaround for disappearing elements (scope: locomotive scroll) */
+.has-scroll-smooth {
+  position: fixed;
+  inset: 0;
+}
+
+.outline-text {
+  -webkit-text-stroke: 2px white;
+  -webkit-text-fill-color: transparent;
+}
+
+.titleFont {
+  font-family: 'Trade Winds', cursive;
+}
+
+.bodyFont {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.event-description * {
+  font-family: 'Montserrat', sans-serif !important;
+}

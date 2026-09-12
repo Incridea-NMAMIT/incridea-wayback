@@ -1,0 +1,233 @@
+@import "tailwindcss";
+
+@source "./src/**/*.{ts,tsx,html}";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-heading: "mocoSans", sans-serif;
+  --font-moco: "mocoSans", sans-serif;
+  --font-outfit: "Outfit", sans-serif;
+  --animate-spin-slow: spin 20s linear infinite;
+  --animate-parallax-fast: move-left 40s linear infinite;
+  --animate-parallax-mid: move-left 60s linear infinite;
+  --animate-parallax-slow: move-left 80s linear infinite;
+}
+
+@keyframes move-left {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: -1500px;
+  }
+}
+
+@font-face {
+  font-family: 'mocoSans';
+  src: url('../assets/mocoSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'mocoSans';
+  src: url('../assets/mocoSans-RegularItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'mocoSans';
+  src: url('../assets/mocoSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'mocoSans';
+  src: url('../assets/mocoSans-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'mocoSans';
+  src: url('../assets/mocoSans-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'mocoSans';
+  src: url('../assets/mocoSans-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('../assets/Outfit-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('../assets/Outfit-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('../assets/Outfit-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('../assets/Outfit-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('../assets/Outfit-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('../assets/Outfit-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('../assets/Outfit-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('../assets/Outfit-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('../assets/Outfit-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  body {
+    @apply min-h-screen bg-slate-950 text-slate-50 antialiased;
+  }
+
+  a {
+    @apply text-sky-400 underline-offset-4 hover:text-sky-300;
+  }
+}
+
+@layer components {
+  .card {
+    @apply rounded-2xl border border-slate-800 bg-slate-900/70 shadow-xl shadow-slate-950/40;
+  }
+
+  .button {
+    @apply inline-flex items-center justify-center rounded-lg bg-sky-500 px-4 py-2 text-sm font-semibold text-slate-950 transition hover:bg-sky-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-300;
+  }
+
+  .input {
+    @apply w-full rounded-lg border border-slate-800 bg-slate-950 px-3 py-2 text-sm text-slate-50 outline-none transition focus:border-sky-400 focus:ring-2 focus:ring-sky-400/40;
+  }
+
+  .label {
+    @apply text-sm font-medium text-slate-200;
+  }
+
+  .muted {
+    @apply text-sm text-slate-400;
+  }
+
+  /* Disable right-click context menu on images */
+  img {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: auto;
+  }
+
+  .toast-container {
+    @apply fixed right-4 top-4 z-50 flex max-w-sm flex-col gap-3 sm:right-6 sm:top-6;
+  }
+
+  .toast {
+    @apply flex items-start justify-between gap-3 rounded-xl border px-4 py-3 text-sm shadow-xl shadow-slate-950/40 backdrop-blur;
+  }
+
+  .toast-info {
+    @apply border-slate-700 bg-slate-900/80 text-slate-100;
+  }
+
+  .toast-success {
+    @apply border-emerald-500/50 bg-emerald-500/15 text-emerald-100;
+  }
+
+  .toast-error {
+    @apply border-rose-500/60 bg-rose-500/15 text-rose-50;
+  }
+
+  .toast-close {
+    @apply rounded bg-white/5 px-2 py-1 text-[11px] font-semibold text-slate-200 transition hover:bg-white/15;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.animate-float {
+  will-change: transform;
+}
+
+body.hide-target-cursor {
+  cursor: auto !important;
+}
+
+body.hide-target-cursor .target-cursor-root {
+  display: none !important;
+}
+
+@layer utilities {
+  .animate-parallax-fast {
+    animation: move-left var(--parallax-duration, 40s) linear infinite;
+  }
+
+  .animate-parallax-mid {
+    animation: move-left var(--parallax-duration, 60s) linear infinite;
+  }
+
+  .animate-parallax-slow {
+    animation: move-left var(--parallax-duration, 80s) linear infinite;
+  }
+}

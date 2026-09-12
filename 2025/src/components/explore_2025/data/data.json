@@ -1,0 +1,142 @@
+{
+  "stones": [
+    {
+      "id": 1,
+      "pos": [-5.84, -7.65, -9.12]
+    },
+    {
+      "id": 2,
+      "pos": [-4.5, -3.8, -12.4]
+    },
+    {
+      "id": 3,
+      "pos": [-8.62, 0.6, -8.57]
+    },
+    {
+      "id": 4,
+      "pos": [3.2, -3.45, -14.75]
+    },
+    {
+      "id": 5,
+      "pos": [-22.4, -5, -16.2]
+    },
+    {
+      "id": 6,
+      "pos": [-21.8, -4.96, 2.48]
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "pos": [-1, -1],
+      "href": "https://drive.google.com/file/d/12f0EmP3QEQSmIuLVgb8gk13QPHeicZ5N/view"
+    },
+    {
+      "id": 4,
+      "pos": [-4, -2.8],
+      "href": "/explore/outro"
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "link": "/events"
+    },
+    {
+      "id": 2,
+      "link": "https://incridea.in"
+    },
+    {
+      "id": 3,
+      "link": "https://incridea.in"
+    },
+    {
+      "id": 4,
+      "link": "https://incridea.in"
+    },
+    {
+      "id": 5,
+      "link": "https://incridea.in"
+    },
+    {
+      "id": 6,
+      "link": "https://incridea.in"
+    },
+    {
+      "id": 7,
+      "link": "https://incridea.in"
+    },
+    {
+      "id": 8,
+      "link": "https://incridea.in"
+    },
+    {
+      "id": 9,
+      "link": "https://incridea.in"
+    },
+    {
+      "id": 10,
+      "link": "https://incridea.in"
+    },
+    {
+      "id": 11,
+      "link": "https://incridea.in"
+    },
+    {
+      "id": 12,
+      "link": "https://incridea.in"
+    },
+    {
+      "id": 13,
+      "link": "https://incridea.in"
+    },
+    {
+      "id": 14,
+      "link": "https://incridea.in"
+    },
+    {
+      "id": 15,
+      "link": "https://incridea.in"
+    },
+    {
+      "id": 16,
+      "link": "https://incridea.in"
+    },
+    {
+      "id": 17,
+      "link": "https://incridea.in"
+    },
+    {
+      "id": 18,
+      "link": "https://incridea.in"
+    },
+    {
+      "id": 19,
+      "link": "https://incridea.in"
+    },
+    {
+      "id": 20,
+      "link": "https://incridea.in"
+    },
+    {
+      "id": 21,
+      "link": "https://incridea.in"
+    },
+    {
+      "id": 22,
+      "link": "https://incridea.in"
+    },
+    {
+      "id": 23,
+      "link": "https://incridea.in"
+    },
+    {
+      "id": 24,
+      "link": "https://incridea.in"
+    },
+    {
+      "id": 25,
+      "link": "https://incridea.in"
+    }
+  ]
+}

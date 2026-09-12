@@ -1,0 +1,55 @@
+query Events($first: Int!) {
+  events(first: $first) {
+    edges {
+      node {
+        id
+        description
+        eventType
+        name
+        fees
+        image
+        maxTeamSize
+        maxTeams
+        minTeamSize
+        published
+        category
+        branch {
+          id
+          name
+        }
+        rounds {
+          completed
+          roundNo
+          date
+          eventId
+          event {
+            branch {
+              id
+              name
+            }
+          }
+        }
+        venue
+        teams {
+          id
+          attended
+          confirmed
+          leaderId
+          name
+          members {
+            user {
+              id
+              name
+              phoneNumber
+              role
+              email
+              isVerified
+              createdAt
+            }
+          }
+        }
+      }
+      cursor
+    }
+  }
+}

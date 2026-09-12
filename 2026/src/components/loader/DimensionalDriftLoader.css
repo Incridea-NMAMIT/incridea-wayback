@@ -1,0 +1,165 @@
+.dimensional-loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  overflow: hidden;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  pointer-events: none;
+  opacity: 1;
+}
+
+.dimensional-loader-container.exit {
+  opacity: 0;
+}
+
+/* --- Background --- */
+.loader-background {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  animation: mobileFloat 10s ease-in-out infinite alternate;
+  transition: transform 1s ease-in;
+  object-fit: cover;
+}
+
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.loader-background.exit {
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(5);
+}
+
+@media (max-width: 768px) {
+  .loader-background {
+    width: 100vw;
+    height: 100vh;
+    top: 50%;
+    left: 50%;
+    animation: mobileFloat 10s ease-in-out infinite alternate;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .loader-background {
+    width: 100vw;
+    height: 100vh;
+    top: 50%;
+    left: 50%;
+    animation: mobileFloat 10s ease-in-out infinite alternate;
+    object-fit: cover;
+  }
+}
+
+@keyframes mobileFloat {
+  0% {
+    transform: translate(-50%, -50%) scale(1) rotate(0deg);
+  }
+
+  50% {
+    transform: translate(-50%, -50%) scale(1.15) rotate(5deg);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) scale(1.15) rotate(-5deg);
+  }
+}
+
+/* --- Portal --- */
+.loader-portal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 20;
+  opacity: 1;
+  transform-origin: center;
+  transform: scale(1);
+  transition: filter 0.8s ease-in-out, transform 0.8s ease-in-out;
+}
+
+/* Classes for Phases */
+
+.loader-portal.intensify {
+  filter: brightness(1.5) drop-shadow(0 0 20px rgba(0, 255, 255, 0.5));
+  transform: scale(1.05);
+}
+
+.loader-portal.exit {
+  opacity: 0;
+  transform: scale(30) rotate(-20deg);
+  transition: transform 0.4s ease-in;
+}
+
+
+/* --- Character --- */
+.character-container {
+  position: absolute;
+  bottom: 15vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 250px;
+  height: 375px;
+  z-index: 30;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease-in-out;
+}
+
+.character-container.hover {
+  transform: translateX(-50%) translateY(-10px);
+}
+
+.character-container.jump {
+  animation: jumpIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+.character-container.exit {
+  display: none;
+}
+
+@keyframes jumpIn {
+  0% {
+    transform: translateX(-50%) translateY(-10px) scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(-50%) translateY(150px) scale(0);
+    opacity: 0;
+  }
+}
+
+.character-img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: none;
+}
+
+.character-img.active {
+  opacity: 1;
+}
