@@ -50,7 +50,7 @@ const Accommodation: NextPage = () => {
               <li>
             You are to choose the hotel of your choice from the sheet and contact them for booking; once you have confirmed the booking, you must contact the Point of Contact given below and inform them regarding the same.
               </li>
-              <li>For any further clarifications regarding the same and transport from the place of accommodation, contact: +918747960666, +918618378701 </li>
+              <li>For any further clarifications regarding the same and transport from the place of accommodation, contact: +91874xxxx666, +91861xxxx701 </li>
               <li>External Accommodation Details:  <Link href="https://docs.google.com/spreadsheets/d/1Y2QheAsJjUr54LAvzXVVJjIGFXXBNTsn/edit#gid=1791495064" target="_blank" className="underline">Accommodation Details Excel Sheet</Link> </li>
             </ol>
 

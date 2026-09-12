@@ -162,7 +162,7 @@ const SignUpForm: FunctionComponent<SignUpFormProps> = ({
         name: userInfo.name,
         email:
           selectedCollege.name === "N.M.A.M. Institute of Technology"
-            ? `${userInfo.email.trim()}@nmamit.in`
+            ? `${userInfo.email.trim()}x@nmamit.in`
             : userInfo.email,
         password: userInfo.password,
         phoneNumber: userInfo.phoneNumber.trim(),

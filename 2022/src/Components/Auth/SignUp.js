@@ -84,7 +84,7 @@ const SignUp = ({ signIn }) => {
       onSubmit={async (values) => {
         setLoading(true);
         values.mail = values.mail.toLowerCase().replace(/\s+/g, ""); //remove whitespaces
-        if (isNmamit && !values.mail.includes(`@nmamit.in`)) {
+        if (isNmamit && !values.mail.includes(`x@nmamit.in`)) {
           values.mail = `${values.mail}@nmamit.in`;
         }
         try {
@@ -167,7 +167,7 @@ const SignUp = ({ signIn }) => {
                     Having trouble signing up?
                     <br />{" "}
                     <a
-                      href={`tel:8861885124`}
+                      href={`tel:886xxxx124`}
                       className="text-igold transition-colors hover:text-white"
                     >
                       call us 24/7

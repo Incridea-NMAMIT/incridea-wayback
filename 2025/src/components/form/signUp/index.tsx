@@ -133,7 +133,7 @@ const SignUpForm = ({
         name: userInfo.name,
         email:
           selectedCollegeId === `${CONSTANT.NMAMIT_COLLEGE_ID}`
-            ? `${userInfo.email.trim()}@nmamit.in`
+            ? `${userInfo.email.trim()}x@nmamit.in`
             : userInfo.email,
         password: userInfo.password,
         phoneNumber: userInfo.phoneNumber.trim(),

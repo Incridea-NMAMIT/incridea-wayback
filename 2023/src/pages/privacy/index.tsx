@@ -173,8 +173,8 @@ const Privacy: NextPage = () => {
         </p>
         <p className="text-lg mt-4 font-semibold">
           For inquiries or clarifications on our privacy policy or personal data
-          handling, you may reach us at <a href="mailto:incridea@nmamit.in" className='hover:underline'>incridea@nmamit.in</a> or{" "}
-          <a href="tel:9448815186" className='hover:underline'>+91 9448815186</a>.
+          handling, you may reach us at <a href="mailto:inxxxxea@nmamit.in" className='hover:underline'>inxxxxea@nmamit.in</a> or{" "}
+          <a href="tel:944xxxx186" className='hover:underline'>+91 944xxxx186</a>.
         </p>
       </div>
       <div className={`flex w-full -translate-x-10 translate-y-10 opacity-75`}>

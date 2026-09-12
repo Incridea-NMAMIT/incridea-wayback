@@ -537,11 +537,11 @@ const Page = () => {
             organizers and college staff at the following contact information:
           </p>
           Email:
-          <a href="mailto:incridea@nmamit.in" className="mt-2 hover:underline">
+          <a href="mailto:inxxxxea@nmamit.in" className="mt-2 hover:underline">
             {" "}
-            incridea@nmamit.in
+            inxxxxea@nmamit.in
           </a>
-          <p className="mt-2">Phone: +91 94488 46524 or +91 96863 56123</p>
+          <p className="mt-2">Phone: +91 944xxxx524 or +91 968xxxx123</p>
         </div>
       </div>
     </div>

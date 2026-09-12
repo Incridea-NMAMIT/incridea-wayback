@@ -73,7 +73,7 @@ const UserInput = () => {
 										domain.innerHTML = '';
 										SetAmt(250);
 									} else {
-										domain.innerHTML = '@nmamit.in';
+										domain.innerHTML = 'x@nmamit.in';
 										SetAmt(150);
 									}
 								}}

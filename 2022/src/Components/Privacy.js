@@ -104,8 +104,8 @@ function Privacy() {
 
         <b className="text-igold">
           If you feel that we are not abiding by this privacy policy, you should
-          contact us immediately via telephone at +918861885124 or via
-          technical.committee.incridea@gmail.com
+          contact us immediately via telephone at +91886xxxx124 or via
+          texxxxxxxxxxxxxxxxxxxxxxxxea@gmail.com
         </b>
       </div>
     </>

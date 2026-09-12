@@ -57,14 +57,14 @@ const Page = () => {
             payment process, please do not hesitate to contact our team. You can
             reach us at{" "}
             <a
-              href="mailto:incridea@nmamit.in"
+              href="mailto:inxxxxea@nmamit.in"
               className="text-semibold cursor-pointer underline"
             >
-              incridea@nmamit.in
+              inxxxxea@nmamit.in
             </a>{" "}
             or{" "}
             <span className="mr-1 inline-block">
-              +91 94488 46524 or +91 96863 56123{" "}
+              +91 944xxxx524 or +91 968xxxx123{" "}
             </span>
             , and we will be happy to assist you.
           </p>

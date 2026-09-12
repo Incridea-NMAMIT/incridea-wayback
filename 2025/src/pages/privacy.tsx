@@ -196,12 +196,12 @@ const Page = () => {
           <p className="mt-4 text-lg font-bold">
             For inquiries or clarifications on our privacy policy or personal
             data handling, you may reach us at{" "}
-            <a href="mailto:incridea@nmamit.in" className="hover:underline">
-              incridea@nmamit.in
+            <a href="mailto:inxxxxea@nmamit.in" className="hover:underline">
+              inxxxxea@nmamit.in
             </a>{" "}
             or{" "}
-            <a href="tel:9448815186" className="hover:underline">
-              +91 94488 46524
+            <a href="tel:944xxxx186" className="hover:underline">
+              +91 944xxxx524
             </a>
             .
           </p>

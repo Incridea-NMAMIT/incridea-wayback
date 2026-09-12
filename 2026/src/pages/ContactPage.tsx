@@ -69,10 +69,10 @@ function ContactPage() {
                         Email
                       </p>
                       <a
-                        href="mailto:incridea@nmamit.in"
+                        href="mailto:inxxxxea@nmamit.in"
                         className="text-white text-sm sm:text-sm lg:text-base hover:text-sky-300 transition-colors break-all"
                       >
-                        incridea@nmamit.in
+                        inxxxxea@nmamit.in
                       </a>
                     </div>
                   </div>
@@ -89,18 +89,18 @@ function ContactPage() {
                           General:{" "}
                           <a
                             className="hover:text-sky-300 transition-colors font-semibold"
-                            href="tel:9449530107"
+                            href="tel:944xxxx107"
                           >
-                            +91 94495 30107
+                            +91 944xxxx107
                           </a>
                         </p>
                         <p className="text-white mt-2">
                           Technical:{" "}
                           <a
                             className="hover:text-sky-300 transition-colors font-semibold"
-                            href="tel:8861337830"
+                            href="tel:886xxxx830"
                           >
-                            +91 88613 37830
+                            +91 886xxxx830
                           </a>
                         </p>
                       </div>

@@ -517,11 +517,11 @@ const Terms: NextPage = () => {
             organizers and college staff at the following contact information:
           </p>
           Email:
-          <a href="mailto:incridea@nmamit.in" className="mt-2 hover:underline">
+          <a href="mailto:inxxxxea@nmamit.in" className="mt-2 hover:underline">
             {" "}
-            incridea@nmamit.in
+            inxxxxea@nmamit.in
           </a>
-          <p className="mt-2">Phone: +91 94488 15186 or +91 63641 72219</p>
+          <p className="mt-2">Phone: +91 944xxxx186 or +91 636xxxx219</p>
         </div>
       </div>
     </div>

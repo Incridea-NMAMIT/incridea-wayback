@@ -19,11 +19,11 @@ const Contact: NextPage = () => {
           </div>
           <p className="mt-2">
             <a
-              href="mailto:incridea@nmamit.in"
+              href="mailto:inxxxxea@nmamit.in"
               className="mt-2 hover:underline"
             >
               {" "}
-              incridea@nmamit.in
+              inxxxxea@nmamit.in
             </a>
           </p>
           <div className="font-semibold md:text-2xl text-base mt-5 flex items-center space-x-2">
@@ -32,12 +32,12 @@ const Contact: NextPage = () => {
           </div>
           <p className="mt-2">
             Phone: +91{" "}
-            <a href="tel:9448815186" className="hover:underline">
-              94488 15186
+            <a href="tel:944xxxx186" className="hover:underline">
+              944xxxx186
             </a>{" "}
             or +91{" "}
-            <a href="tel:96863 56123" className="hover:underline">
-              96863 56123
+            <a href="tel:968xxxx123" className="hover:underline">
+              968xxxx123
             </a>
           </p>
           <div className="font-semibold md:text-2xl text-base mt-5 flex items-center space-x-2">

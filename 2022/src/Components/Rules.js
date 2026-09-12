@@ -68,9 +68,9 @@ function Rules() {
         <p className="pt-10 text-xl">
           Refunds in any particular case can only be initiated upon request.
           Please reach out to the Technical Heads of Incridea for refunds.
-          <li>Bharath M K +918861885124</li>
-          <li>Vinay Samantri +917706610521</li>
-          <li>Rahul Bhat +918951838121</li>
+          <li>Bharath M K +91886xxxx124</li>
+          <li>Vinay Samantri +91770xxxx521</li>
+          <li>Rahul Bhat +91895xxxx121</li>
         </p>
       </div>
     </>

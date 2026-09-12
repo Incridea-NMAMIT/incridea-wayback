@@ -18,13 +18,13 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Namana Gowda",
-                "phoneNumber": "+916362512411",
-                "emailID": "namanahbgowda@gmail.com"
+                "phoneNumber": "+91636xxxx411",
+                "emailID": "naxxxxxxxxxda@gmail.com"
             },
             {
                 "name": "Abhirami Nair",
-                "phoneNumber": "+917795979167",
-                "emailID": "abhiraminair167@gmail.com"
+                "phoneNumber": "+91779xxxx167",
+                "emailID": "abxxxxxxxxxxx67@gmail.com"
             }
 
         ]
@@ -49,13 +49,13 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Namana Gowda",
-                "phoneNumber": "+916362512411",
-                "emailID": "namanahbgowda@gmail.com"
+                "phoneNumber": "+91636xxxx411",
+                "emailID": "naxxxxxxxxxda@gmail.com"
             },
             {
                 "name": "Abhirami Nair",
-                "phoneNumber": "+917795979167",
-                "emailID": "abhiraminair167@gmail.com"
+                "phoneNumber": "+91779xxxx167",
+                "emailID": "abxxxxxxxxxxx67@gmail.com"
             }
 
         ]
@@ -80,13 +80,13 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Namana Gowda",
-                "phoneNumber": "+916362512411",
-                "emailID": "namanahbgowda@gmail.com"
+                "phoneNumber": "+91636xxxx411",
+                "emailID": "naxxxxxxxxxda@gmail.com"
             },
             {
                 "name": "Abhirami Nair",
-                "phoneNumber": "+917795979167",
-                "emailID": "abhiraminair167@gmail.com"
+                "phoneNumber": "+91779xxxx167",
+                "emailID": "abxxxxxxxxxxx67@gmail.com"
             }
 
         ]
@@ -107,13 +107,13 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Poornima KH",
-                "phoneNumber": "9380744688",
-                "emailID": "khpoornima5@gmail.com"
+                "phoneNumber": "938xxxx688",
+                "emailID": "khxxxxxxxa5@gmail.com"
             },
             {
                 "name": "Shravan Udupa",
-                "phoneNumber": "9513463260",
-                "emailID": "shravanudupaktlsr854@gmail.com"
+                "phoneNumber": "951xxxx260",
+                "emailID": "shxxxxxxxxxxxxxxxx54@gmail.com"
             }
 
         ]
@@ -134,13 +134,13 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Kavana T",
-                "phoneNumber": "9980435977",
-                "emailID": "kavanathimmaraju@gmail.com"
+                "phoneNumber": "998xxxx977",
+                "emailID": "kaxxxxxxxxxxxxju@gmail.com"
             },
             {
                 "name": "Shreyas Mayya D",
-                "phoneNumber": "8970977820",
-                "emailID": "shreyasmayyad@gmail.com"
+                "phoneNumber": "897xxxx820",
+                "emailID": "shxxxxxxxxxad@gmail.com"
             }
 
         ]
@@ -165,8 +165,8 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Sinan Mohamed",
-                "phoneNumber": "8792281367 ",
-                "emailID": "mohdmmedsinanll@gmail.com"
+                "phoneNumber": "879xxxx367 ",
+                "emailID": "moxxxxxxxxxxxll@gmail.com"
             }
 
         ]
@@ -190,8 +190,8 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Sinan Mohamed",
-                "phoneNumber": "8792281367 ",
-                "emailID": "mohdmmedsinanll@gmail.com"
+                "phoneNumber": "879xxxx367 ",
+                "emailID": "moxxxxxxxxxxxll@gmail.com"
             }
 
         ]
@@ -215,8 +215,8 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Sinan Mohamed",
-                "phoneNumber": "8792281367 ",
-                "emailID": "mohdmmedsinanll@gmail.com"
+                "phoneNumber": "879xxxx367 ",
+                "emailID": "moxxxxxxxxxxxll@gmail.com"
             }
 
         ]
@@ -238,13 +238,13 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Suhan S Nayak",
-                "phoneNumber": "6362599814",
-                "emailID": "suhansnayak7@gmail.com"
+                "phoneNumber": "636xxxx814",
+                "emailID": "suxxxxxxxxk7@gmail.com"
             },
             {
                 "name": "Thushara AS",
-                "phoneNumber": "6362135300",
-                "emailID": "asthushara@gmail.com"
+                "phoneNumber": "636xxxx300",
+                "emailID": "asxxxxxxra@gmail.com"
             }
 
         ]
@@ -266,13 +266,13 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Riwa Angel Dsouza",
-                "phoneNumber": "9380709458",
-                "emailID": "riwazacker@gmail.com"
+                "phoneNumber": "938xxxx458",
+                "emailID": "rixxxxxxer@gmail.com"
             },
             {
                 "name": "Arpitha Shetty",
-                "phoneNumber": "9900683854 ",
-                "emailID": "arpithashetty352@gmail.com"
+                "phoneNumber": "990xxxx854 ",
+                "emailID": "arxxxxxxxxxxxx52@gmail.com"
             }
 
         ]
@@ -298,13 +298,13 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Anup Rai",
-                "phoneNumber": "9945191271",
-                "emailID": "anuprai2000@gmail.com"
+                "phoneNumber": "994xxxx271",
+                "emailID": "anxxxxxxx00@gmail.com"
             },
             {
                 "name": "Dishan Babu",
-                "phoneNumber": "9742228744",
-                "emailID": "dishanshetty468@gmail.com"
+                "phoneNumber": "974xxxx744",
+                "emailID": "dixxxxxxxxxxx68@gmail.com"
             }
 
         ]
@@ -330,13 +330,13 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Anup Rai",
-                "phoneNumber": "9945191271",
-                "emailID": "anuprai2000@gmail.com"
+                "phoneNumber": "994xxxx271",
+                "emailID": "anxxxxxxx00@gmail.com"
             },
             {
                 "name": "Dishan Babu",
-                "phoneNumber": "9742228744",
-                "emailID": "dishanshetty468@gmail.com"
+                "phoneNumber": "974xxxx744",
+                "emailID": "dixxxxxxxxxxx68@gmail.com"
             }
 
         ]
@@ -362,13 +362,13 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Anup Rai",
-                "phoneNumber": "9945191271",
-                "emailID": "anuprai2000@gmail.com"
+                "phoneNumber": "994xxxx271",
+                "emailID": "anxxxxxxx00@gmail.com"
             },
             {
                 "name": "Dishan Babu",
-                "phoneNumber": "9742228744",
-                "emailID": "dishanshetty468@gmail.com"
+                "phoneNumber": "974xxxx744",
+                "emailID": "dixxxxxxxxxxx68@gmail.com"
             }
 
         ]
@@ -392,13 +392,13 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Alden",
-                "phoneNumber": "9535286090",
-                "emailID": "aldenmascarenhas@gmail.com"
+                "phoneNumber": "953xxxx090",
+                "emailID": "alxxxxxxxxxxxxas@gmail.com"
             },
             {
                 "name": "Vasundhara",
-                "phoneNumber": "9535678356",
-                "emailID": "vasundharashenoy21@gmail.com"
+                "phoneNumber": "953xxxx356",
+                "emailID": "vaxxxxxxxxxxxxxx21@gmail.com"
             }
 
         ]
@@ -424,13 +424,13 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Sahana Kulal",
-                "phoneNumber": "6362678287",
-                "emailID": "sahanakulal.2306@gmail.com"
+                "phoneNumber": "636xxxx287",
+                "emailID": "saxxxxxxxxxxxx06@gmail.com"
             },
             {
                 "name": "Sinchana N Vaidya",
-                "phoneNumber": "7619366633",
-                "emailID": "sinchuvaidya@gmail.com"
+                "phoneNumber": "761xxxx633",
+                "emailID": "sixxxxxxxxya@gmail.com"
             }
 
         ]
@@ -454,13 +454,13 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Roston Mascarenhas",
-                "phoneNumber": "8105231877",
-                "emailID": "roston616@gmail.com"
+                "phoneNumber": "810xxxx877",
+                "emailID": "roxxxxx16@gmail.com"
             },
             {
                 "name": "Shailesh",
-                "phoneNumber": "9108317094",
-                "emailID": "shaileshacharya676@gmail.com"
+                "phoneNumber": "910xxxx094",
+                "emailID": "shxxxxxxxxxxxxxx76@gmail.com"
             }
 
         ]
@@ -501,13 +501,13 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Ruby Pawaskar",
-                "phoneNumber": "8660531326",
-                "emailID": "rubypawaskar44@gmail.com"
+                "phoneNumber": "866xxxx326",
+                "emailID": "ruxxxxxxxxxx44@gmail.com"
             },
             {
                 "name": "Ananya Bhat",
-                "phoneNumber": "8762178003",
-                "emailID": "ananyabhat3009@gmail.com"
+                "phoneNumber": "876xxxx003",
+                "emailID": "anxxxxxxxxxx09@gmail.com"
             }
 
         ]
@@ -546,13 +546,13 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Ruby Pawaskar",
-                "phoneNumber": "8660531326",
-                "emailID": "rubypawaskar44@gmail.com"
+                "phoneNumber": "866xxxx326",
+                "emailID": "ruxxxxxxxxxx44@gmail.com"
             },
             {
                 "name": "Ananya Bhat",
-                "phoneNumber": "8762178003",
-                "emailID": "ananyabhat3009@gmail.com"
+                "phoneNumber": "876xxxx003",
+                "emailID": "anxxxxxxxxxx09@gmail.com"
             }
 
         ]
@@ -592,12 +592,12 @@ export const eventData = [
             {
                 "name": "Mahima Rashmi",
                 "phoneNumber": "+ 91948280 9471",
-                "emailID": "mahimarashmi29@gmail.co m"
+                "emailID": "maxxxxxxxxxx29@gmail.co m"
             },
             {
                 "name": "Moulya R Jain",
-                "phoneNumber": "+919483361185",
-                "emailID": "moulyajain090l@gmail.com"
+                "phoneNumber": "+91948xxxx185",
+                "emailID": "moxxxxxxxxxx0l@gmail.com"
             }
 
         ]
@@ -637,12 +637,12 @@ export const eventData = [
             {
                 "name": "Mahima Rashmi",
                 "phoneNumber": "+ 91948280 9471",
-                "emailID": "mahimarashmi29@gmail.co m"
+                "emailID": "maxxxxxxxxxx29@gmail.co m"
             },
             {
                 "name": "Moulya R Jain",
-                "phoneNumber": "+919483361185",
-                "emailID": "moulyajain090l@gmail.com"
+                "phoneNumber": "+91948xxxx185",
+                "emailID": "moxxxxxxxxxx0l@gmail.com"
             }
 
         ]
@@ -682,12 +682,12 @@ export const eventData = [
             {
                 "name": "Mahima Rashmi",
                 "phoneNumber": "+ 91948280 9471",
-                "emailID": "mahimarashmi29@gmail.co m"
+                "emailID": "maxxxxxxxxxx29@gmail.co m"
             },
             {
                 "name": "Moulya R Jain",
-                "phoneNumber": "+919483361185",
-                "emailID": "moulyajain090l@gmail.com"
+                "phoneNumber": "+91948xxxx185",
+                "emailID": "moxxxxxxxxxx0l@gmail.com"
             }
 
         ]
@@ -727,12 +727,12 @@ export const eventData = [
             {
                 "name": "Mahima Rashmi",
                 "phoneNumber": "+ 91948280 9471",
-                "emailID": "mahimarashmi29@gmail.co m"
+                "emailID": "maxxxxxxxxxx29@gmail.co m"
             },
             {
                 "name": "Moulya R Jain",
-                "phoneNumber": "+919483361185",
-                "emailID": "moulyajain090l@gmail.com"
+                "phoneNumber": "+91948xxxx185",
+                "emailID": "moxxxxxxxxxx0l@gmail.com"
             }
 
         ]
@@ -769,13 +769,13 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "K Pavithra Achar",
-                "phoneNumber": "7892238837",
-                "emailID": "pavithraachar39@gmail.com"
+                "phoneNumber": "789xxxx837",
+                "emailID": "paxxxxxxxxxxx39@gmail.com"
             },
             {
                 "name": "Varun Taliparambe Vitel ",
-                "phoneNumber": "7619240912",
-                "emailID": "varuntv80@gmail.com"
+                "phoneNumber": "761xxxx912",
+                "emailID": "vaxxxxx80@gmail.com"
             }
 
         ]
@@ -812,13 +812,13 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "K Pavithra Achar",
-                "phoneNumber": "7892238837",
-                "emailID": "pavithraachar39@gmail.com"
+                "phoneNumber": "789xxxx837",
+                "emailID": "paxxxxxxxxxxx39@gmail.com"
             },
             {
                 "name": "Varun Taliparambe Vitel ",
-                "phoneNumber": "7619240912",
-                "emailID": "varuntv80@gmail.com"
+                "phoneNumber": "761xxxx912",
+                "emailID": "vaxxxxx80@gmail.com"
             }
 
         ]
@@ -855,13 +855,13 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "K Pavithra Achar",
-                "phoneNumber": "7892238837",
-                "emailID": "pavithraachar39@gmail.com"
+                "phoneNumber": "789xxxx837",
+                "emailID": "paxxxxxxxxxxx39@gmail.com"
             },
             {
                 "name": "Varun Taliparambe Vitel ",
-                "phoneNumber": "7619240912",
-                "emailID": "varuntv80@gmail.com"
+                "phoneNumber": "761xxxx912",
+                "emailID": "vaxxxxx80@gmail.com"
             }
 
         ]
@@ -898,13 +898,13 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "K Pavithra Achar",
-                "phoneNumber": "7892238837",
-                "emailID": "pavithraachar39@gmail.com"
+                "phoneNumber": "789xxxx837",
+                "emailID": "paxxxxxxxxxxx39@gmail.com"
             },
             {
                 "name": "Varun Taliparambe Vitel ",
-                "phoneNumber": "7619240912",
-                "emailID": "varuntv80@gmail.com"
+                "phoneNumber": "761xxxx912",
+                "emailID": "vaxxxxx80@gmail.com"
             }
 
         ]
@@ -952,13 +952,13 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Harshith",
-                "phoneNumber": "+ 9188675 29543",
-                "emailID": "sanilharshith2000@gmail.com"
+                "phoneNumber": "+ 91886xxxx543",
+                "emailID": "saxxxxxxxxxxxxx00@gmail.com"
             },
             {
                 "name": "Vina yak Nayak",
-                "phoneNumber": "918971916288",
-                "emailID": "nvinayak1947@gmail.com"
+                "phoneNumber": "91897xxxx288",
+                "emailID": "nvxxxxxxxx47@gmail.com"
             }
 
         ]
@@ -1000,13 +1000,13 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Rola n Gomes",
-                "phoneNumber": "+ 919019536394",
-                "emailID": "rolangomes19@gmail.com"
+                "phoneNumber": "+ 91901xxxx394",
+                "emailID": "roxxxxxxxx19@gmail.com"
             },
             {
                 "name": "Rolston Austin Dsouza",
-                "phoneNumber": "7019527128",
-                "emailID": "rolstonadsouza@outlook.com"
+                "phoneNumber": "701xxxx128",
+                "emailID": "roxxxxxxxxxxza@outlook.com"
             }
 
         ]
@@ -1048,13 +1048,13 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Rola n Gomes",
-                "phoneNumber": "+ 919019536394",
-                "emailID": "rolangomes19@gmail.com"
+                "phoneNumber": "+ 91901xxxx394",
+                "emailID": "roxxxxxxxx19@gmail.com"
             },
             {
                 "name": "Rolston Austin Dsouza",
-                "phoneNumber": "7019527128",
-                "emailID": "rolstonadsouza@outlook.com"
+                "phoneNumber": "701xxxx128",
+                "emailID": "roxxxxxxxxxxza@outlook.com"
             }
 
         ]
@@ -1102,12 +1102,12 @@ export const eventData = [
             {
                 "name": "Omar Khateeb",
                 "phoneNumber": "+ 910 8169597",
-                "emailID": "omarkhateeb007@gmail.com "
+                "emailID": "omxxxxxxxxxx07@gmail.com "
             },
             {
                 "name": "Shishir Ballal",
-                "phoneNumber": "9483647355",
-                "emailID": "shishirballal2017@gmail.com "
+                "phoneNumber": "948xxxx355",
+                "emailID": "shxxxxxxxxxxxxx17@gmail.com "
             }
 
         ]
@@ -1153,12 +1153,12 @@ export const eventData = [
             {
                 "name": "Omar Khateeb",
                 "phoneNumber": "+ 910 8169597",
-                "emailID": "omarkhateeb007@gmail.com "
+                "emailID": "omxxxxxxxxxx07@gmail.com "
             },
             {
                 "name": "Shishir Ballal",
-                "phoneNumber": "9483647355",
-                "emailID": "shishirballal2017@gmail.com "
+                "phoneNumber": "948xxxx355",
+                "emailID": "shxxxxxxxxxxxxx17@gmail.com "
             }
 
         ]
@@ -1205,12 +1205,12 @@ export const eventData = [
             {
                 "name": "Omar Khateeb",
                 "phoneNumber": "+ 910 8169597",
-                "emailID": "omarkhateeb007@gmail.com "
+                "emailID": "omxxxxxxxxxx07@gmail.com "
             },
             {
                 "name": "Shishir Ballal",
-                "phoneNumber": "9483647355",
-                "emailID": "shishirballal2017@gmail.com "
+                "phoneNumber": "948xxxx355",
+                "emailID": "shxxxxxxxxxxxxx17@gmail.com "
             }
 
         ]
@@ -1256,13 +1256,13 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Abhishek Moolya",
-                "phoneNumber": "7019204816",
-                "emailID": "abhishekmoolyaaaa@gmail.com "
+                "phoneNumber": "701xxxx816",
+                "emailID": "abxxxxxxxxxxxxxaa@gmail.com "
             },
             {
                 "name": "Aamir Saahin Khan",
-                "phoneNumber": "9743775338",
-                "emailID": "aamirsaahin@gmail.com",
+                "phoneNumber": "974xxxx338",
+                "emailID": "aaxxxxxxxin@gmail.com",
             }
 
         ]
@@ -1307,13 +1307,13 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Shraddha JR",
-                "phoneNumber": "8762367095",
-                "emailID": "shraddha2jr@gmail.com"
+                "phoneNumber": "876xxxx095",
+                "emailID": "shxxxxxxxjr@gmail.com"
             },
             {
                 "name": "Vishal R Naik",
-                "phoneNumber": "7337862103",
-                "emailID": "vishalrn425@gmail.com",
+                "phoneNumber": "733xxxx103",
+                "emailID": "vixxxxxxx25@gmail.com",
             }
 
         ]
@@ -1355,13 +1355,13 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": " Vijesh V Anchan",
-                "phoneNumber": "7625020322",
-                "emailID": "vijeshanchan21@gmail.com"
+                "phoneNumber": "762xxxx322",
+                "emailID": "vixxxxxxxxxx21@gmail.com"
             },
             {
                 "name": "Dhanush VD",
-                "phoneNumber": "9449788548",
-                "emailID": "dhanushvd77@gmail.com",
+                "phoneNumber": "944xxxx548",
+                "emailID": "dhxxxxxxx77@gmail.com",
             }
 
         ]
@@ -1402,13 +1402,13 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": " Vijesh V Anchan",
-                "phoneNumber": "7625020322",
-                "emailID": "vijeshanchan21@gmail.com"
+                "phoneNumber": "762xxxx322",
+                "emailID": "vixxxxxxxxxx21@gmail.com"
             },
             {
                 "name": "Dhanush VD",
-                "phoneNumber": "9449788548",
-                "emailID": "dhanushvd77@gmail.com",
+                "phoneNumber": "944xxxx548",
+                "emailID": "dhxxxxxxx77@gmail.com",
             }
 
         ]
@@ -1452,13 +1452,13 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Anjani Prabhu",
-                "phoneNumber": "+919591475667",
-                "emailID": "anjaniprabhu777@gmail.com"
+                "phoneNumber": "+91959xxxx667",
+                "emailID": "anxxxxxxxxxxx77@gmail.com"
             },
             {
                 "name": "P.Rajalaxmi Shetty",
-                "phoneNumber": "+919686392149",
-                "emailID": "shettyraji0906@gmail.com",
+                "phoneNumber": "+91968xxxx149",
+                "emailID": "shxxxxxxxxxx06@gmail.com",
             }
         
 
@@ -1504,13 +1504,13 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Anjani Prabhu",
-                "phoneNumber": "+919591475667",
-                "emailID": "anjaniprabhu777@gmail.com"
+                "phoneNumber": "+91959xxxx667",
+                "emailID": "anxxxxxxxxxxx77@gmail.com"
             },
             {
                 "name": "P.Rajalaxmi Shetty",
-                "phoneNumber": "+919686392149",
-                "emailID": "shettyraji0906@gmail.com",
+                "phoneNumber": "+91968xxxx149",
+                "emailID": "shxxxxxxxxxx06@gmail.com",
             }
 
 

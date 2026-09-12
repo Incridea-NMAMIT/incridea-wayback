@@ -193,12 +193,12 @@ const Privacy: NextPage = () => {
           <p className="text-lg mt-4 font-bold ">
             For inquiries or clarifications on our privacy policy or personal
             data handling, you may reach us at{" "}
-            <a href="mailto:incridea@nmamit.in" className="hover:underline">
-              incridea@nmamit.in
+            <a href="mailto:inxxxxea@nmamit.in" className="hover:underline">
+              inxxxxea@nmamit.in
             </a>{" "}
             or{" "}
-            <a href="tel:9448815186" className="hover:underline">
-              +91 9448815186
+            <a href="tel:944xxxx186" className="hover:underline">
+              +91 944xxxx186
             </a>
             .
           </p>

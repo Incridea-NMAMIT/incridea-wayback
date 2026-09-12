@@ -18,7 +18,7 @@ export default function WrongCollegeModal() {
 
     // Verify condition: Email is a student.nitte.edu.in or student.edu.in email BUT collegeId is NMAMIT (1)
     useEffect(() => {
-        const isNitteStudent = user?.email?.toLowerCase().endsWith('@student.nitte.edu.in') || user?.email?.toLowerCase().endsWith('@student.edu.in')
+        const isNitteStudent = user?.email?.toLowerCase().endsWith('x@student.nitte.edu.in') || user?.email?.toLowerCase().endsWith('x@student.edu.in')
         if (isNitteStudent && user?.collegeId === 1 && !user?.alumniStatus && !user?.yearOfGraduation) {
             setIsOpen(true)
         } else {

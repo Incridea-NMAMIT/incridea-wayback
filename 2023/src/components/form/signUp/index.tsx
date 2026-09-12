@@ -141,7 +141,7 @@ const SignUpForm: FunctionComponent<SignUpFormProps> = ({ setWhichForm }) => {
         name: userInfo.name,
         email:
           selectedCollege.name === 'N.M.A.M. Institute of Technology'
-            ? `${userInfo.email.trim()}@nmamit.in`
+            ? `${userInfo.email.trim()}x@nmamit.in`
             : userInfo.email,
         password: userInfo.password,
         phoneNumber: userInfo.phoneNumber,
@@ -401,7 +401,7 @@ const SignUpForm: FunctionComponent<SignUpFormProps> = ({ setWhichForm }) => {
           <div>
             Verification email sent to {userInfo.email}
             {selectedCollege.name === 'N.M.A.M. Institute of Technology' &&
-              '@nmamit.in'}
+              'x@nmamit.in'}
             <br />
             Please check your inbox.
             <hr className="border-green-300 mx-3 my-2" />

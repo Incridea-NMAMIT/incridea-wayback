@@ -71,7 +71,7 @@ const Accommodation: NextPage = () => {
               </li>
               <li>
                 For any further clarifications regarding the same and transport
-                from the place of accommodation, contact: +918618378701, +919611878045{" "}
+                from the place of accommodation, contact: +91861xxxx701, +91961xxxx045{" "}
               </li>
               <li>
                 External Accommodation Details:{" "}

@@ -314,11 +314,11 @@ export default function AccommodationPage() {
                             <div className="flex flex-col md:flex-row gap-6 justify-around text-center">
                                 <div>
                                     <h3 className="text-lg sm:text-base font-semibold text-gray-200">Ansh P Bhandary</h3>
-                                    <a href="tel:+919611878045" className="text-purple-400 hover:text-purple-300 mt-1 inline-block">+91 9611878045</a>
+                                    <a href="tel:+91961xxxx045" className="text-purple-400 hover:text-purple-300 mt-1 inline-block">+91 961xxxx045</a>
                                 </div>
                                 <div>
                                     <h3 className="text-lg sm:text-base font-semibold text-gray-200">Vinush</h3>
-                                    <a href="tel:+917349112989" className="text-purple-400 hover:text-purple-300 mt-1 inline-block">+91 73491 12989</a>
+                                    <a href="tel:+91734xxxx989" className="text-purple-400 hover:text-purple-300 mt-1 inline-block">+91 734xxxx989</a>
                                 </div>
                             </div>
                         </LiquidGlassCard>

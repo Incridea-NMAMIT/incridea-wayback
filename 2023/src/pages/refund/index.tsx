@@ -65,18 +65,18 @@ const Refund: NextPage = () => {
             payment process, please do not hesitate to contact our team. You can
             reach us at{' '}
             <a
-              href="mailto:incridea@nmamit.in"
+              href="mailto:inxxxxea@nmamit.in"
               className="cursor-pointer text-semibold underline"
             >
-              incridea@nmamit.in
+              inxxxxea@nmamit.in
             </a>{' '}
             or contact
             <span className="inline-block mr-1">
-              +91 9620788383 (Technical committte)
+              +91 962xxxx383 (Technical committte)
             </span>
             or
             <span className="inline-block ml-1">
-              +91 7348896751 (Finance committte)
+              +91 734xxxx751 (Finance committte)
             </span>
             , and we will be happy to assist you.
           </p>

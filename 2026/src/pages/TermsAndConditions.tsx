@@ -325,14 +325,14 @@ const TermsAndConditionsPage = () => {
                   <p className="font-moco text-base sm:text-base lg:text-lg">
                     Email:
                     <a
-                      href="mailto:incridea@nmamit.in"
+                      href="mailto:inxxxxea@nmamit.in"
                       className="text-sky-300 underline underline-offset-2 hover:text-sky-200"
                     >
                       {" "}
-                      incridea@nmamit.in
+                      inxxxxea@nmamit.in
                     </a>
                   </p>
-                  <p className="font-moco text-base sm:text-base lg:text-lg">Phone: +91 94488 15186 or +91 88613 37830</p>
+                  <p className="font-moco text-base sm:text-base lg:text-lg">Phone: +91 944xxxx186 or +91 886xxxx830</p>
                 </section>
               </div>
             </div>

@@ -37,18 +37,18 @@ export const eventData = [
     contactDetails: [
       {
         name: "Sushaan K Attavar",
-        phoneNumber: "+919886383777",
-        emailID: "sushattavar@gmail.com",
+        phoneNumber: "+91988xxxx777",
+        emailID: "suxxxxxxxar@gmail.com",
       },
       {
         name: "Madhur Shetty",
-        phoneNumber: "+917411287940",
-        emailID: "sushattavar@gmail.com",
+        phoneNumber: "+91741xxxx940",
+        emailID: "suxxxxxxxar@gmail.com",
       },
       {
         name: "Ananya Bhat",
-        phoneNumber: "+918762178003",
-        emailID: "ananyabhat3009@gmail.com",
+        phoneNumber: "+91876xxxx003",
+        emailID: "anxxxxxxxxxx09@gmail.com",
       },
     ],
   },
@@ -89,18 +89,18 @@ export const eventData = [
     contactDetails: [
       {
         name: "Deekshitha Shetty",
-        phoneNumber: "+ 919686693372",
-        emailID: "shettydeekshitha15@gmail.com",
+        phoneNumber: "+ 91968xxxx372",
+        emailID: "shxxxxxxxxxxxxxx15@gmail.com",
       },
       {
         name: "Leeshan Dsouza",
-        phoneNumber: "+ 919019533135",
-        emailID: "leeshandsouza@gmail.com",
+        phoneNumber: "+ 91901xxxx135",
+        emailID: "lexxxxxxxxxza@gmail.com",
       },
       {
         name: "Pangala Varun Nayak",
-        phoneNumber: "+ 918073319391",
-        emailID: "varunrunrunrun@gmail.com",
+        phoneNumber: "+ 91807xxxx391",
+        emailID: "vaxxxxxxxxxxun@gmail.com",
       },
     ],
   },
@@ -121,7 +121,7 @@ export const eventData = [
     roundDetails: {
       "Round 1 - Online Screening Round": [
         "The video should be a 3-5 minutes sample of the performance, and it can be from any portion of the performance.",
-        'Record your performance and upload it on your Google Drive. Link of which is to be shared with us over email at navarasa.incridea@gmail.com under the subject "Navarasa Online Screening Sub mission".',
+        'Record your performance and upload it on your Google Drive. Link of which is to be shared with us over email at naxxxxxxxxxxxxxea@gmail.com under the subject "Navarasa Online Screening Sub mission".',
         "Editing, cuts, and pre-recorded videos are not allowed.",
         "Submission Deadline: Before 25th April 2022, 5 PM.",
         "A maximum of 9 teams will be selected from the Online Screening round and will proceed to the final round.",
@@ -133,7 +133,7 @@ export const eventData = [
     rules: [
       "Round 1 - Online Screening Round:",
       "The video should be a 3-5 minutes sample of the performance, and it can be from any portion of the performance.",
-      'Record your performance and upload it on your Google Drive. Link of which is to be shared with us over email at navarasa.incridea@gmail.com under the subject "Navarasa Online Screening Sub mission".',
+      'Record your performance and upload it on your Google Drive. Link of which is to be shared with us over email at naxxxxxxxxxxxxxea@gmail.com under the subject "Navarasa Online Screening Sub mission".',
       "Editing, cuts, and pre-recorded videos are not allowed.",
       "Submission Deadline: Before 25th April 2022, 5 PM.",
       "A maximum of 9 teams will be selected from the Online Screening round and will proceed to the final round.",
@@ -152,11 +152,11 @@ export const eventData = [
     contactDetails: [
       {
         name: "Moghe Sudheesh Rao",
-        phoneNumber: "+919902145643",
+        phoneNumber: "+91990xxxx643",
       },
       {
         name: "Pranava Moodithaya P",
-        phoneNumber: "+917975060473",
+        phoneNumber: "+91797xxxx473",
       },
     ],
   },
@@ -230,13 +230,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Anush Laila",
-        phoneNumber: "+917795927285",
-        emailID: "anush.laila.22@gmail.com ",
+        phoneNumber: "+91779xxxx285",
+        emailID: "anxxxxxxxxxx22@gmail.com ",
       },
       {
         name: "AN Harsha",
-        phoneNumber: "+919481372482",
-        emailID: "harsha.athlur@gmail.com ",
+        phoneNumber: "+91948xxxx482",
+        emailID: "haxxxxxxxxxur@gmail.com ",
       },
     ],
   },
@@ -283,13 +283,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Aradhana Nambiar",
-        phoneNumber: "+919148275419",
-        emailID: "andanambiar3@gmail.com ",
+        phoneNumber: "+91914xxxx419",
+        emailID: "anxxxxxxxxr3@gmail.com ",
       },
       {
         name: "Jnana Aithal",
-        phoneNumber: "+919731521417",
-        emailID: "jnanaaithal12@gmail.com",
+        phoneNumber: "+91973xxxx417",
+        emailID: "jnxxxxxxxxx12@gmail.com",
       },
     ],
   },
@@ -318,7 +318,7 @@ export const eventData = [
         "The video should not be edited in any way.",
         "Use of any kind of special effects is strictly prohibited and will lead to direct disqualification",
         "Deadline for submission: 5th of May 2022, 11:59 pm",
-        "Mail your entries along with your Name, University Registration Number, Contact Number, and College Name at incridea.nmamit@gmail.com",
+        "Mail your entries along with your Name, University Registration Number, Contact Number, and College Name at inxxxxxxxxxxxit@gmail.com",
         "Selected contestants will be contacted via e-mail on or before May 10, 2022",
       ],
 
@@ -351,13 +351,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Riwa Angel Dsouza",
-        phoneNumber: "+919380709458",
-        emailID: "riwazacker@gmail.com",
+        phoneNumber: "+91938xxxx458",
+        emailID: "rixxxxxxer@gmail.com",
       },
       {
         name: "Manas M Rai",
-        phoneNumber: "+917975310793",
-        emailID: "manasrai9611@gmail.com",
+        phoneNumber: "+91797xxxx793",
+        emailID: "maxxxxxxxx11@gmail.com",
       },
     ],
   },
@@ -388,7 +388,7 @@ export const eventData = [
         "The video should not be edited in any way.",
         "Use of any kind of special effects is strictly prohibited and will lead to direct disqualification",
         "Deadline for submission: 5th of May 2022, 11:59 pm",
-        "Mail your entries along with your Name, University Registration Number, Contact Number, and College Name at incridea.nmamit@gmail.com",
+        "Mail your entries along with your Name, University Registration Number, Contact Number, and College Name at inxxxxxxxxxxxit@gmail.com",
         "Selected contestants will be contacted via e-mail on or before May 10, 2022",
       ],
 
@@ -421,13 +421,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Riwa Angel Dsouza",
-        phoneNumber: "+919380709458",
-        emailID: "riwazacker@gmail.com",
+        phoneNumber: "+91938xxxx458",
+        emailID: "rixxxxxxer@gmail.com",
       },
       {
         name: "Manas M Rai",
-        phoneNumber: "+917975310793",
-        emailID: "manasrai9611@gmail.com",
+        phoneNumber: "+91797xxxx793",
+        emailID: "maxxxxxxxx11@gmail.com",
       },
     ],
   },
@@ -458,7 +458,7 @@ export const eventData = [
         "The video should not be edited in any way.",
         "Use of any kind of special effects is strictly prohibited and will lead to direct disqualification",
         "Deadline for submission: 5th of May 2022, 11:59 pm",
-        "Mail your entries along with your Name, University Registration Number, Contact Number, and College Name at incridea.nmamit@gmail.com",
+        "Mail your entries along with your Name, University Registration Number, Contact Number, and College Name at inxxxxxxxxxxxit@gmail.com",
         "Selected contestants will be contacted via e-mail on or before May 10, 2022",
       ],
 
@@ -492,13 +492,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Riwa Angel Dsouza",
-        phoneNumber: "+919380709458",
-        emailID: "riwazacker@gmail.com",
+        phoneNumber: "+91938xxxx458",
+        emailID: "rixxxxxxer@gmail.com",
       },
       {
         name: "Manas M Rai",
-        phoneNumber: "+917975310793",
-        emailID: "manasrai9611@gmail.com",
+        phoneNumber: "+91797xxxx793",
+        emailID: "maxxxxxxxx11@gmail.com",
       },
     ],
   },
@@ -521,8 +521,8 @@ export const eventData = [
     contactDetails: [
       {
         name: "Ramshravan Rai",
-        phoneNumber: "+918660305851",
-        emailID: "ramshravan222@gmail.com",
+        phoneNumber: "+91866xxxx851",
+        emailID: "raxxxxxxxxx22@gmail.com",
       },
     ],
   },
@@ -560,13 +560,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Vijeth Ullal",
-        phoneNumber: "+919480565835",
-        emailID: "vijethullal1402@gmail.com",
+        phoneNumber: "+91948xxxx835",
+        emailID: "vixxxxxxxxxxx02@gmail.com",
       },
       {
         name: "Sakshith Varambally",
-        phoneNumber: "+918748971471",
-        emailID: "sakshith2l@gmail.com",
+        phoneNumber: "+91874xxxx471",
+        emailID: "saxxxxxx2l@gmail.com",
       },
     ],
   },
@@ -603,13 +603,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Namana Gowda",
-        phoneNumber: "+916362512411",
-        emailID: "namanahbgowda@gmail.com",
+        phoneNumber: "+91636xxxx411",
+        emailID: "naxxxxxxxxxda@gmail.com",
       },
       {
         name: "Abhirami Nair",
-        phoneNumber: "+917795979167",
-        emailID: "abhiraminair167@gmail.com",
+        phoneNumber: "+91779xxxx167",
+        emailID: "abxxxxxxxxxxx67@gmail.com",
       },
     ],
   },
@@ -645,13 +645,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Namana Gowda",
-        phoneNumber: "+916362512411",
-        emailID: "namanahbgowda@gmail.com",
+        phoneNumber: "+91636xxxx411",
+        emailID: "naxxxxxxxxxda@gmail.com",
       },
       {
         name: "Abhirami Nair",
-        phoneNumber: "+917795979167",
-        emailID: "abhiraminair167@gmail.com",
+        phoneNumber: "+91779xxxx167",
+        emailID: "abxxxxxxxxxxx67@gmail.com",
       },
     ],
   },
@@ -684,13 +684,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Poornima KH",
-        phoneNumber: "9380744688",
-        emailID: "khpoornima5@gmail.com",
+        phoneNumber: "938xxxx688",
+        emailID: "khxxxxxxxa5@gmail.com",
       },
       {
         name: "Shravan Udupa",
-        phoneNumber: "9513463260",
-        emailID: "shravanudupaktlsr854@gmail.com",
+        phoneNumber: "951xxxx260",
+        emailID: "shxxxxxxxxxxxxxxxx54@gmail.com",
       },
     ],
   },
@@ -723,13 +723,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Kavana T",
-        phoneNumber: "9980435977",
-        emailID: "kavanathimmaraju@gmail.com",
+        phoneNumber: "998xxxx977",
+        emailID: "kaxxxxxxxxxxxxju@gmail.com",
       },
       {
         name: "Shreyas Mayya D",
-        phoneNumber: "8970977820",
-        emailID: "shreyasmayyad@gmail.com",
+        phoneNumber: "897xxxx820",
+        emailID: "shxxxxxxxxxad@gmail.com",
       },
     ],
   },
@@ -772,13 +772,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Sinan Mohamed",
-        phoneNumber: "8792281367 ",
-        emailID: "mohdmmedsinanll@gmail.com",
+        phoneNumber: "879xxxx367 ",
+        emailID: "moxxxxxxxxxxxll@gmail.com",
       },
       {
         name: "Pavan Aiyappa",
-        phoneNumber: "9611201769",
-        emailID: "pavanaiyappa161139@gmail.com",
+        phoneNumber: "961xxxx769",
+        emailID: "paxxxxxxxxxxxxxx39@gmail.com",
       },
     ],
   },
@@ -822,13 +822,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Sinan Mohamed",
-        phoneNumber: "8792281367 ",
-        emailID: "mohdmmedsinanll@gmail.com",
+        phoneNumber: "879xxxx367 ",
+        emailID: "moxxxxxxxxxxxll@gmail.com",
       },
       {
         name: "Pavan Aiyappa",
-        phoneNumber: "9611201769",
-        emailID: "pavanaiyappa161139@gmail.com",
+        phoneNumber: "961xxxx769",
+        emailID: "paxxxxxxxxxxxxxx39@gmail.com",
       },
     ],
   },
@@ -866,13 +866,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Suhan S Nayak",
-        phoneNumber: "6362599814",
-        emailID: "suhansnayak7@gmail.com",
+        phoneNumber: "636xxxx814",
+        emailID: "suxxxxxxxxk7@gmail.com",
       },
       {
         name: "Thushara AS",
-        phoneNumber: "6362135300",
-        emailID: "asthushara@gmail.com",
+        phoneNumber: "636xxxx300",
+        emailID: "asxxxxxxra@gmail.com",
       },
     ],
   },
@@ -919,13 +919,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Riwa Angel Dsouza",
-        phoneNumber: "9380709458",
-        emailID: "riwazacker@gmail.com",
+        phoneNumber: "938xxxx458",
+        emailID: "rixxxxxxer@gmail.com",
       },
       {
         name: "Arpitha Shetty",
-        phoneNumber: "9900683854 ",
-        emailID: "arpithashetty352@gmail.com",
+        phoneNumber: "990xxxx854 ",
+        emailID: "arxxxxxxxxxxxx52@gmail.com",
       },
     ],
   },
@@ -971,13 +971,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Anup Rai",
-        phoneNumber: "9945191271",
-        emailID: "anuprai2000@gmail.com",
+        phoneNumber: "994xxxx271",
+        emailID: "anxxxxxxx00@gmail.com",
       },
       {
         name: "Dishan Babu",
-        phoneNumber: "9742228744",
-        emailID: "dishanshetty468@gmail.com",
+        phoneNumber: "974xxxx744",
+        emailID: "dixxxxxxxxxxx68@gmail.com",
       },
     ],
   },
@@ -1023,13 +1023,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Anup Rai",
-        phoneNumber: "9945191271",
-        emailID: "anuprai2000@gmail.com",
+        phoneNumber: "994xxxx271",
+        emailID: "anxxxxxxx00@gmail.com",
       },
       {
         name: "Dishan Babu",
-        phoneNumber: "9742228744",
-        emailID: "dishanshetty468@gmail.com",
+        phoneNumber: "974xxxx744",
+        emailID: "dixxxxxxxxxxx68@gmail.com",
       },
     ],
   },
@@ -1064,13 +1064,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Alden",
-        phoneNumber: "9535286090",
-        emailID: "aldenmascarenhas@gmail.com",
+        phoneNumber: "953xxxx090",
+        emailID: "alxxxxxxxxxxxxas@gmail.com",
       },
       {
         name: "Vasundhara",
-        phoneNumber: "9535678356",
-        emailID: "vasundharashenoy21@gmail.com",
+        phoneNumber: "953xxxx356",
+        emailID: "vaxxxxxxxxxxxxxx21@gmail.com",
       },
     ],
   },
@@ -1129,13 +1129,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Sahana Kulal",
-        phoneNumber: "6362678287",
-        emailID: "sahanakulal.2306@gmail.com",
+        phoneNumber: "636xxxx287",
+        emailID: "saxxxxxxxxxxxx06@gmail.com",
       },
       {
         name: "Sinchana N Vaidya",
-        phoneNumber: "7619366633",
-        emailID: "sinchuvaidya@gmail.com",
+        phoneNumber: "761xxxx633",
+        emailID: "sixxxxxxxxya@gmail.com",
       },
     ],
   },
@@ -1173,13 +1173,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Roston Mascarenhas",
-        phoneNumber: "8105231877",
-        emailID: "roston616@gmail.com",
+        phoneNumber: "810xxxx877",
+        emailID: "roxxxxx16@gmail.com",
       },
       {
         name: "Shailesh",
-        phoneNumber: "9108317094",
-        emailID: "shaileshacharya676@gmail.com",
+        phoneNumber: "910xxxx094",
+        emailID: "shxxxxxxxxxxxxxx76@gmail.com",
       },
     ],
   },
@@ -1227,13 +1227,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Ruby Pawaskar",
-        phoneNumber: "8660531326",
-        emailID: "rubypawaskar44@gmail.com",
+        phoneNumber: "866xxxx326",
+        emailID: "ruxxxxxxxxxx44@gmail.com",
       },
       {
         name: "Ananya Bhat",
-        phoneNumber: "8762178003",
-        emailID: "ananyabhat3009@gmail.com",
+        phoneNumber: "876xxxx003",
+        emailID: "anxxxxxxxxxx09@gmail.com",
       },
     ],
   },
@@ -1281,13 +1281,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Ruby Pawaskar",
-        phoneNumber: "8660531326",
-        emailID: "rubypawaskar44@gmail.com",
+        phoneNumber: "866xxxx326",
+        emailID: "ruxxxxxxxxxx44@gmail.com",
       },
       {
         name: "Ananya Bhat",
-        phoneNumber: "8762178003",
-        emailID: "ananyabhat3009@gmail.com",
+        phoneNumber: "876xxxx003",
+        emailID: "anxxxxxxxxxx09@gmail.com",
       },
     ],
   },
@@ -1334,13 +1334,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Mahima Rashmi",
-        phoneNumber: "+ 919482809471",
-        emailID: "mahimarashmi29@gmail.com",
+        phoneNumber: "+ 91948xxxx471",
+        emailID: "maxxxxxxxxxx29@gmail.com",
       },
       {
         name: "Moulya R Jain",
-        phoneNumber: "+919483361185",
-        emailID: "moulyajain090l@gmail.com",
+        phoneNumber: "+91948xxxx185",
+        emailID: "moxxxxxxxxxx0l@gmail.com",
       },
     ],
   },
@@ -1387,13 +1387,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Mahima Rashmi",
-        phoneNumber: "+ 919482809471",
-        emailID: "mahimarashmi29@gmail.com",
+        phoneNumber: "+ 91948xxxx471",
+        emailID: "maxxxxxxxxxx29@gmail.com",
       },
       {
         name: "Moulya R Jain",
-        phoneNumber: "+919483361185",
-        emailID: "moulyajain090l@gmail.com",
+        phoneNumber: "+91948xxxx185",
+        emailID: "moxxxxxxxxxx0l@gmail.com",
       },
     ],
   },
@@ -1440,13 +1440,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Mahima Rashmi",
-        phoneNumber: "+ 919482809471",
-        emailID: "mahimarashmi29@gmail.com",
+        phoneNumber: "+ 91948xxxx471",
+        emailID: "maxxxxxxxxxx29@gmail.com",
       },
       {
         name: "Moulya R Jain",
-        phoneNumber: "+919483361185",
-        emailID: "moulyajain090l@gmail.com",
+        phoneNumber: "+91948xxxx185",
+        emailID: "moxxxxxxxxxx0l@gmail.com",
       },
     ],
   },
@@ -1493,13 +1493,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Mahima Rashmi",
-        phoneNumber: "+919482809471",
-        emailID: "mahimarashmi29@gmail.com",
+        phoneNumber: "+91948xxxx471",
+        emailID: "maxxxxxxxxxx29@gmail.com",
       },
       {
         name: "Moulya R Jain",
-        phoneNumber: "+919483361185",
-        emailID: "moulyajain090l@gmail.com",
+        phoneNumber: "+91948xxxx185",
+        emailID: "moxxxxxxxxxx0l@gmail.com",
       },
     ],
   },
@@ -1525,13 +1525,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "K Pavithra Achar",
-        phoneNumber: "7892238837",
-        emailID: "pavithraachar39@gmail.com",
+        phoneNumber: "789xxxx837",
+        emailID: "paxxxxxxxxxxx39@gmail.com",
       },
       {
         name: "Varun Taliparambe Vitel",
-        phoneNumber: "7619240912",
-        emailID: "varuntv80@gmail.com",
+        phoneNumber: "761xxxx912",
+        emailID: "vaxxxxx80@gmail.com",
       },
     ],
   },
@@ -1574,13 +1574,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Harshith",
-        phoneNumber: "+918867529543",
-        emailID: "sanilharshith2000@gmail.com",
+        phoneNumber: "+91886xxxx543",
+        emailID: "saxxxxxxxxxxxxx00@gmail.com",
       },
       {
         name: "Vinayak Nayak",
-        phoneNumber: "+918971916288",
-        emailID: "nvinayak1947@gmail.com",
+        phoneNumber: "+91897xxxx288",
+        emailID: "nvxxxxxxxx47@gmail.com",
       },
     ],
   },
@@ -1619,13 +1619,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Rolan Gomes",
-        phoneNumber: "+919019536394",
-        emailID: "rolangomes19@gmail.com",
+        phoneNumber: "+91901xxxx394",
+        emailID: "roxxxxxxxx19@gmail.com",
       },
       {
         name: "Rolston Austin Dsouza",
-        phoneNumber: "7019527128",
-        emailID: "rolstonadsouza@outlook.com",
+        phoneNumber: "701xxxx128",
+        emailID: "roxxxxxxxxxxza@outlook.com",
       },
     ],
   },
@@ -1665,13 +1665,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Rolan Gomes",
-        phoneNumber: "+919019536394",
-        emailID: "rolangomes19@gmail.com",
+        phoneNumber: "+91901xxxx394",
+        emailID: "roxxxxxxxx19@gmail.com",
       },
       {
         name: "Rolston Austin Dsouza",
-        phoneNumber: "7019527128",
-        emailID: "rolstonadsouza@outlook.com",
+        phoneNumber: "701xxxx128",
+        emailID: "roxxxxxxxxxxza@outlook.com",
       },
     ],
   },
@@ -1722,13 +1722,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Omar Khateeb",
-        phoneNumber: "+9108169597",
-        emailID: "omarkhateeb007@gmail.com ",
+        phoneNumber: "+910xxxx597",
+        emailID: "omxxxxxxxxxx07@gmail.com ",
       },
       {
         name: "Shishir Ballal",
-        phoneNumber: "9483647355",
-        emailID: "shishirballal2017@gmail.com ",
+        phoneNumber: "948xxxx355",
+        emailID: "shxxxxxxxxxxxxx17@gmail.com ",
       },
     ],
   },
@@ -1776,13 +1776,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Abhishek Moolya",
-        phoneNumber: "7019204816",
-        emailID: "abhishekmoolyaaaa@gmail.com ",
+        phoneNumber: "701xxxx816",
+        emailID: "abxxxxxxxxxxxxxaa@gmail.com ",
       },
       {
         name: "Aamir Saahin Khan",
-        phoneNumber: "9743775338",
-        emailID: "aamirsaahin@gmail.com",
+        phoneNumber: "974xxxx338",
+        emailID: "aaxxxxxxxin@gmail.com",
       },
     ],
   },
@@ -1800,13 +1800,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Shraddha JR",
-        phoneNumber: "8762367095",
-        emailID: "shraddha2jr@gmail.com",
+        phoneNumber: "876xxxx095",
+        emailID: "shxxxxxxxjr@gmail.com",
       },
       {
         name: "Vishal R Naik",
-        phoneNumber: "7337862103",
-        emailID: "vishalrn425@gmail.com",
+        phoneNumber: "733xxxx103",
+        emailID: "vixxxxxxx25@gmail.com",
       },
     ],
   },
@@ -1854,13 +1854,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Vijesh V Anchan",
-        phoneNumber: "7625020322",
-        emailID: "vijeshanchan21@gmail.com",
+        phoneNumber: "762xxxx322",
+        emailID: "vixxxxxxxxxx21@gmail.com",
       },
       {
         name: "Dhanush VD",
-        phoneNumber: "9449788548",
-        emailID: "dhanushvd77@gmail.com",
+        phoneNumber: "944xxxx548",
+        emailID: "dhxxxxxxx77@gmail.com",
       },
     ],
   },
@@ -1901,13 +1901,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Anjani Prabhu",
-        phoneNumber: "+919591475667",
-        emailID: "anjaniprabhu777@gmail.com",
+        phoneNumber: "+91959xxxx667",
+        emailID: "anxxxxxxxxxxx77@gmail.com",
       },
       {
         name: "P.Rajalaxmi Shetty",
-        phoneNumber: "+919686392149",
-        emailID: "shettyraji0906@gmail.com",
+        phoneNumber: "+91968xxxx149",
+        emailID: "shxxxxxxxxxx06@gmail.com",
       },
     ],
   },
@@ -1952,13 +1952,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Anjani Prabhu",
-        phoneNumber: "+919591475667",
-        emailID: "anjaniprabhu777@gmail.com",
+        phoneNumber: "+91959xxxx667",
+        emailID: "anxxxxxxxxxxx77@gmail.com",
       },
       {
         name: "P.Rajalaxmi Shetty",
-        phoneNumber: "+919686392149",
-        emailID: "shettyraji0906@gmail.com",
+        phoneNumber: "+91968xxxx149",
+        emailID: "shxxxxxxxxxx06@gmail.com",
       },
     ],
   },
@@ -1996,13 +1996,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Sujay Naik",
-        phoneNumber: "8660563859",
-        emailID: "sujaylnaik@gmail.com",
+        phoneNumber: "866xxxx859",
+        emailID: "suxxxxxxik@gmail.com",
       },
       {
         name: "Rahil Baig",
-        phoneNumber: "9380371159",
-        emailID: "rahilandharoon@gmail.com",
+        phoneNumber: "938xxxx159",
+        emailID: "raxxxxxxxxxxon@gmail.com",
       },
     ],
   },
@@ -2040,13 +2040,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Moeena Dsouza ",
-        phoneNumber: "+ 917349137484",
-        emailID: "Moeenadsouza08@gmail.com",
+        phoneNumber: "+ 91734xxxx484",
+        emailID: "Moxxxxxxxxxx08@gmail.com",
       },
       {
         name: "Aishwarya G.R.",
-        phoneNumber: "+918549887584",
-        emailID: "Aishurgowda200016@gmail.com",
+        phoneNumber: "+91854xxxx584",
+        emailID: "Aixxxxxxxxxxxxx16@gmail.com",
       },
     ],
   },
@@ -2256,13 +2256,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Chetan Acharya P V",
-        phoneNumber: "+91 9108126455",
-        emailID: "chetanpv7@gmail.com",
+        phoneNumber: "+91 910xxxx455",
+        emailID: "chxxxxxv7@gmail.com",
       },
       {
         name: "Naman K V",
-        phoneNumber: "+91 9845104385",
-        emailID: "kvnaman2000@gmail.com",
+        phoneNumber: "+91 984xxxx385",
+        emailID: "kvxxxxxxx00@gmail.com",
       },
     ],
   },
@@ -2471,13 +2471,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Chetan Acharya P V",
-        phoneNumber: "+91 9108126455",
-        emailID: "chetanpv7@gmail.com",
+        phoneNumber: "+91 910xxxx455",
+        emailID: "chxxxxxv7@gmail.com",
       },
       {
         name: "Naman K V",
-        phoneNumber: "+91 9845104385",
-        emailID: "kvnaman2000@gmail.com",
+        phoneNumber: "+91 984xxxx385",
+        emailID: "kvxxxxxxx00@gmail.com",
       },
     ],
   },
@@ -2686,13 +2686,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Chetan Acharya P V",
-        phoneNumber: "+91 9108126455",
-        emailID: "chetanpv7@gmail.com",
+        phoneNumber: "+91 910xxxx455",
+        emailID: "chxxxxxv7@gmail.com",
       },
       {
         name: "Naman K V",
-        phoneNumber: "+91 9845104385",
-        emailID: "kvnaman2000@gmail.com",
+        phoneNumber: "+91 984xxxx385",
+        emailID: "kvxxxxxxx00@gmail.com",
       },
     ],
   },
@@ -2744,13 +2744,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Rachana Prabhu",
-        phoneNumber: "+ 919731989441",
-        emailID: "rachanaprabhu15@gmail.com",
+        phoneNumber: "+ 91973xxxx441",
+        emailID: "raxxxxxxxxxxx15@gmail.com",
       },
       {
         name: "Sameeksha B Hegde",
-        phoneNumber: "+ 91 9035808647",
-        emailID: "sameekshabhegde@gmail.com",
+        phoneNumber: "+ 91 903xxxx647",
+        emailID: "saxxxxxxxxxxxde@gmail.com",
       },
     ],
   },
@@ -2803,13 +2803,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Rachana Prabhu",
-        phoneNumber: "+ 919731989441",
-        emailID: "rachanaprabhu15@gmail.com",
+        phoneNumber: "+ 91973xxxx441",
+        emailID: "raxxxxxxxxxxx15@gmail.com",
       },
       {
         name: "Sameeksha B Hegde",
-        phoneNumber: "+ 91 9035808647",
-        emailID: "sameekshabhegde@gmail.com",
+        phoneNumber: "+ 91 903xxxx647",
+        emailID: "saxxxxxxxxxxxde@gmail.com",
       },
     ],
   },
@@ -2856,13 +2856,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Kotian Ridhi Pranoj",
-        phoneNumber: "7338318719",
-        emailID: "ridhikotian9@gmail.com",
+        phoneNumber: "733xxxx719",
+        emailID: "rixxxxxxxxn9@gmail.com",
       },
       {
         name: "Shreeya S Shetty ",
-        phoneNumber: "6363198514",
-        emailID: "shettyshreeyax@gmail.com",
+        phoneNumber: "636xxxx514",
+        emailID: "shxxxxxxxxxxax@gmail.com",
       },
     ],
   },
@@ -2904,13 +2904,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Kotian Ridhi Pranoj",
-        phoneNumber: "7338318719",
-        emailID: "ridhikotian9@gmail.com",
+        phoneNumber: "733xxxx719",
+        emailID: "rixxxxxxxxn9@gmail.com",
       },
       {
         name: "Shreeya S Shetty ",
-        phoneNumber: "6363198514",
-        emailID: "shettyshreeyax@gmail.com",
+        phoneNumber: "636xxxx514",
+        emailID: "shxxxxxxxxxxax@gmail.com",
       },
     ],
   },
@@ -2956,13 +2956,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Kotian Ridhi Pranoj",
-        phoneNumber: "7338318719",
-        emailID: "ridhikotian9@gmail.com",
+        phoneNumber: "733xxxx719",
+        emailID: "rixxxxxxxxn9@gmail.com",
       },
       {
         name: "Shreeya S Shetty ",
-        phoneNumber: "6363198514",
-        emailID: "shettyshreeyax@gmail.com",
+        phoneNumber: "636xxxx514",
+        emailID: "shxxxxxxxxxxax@gmail.com",
       },
     ],
   },
@@ -3005,13 +3005,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Kotian Ridhi Pranoj",
-        phoneNumber: "7338318719",
-        emailID: "ridhikotian9@gmail.com",
+        phoneNumber: "733xxxx719",
+        emailID: "rixxxxxxxxn9@gmail.com",
       },
       {
         name: "Shreeya S Shetty ",
-        phoneNumber: "6363198514",
-        emailID: "shettyshreeyax@gmail.com",
+        phoneNumber: "636xxxx514",
+        emailID: "shxxxxxxxxxxax@gmail.com",
       },
     ],
   },
@@ -3054,13 +3054,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Kotian Ridhi Pranoj",
-        phoneNumber: "7338318719",
-        emailID: "ridhikotian9@gmail.com",
+        phoneNumber: "733xxxx719",
+        emailID: "rixxxxxxxxn9@gmail.com",
       },
       {
         name: "Shreeya S Shetty ",
-        phoneNumber: "6363198514",
-        emailID: "shettyshreeyax@gmail.com",
+        phoneNumber: "636xxxx514",
+        emailID: "shxxxxxxxxxxax@gmail.com",
       },
     ],
   },
@@ -3104,13 +3104,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Akash H Prabhu",
-        phoneNumber: "8197428303",
-        emailID: "akash.h.prabhu.ll@gmail.com",
+        phoneNumber: "819xxxx303",
+        emailID: "akxxxxxxxxxxxxxll@gmail.com",
       },
       {
         name: "Nidish Rao",
-        phoneNumber: "6362468208",
-        emailID: "nidishnrao@gmail.com",
+        phoneNumber: "636xxxx208",
+        emailID: "nixxxxxxao@gmail.com",
       },
     ],
   },
@@ -3154,13 +3154,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Akash H Prabhu",
-        phoneNumber: "8197428303",
-        emailID: "akash.h.prabhu.ll@gmail.com",
+        phoneNumber: "819xxxx303",
+        emailID: "akxxxxxxxxxxxxxll@gmail.com",
       },
       {
         name: "Nidish Rao",
-        phoneNumber: "6362468208",
-        emailID: "nidishnrao@gmail.com",
+        phoneNumber: "636xxxx208",
+        emailID: "nixxxxxxao@gmail.com",
       },
     ],
   },
@@ -3204,13 +3204,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Akash H Prabhu",
-        phoneNumber: "8197428303",
-        emailID: "akash.h.prabhu.ll@gmail.com",
+        phoneNumber: "819xxxx303",
+        emailID: "akxxxxxxxxxxxxxll@gmail.com",
       },
       {
         name: "Nidish Rao",
-        phoneNumber: "6362468208",
-        emailID: "nidishnrao@gmail.com",
+        phoneNumber: "636xxxx208",
+        emailID: "nixxxxxxao@gmail.com",
       },
     ],
   },
@@ -3256,13 +3256,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Manish R Bekal",
-        phoneNumber: "9448858803",
-        emailID: "bekalmanish@gmail.com",
+        phoneNumber: "944xxxx803",
+        emailID: "bexxxxxxxsh@gmail.com",
       },
       {
         name: "Mohith",
-        phoneNumber: "7019899149",
-        emailID: "mohith20025@gmail.com",
+        phoneNumber: "701xxxx149",
+        emailID: "moxxxxxxx25@gmail.com",
       },
     ],
   },
@@ -3307,13 +3307,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Manish R Bekal",
-        phoneNumber: "9448858803",
-        emailID: "bekalmanish@gmail.com",
+        phoneNumber: "944xxxx803",
+        emailID: "bexxxxxxxsh@gmail.com",
       },
       {
         name: "Mohith",
-        phoneNumber: "7019899149",
-        emailID: "mohith20025@gmail.com",
+        phoneNumber: "701xxxx149",
+        emailID: "moxxxxxxx25@gmail.com",
       },
     ],
   },
@@ -3363,13 +3363,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Amulya Ashok Shetty ",
-        phoneNumber: "8310174679",
-        emailID: "amulyashetty445@gmail.com",
+        phoneNumber: "831xxxx679",
+        emailID: "amxxxxxxxxxxx45@gmail.com",
       },
       {
         name: "Nidhi Subhash Poojary ",
-        phoneNumber: "8746825772",
-        emailID: "nidhisp.200@gmail.com",
+        phoneNumber: "874xxxx772",
+        emailID: "nixxxxxxx00@gmail.com",
       },
     ],
   },
@@ -3420,13 +3420,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Manish R Amulya Ashok Shetty ",
-        phoneNumber: "8310174679",
-        emailID: "amulyashetty445@gmail.com",
+        phoneNumber: "831xxxx679",
+        emailID: "amxxxxxxxxxxx45@gmail.com",
       },
       {
         name: "Nidhi Subhash Poojary ",
-        phoneNumber: "8746825772",
-        emailID: "nidhisp.200@gmail.com",
+        phoneNumber: "874xxxx772",
+        emailID: "nixxxxxxx00@gmail.com",
       },
     ],
   },
@@ -3469,13 +3469,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Dheeraj Rao",
-        phoneNumber: "9740669371",
-        emailID: "dheerajraobail29@gmail.com",
+        phoneNumber: "974xxxx371",
+        emailID: "dhxxxxxxxxxxxx29@gmail.com",
       },
       {
         name: "Mohammed Shayan S Baig ",
-        phoneNumber: "9686761372",
-        emailID: "shayanbaig0508@gmail.com",
+        phoneNumber: "968xxxx372",
+        emailID: "shxxxxxxxxxx08@gmail.com",
       },
     ],
   },
@@ -3529,13 +3529,13 @@ export const eventData = [
     contactDetails: [
       {
         name: " Meghana H Pai",
-        phoneNumber: "918197665483",
-        emailID: "mpai97@gmail.com",
+        phoneNumber: "91819xxxx483",
+        emailID: "mpxx97@gmail.com",
       },
       {
         name: "Hrithik J",
-        phoneNumber: "+ 919741163762",
-        emailID: "hrithik12599@gmail.com",
+        phoneNumber: "+ 91974xxxx762",
+        emailID: "hrxxxxxxxx99@gmail.com",
       },
     ],
   },
@@ -3589,13 +3589,13 @@ export const eventData = [
     contactDetails: [
       {
         name: " Meghana H Pai",
-        phoneNumber: "918197665483",
-        emailID: "mpai97@gmail.com",
+        phoneNumber: "91819xxxx483",
+        emailID: "mpxx97@gmail.com",
       },
       {
         name: "Hrithik J",
-        phoneNumber: "+ 919741163762",
-        emailID: "hrithik12599@gmail.com",
+        phoneNumber: "+ 91974xxxx762",
+        emailID: "hrxxxxxxxx99@gmail.com",
       },
     ],
   },
@@ -3628,13 +3628,13 @@ export const eventData = [
     contactDetails: [
       {
         name: " Anjali Rao Kalbavi",
-        phoneNumber: "+919148965455",
-        emailID: "kalanjali25@gmail.com",
+        phoneNumber: "+91914xxxx455",
+        emailID: "kaxxxxxxx25@gmail.com",
       },
       {
         name: "Neha Solian",
-        phoneNumber: "+ 917996416145",
-        emailID: "nehabsalian2000@gmail.com",
+        phoneNumber: "+ 91799xxxx145",
+        emailID: "nexxxxxxxxxxx00@gmail.com",
       },
     ],
   },
@@ -3670,13 +3670,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Suphalitha Manpreeth",
-        phoneNumber: "+ 919113574094",
-        emailID: "manpreethsuphalitha@gmail.com",
+        phoneNumber: "+ 91911xxxx094",
+        emailID: "maxxxxxxxxxxxxxxxha@gmail.com",
       },
       {
         name: "Nikita Pereira",
-        phoneNumber: "+ 917625049026",
-        emailID: "Nikipereira04@gmail.com",
+        phoneNumber: "+ 91762xxxx026",
+        emailID: "Nixxxxxxxxx04@gmail.com",
       },
     ],
   },
@@ -3712,13 +3712,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Suphalitha Manpreeth",
-        phoneNumber: "+ 919113574094",
-        emailID: "manpreethsuphalitha@gmail.com",
+        phoneNumber: "+ 91911xxxx094",
+        emailID: "maxxxxxxxxxxxxxxxha@gmail.com",
       },
       {
         name: "Nikita Pereira",
-        phoneNumber: "+ 917625049026",
-        emailID: "Nikipereira04@gmail.com",
+        phoneNumber: "+ 91762xxxx026",
+        emailID: "Nixxxxxxxxx04@gmail.com",
       },
     ],
   },
@@ -3770,13 +3770,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Sharadhvi Patel",
-        phoneNumber: "+ 918762115687",
-        emailID: "sharadhvipatel07@gmail.com",
+        phoneNumber: "+ 91876xxxx687",
+        emailID: "shxxxxxxxxxxxx07@gmail.com",
       },
       {
         name: "Sindhur RG ",
-        phoneNumber: "+919482239300",
-        emailID: "sindhurg2000@gmail.com",
+        phoneNumber: "+91948xxxx300",
+        emailID: "sixxxxxxxx00@gmail.com",
       },
     ],
   },
@@ -3828,13 +3828,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Sharadhvi Patel",
-        phoneNumber: "+ 918762115687",
-        emailID: "sharadhvipatel07@gmail.com",
+        phoneNumber: "+ 91876xxxx687",
+        emailID: "shxxxxxxxxxxxx07@gmail.com",
       },
       {
         name: "Sindhur RG ",
-        phoneNumber: "+919482239300",
-        emailID: "sindhurg2000@gmail.com",
+        phoneNumber: "+91948xxxx300",
+        emailID: "sixxxxxxxx00@gmail.com",
       },
     ],
   },
@@ -3883,13 +3883,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Athira",
-        phoneNumber: "+ 918073826704",
-        emailID: "athiran901@gmail.com",
+        phoneNumber: "+ 91807xxxx704",
+        emailID: "atxxxxxx01@gmail.com",
       },
       {
         name: "Akshatha Pai",
-        phoneNumber: "+ 918754543319",
-        emailID: "Akshathapai01@gmail.com",
+        phoneNumber: "+ 91875xxxx319",
+        emailID: "Akxxxxxxxxx01@gmail.com",
       },
     ],
   },
@@ -3938,13 +3938,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Athira",
-        phoneNumber: "+ 918073826704",
-        emailID: "athiran901@gmail.com",
+        phoneNumber: "+ 91807xxxx704",
+        emailID: "atxxxxxx01@gmail.com",
       },
       {
         name: "Akshatha Pai",
-        phoneNumber: "+ 918754543319",
-        emailID: "Akshathapai01@gmail.com",
+        phoneNumber: "+ 91875xxxx319",
+        emailID: "Akxxxxxxxxx01@gmail.com",
       },
     ],
   },
@@ -3993,13 +3993,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Athira",
-        phoneNumber: "+ 918073826704",
-        emailID: "athiran901@gmail.com",
+        phoneNumber: "+ 91807xxxx704",
+        emailID: "atxxxxxx01@gmail.com",
       },
       {
         name: "Akshatha Pai",
-        phoneNumber: "+ 918754543319",
-        emailID: "Akshathapai01@gmail.com",
+        phoneNumber: "+ 91875xxxx319",
+        emailID: "Akxxxxxxxxx01@gmail.com",
       },
     ],
   },
@@ -4039,13 +4039,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Abdeali",
-        phoneNumber: "9945208204",
-        emailID: "abdeali.mangalorewala@gmail.com",
+        phoneNumber: "994xxxx204",
+        emailID: "abxxxxxxxxxxxxxxxxxla@gmail.com",
       },
       {
         name: "Numan",
-        phoneNumber: "8606521714",
-        emailID: "numan.naeem@outlook.com",
+        phoneNumber: "860xxxx714",
+        emailID: "nuxxxxxxxem@outlook.com",
       },
     ],
   },
@@ -4106,13 +4106,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Vibha KP",
-        phoneNumber: "9606333055",
-        emailID: "vibhaprasanna@gmail.com",
+        phoneNumber: "960xxxx055",
+        emailID: "vixxxxxxxxxna@gmail.com",
       },
       {
         name: "Vinal Fernandes",
-        phoneNumber: "9591123669",
-        emailID: "vinolfernandes20@gmail.com",
+        phoneNumber: "959xxxx669",
+        emailID: "vixxxxxxxxxxxx20@gmail.com",
       },
     ],
   },
@@ -4173,13 +4173,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Vibha KP",
-        phoneNumber: "9606333055",
-        emailID: "vibhaprasanna@gmail.com",
+        phoneNumber: "960xxxx055",
+        emailID: "vixxxxxxxxxna@gmail.com",
       },
       {
         name: "Vinal Fernandes",
-        phoneNumber: "9591123669",
-        emailID: "vinolfernandes20@gmail.com",
+        phoneNumber: "959xxxx669",
+        emailID: "vixxxxxxxxxxxx20@gmail.com",
       },
     ],
   },
@@ -4221,13 +4221,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Sinchana A Shetty",
-        phoneNumber: "8971843624",
-        emailID: "sinchushiriyara@gmail.com",
+        phoneNumber: "897xxxx624",
+        emailID: "sixxxxxxxxxxxra@gmail.com",
       },
       {
         name: "Prevail Dsouza ",
-        phoneNumber: "9741743084",
-        emailID: "dsouzaprevail@gmail.com",
+        phoneNumber: "974xxxx084",
+        emailID: "dsxxxxxxxxxil@gmail.com",
       },
     ],
   },
@@ -4273,13 +4273,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Sinchana J Suvarna",
-        phoneNumber: "8762866341",
-        emailID: "suvarnasinchana12@gmail.com",
+        phoneNumber: "876xxxx341",
+        emailID: "suxxxxxxxxxxxxx12@gmail.com",
       },
       {
         name: "Sowjanya M ",
-        phoneNumber: "7619211945",
-        emailID: "sowjanyamukesh0S@gmail.com",
+        phoneNumber: "761xxxx945",
+        emailID: "soxxxxxxxxxxxx0S@gmail.com",
       },
     ],
   },
@@ -4325,13 +4325,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Sinchana J Suvarna",
-        phoneNumber: "8762866341",
-        emailID: "suvarnasinchana12@gmail.com",
+        phoneNumber: "876xxxx341",
+        emailID: "suxxxxxxxxxxxxx12@gmail.com",
       },
       {
         name: "Sowjanya M ",
-        phoneNumber: "7619211945",
-        emailID: "sowjanyamukesh0S@gmail.com",
+        phoneNumber: "761xxxx945",
+        emailID: "soxxxxxxxxxxxx0S@gmail.com",
       },
     ],
   },
@@ -4378,13 +4378,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Sayyaf Ahamed",
-        phoneNumber: "9880948808",
-        emailID: "sayyafahamed9@gmail.com",
+        phoneNumber: "988xxxx808",
+        emailID: "saxxxxxxxxxd9@gmail.com",
       },
       {
         name: "Suvarna Sanjana",
-        phoneNumber: "8104326427",
-        emailID: "sanjanamsuvarna@gmail.com",
+        phoneNumber: "810xxxx427",
+        emailID: "saxxxxxxxxxxxna@gmail.com",
       },
     ],
   },
@@ -4430,13 +4430,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Sayyaf Ahamed",
-        phoneNumber: "9880948808",
-        emailID: "sayyafahamed9@gmail.com",
+        phoneNumber: "988xxxx808",
+        emailID: "saxxxxxxxxxd9@gmail.com",
       },
       {
         name: "Suvarna Sanjana",
-        phoneNumber: "8104326427",
-        emailID: "sanjanamsuvarna@gmail.com",
+        phoneNumber: "810xxxx427",
+        emailID: "saxxxxxxxxxxxna@gmail.com",
       },
     ],
   },
@@ -4456,7 +4456,7 @@ export const eventData = [
       "Round 1": [
         "It is on event to showcase your presenta t ion skills by writing an original paper on any research topic related to Civil Engineering, Mechanical Engineering, Electrical & Electronics Engineering, Electronics & Communication Engineering, Computer Science, or Information Science Engineering",
         "The paper presentation should be in the IEEE latex double - column format",
-        "The abstract must be mailed to intellect iumevent22@gmail.com by 3 days prior to the event.",
+        "The abstract must be mailed to intellect iuxxxxxx22@gmail.com by 3 days prior to the event.",
         "An Oral presentation with PowerPoint should be presented for a maximum of 6 minutes",
         "A Question and Answer session by the judges will be held for a duration of 2 minutes",
       ],
@@ -4480,13 +4480,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Deeksha Shetty",
-        phoneNumber: "8762995667",
-        emailID: "deekshashettydota@gmail.com",
+        phoneNumber: "876xxxx667",
+        emailID: "dexxxxxxxxxxxxxta@gmail.com",
       },
       {
         name: "Kausalya Shetty",
-        phoneNumber: "8105162957",
-        emailID: "kausalya21shetty@outlook.com",
+        phoneNumber: "810xxxx957",
+        emailID: "kaxxxxxxxxxxxxty@outlook.com",
       },
     ],
   },
@@ -4543,13 +4543,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Shraval Suvarna V",
-        phoneNumber: "+ 91 9353871952",
-        emailID: "4nm19me089@nmamit.in",
+        phoneNumber: "+ 91 935xxxx952",
+        emailID: "4nxxxxxx89@nmamit.in",
       },
       {
         name: "U Sanjay Rao",
         phoneNumber: "+ 918660 937566",
-        emailID: " 4nm19me101@nmamit.in",
+        emailID: " 4nxxxxxx01@nmamit.in",
       },
     ],
   },
@@ -4597,13 +4597,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Preetham GS",
-        phoneNumber: "9481306259",
-        emailID: "shettigarpreetham15@gmail.com",
+        phoneNumber: "948xxxx259",
+        emailID: "shxxxxxxxxxxxxxxx15@gmail.com",
       },
       {
         name: "Judith Dsouza ",
-        phoneNumber: "9148960370",
-        emailID: "dszjdy357@gmail.com",
+        phoneNumber: "914xxxx370",
+        emailID: "dsxxxxx57@gmail.com",
       },
     ],
   },
@@ -4652,13 +4652,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Preetham GS",
-        phoneNumber: "9481306259",
-        emailID: "shettigarpreetham15@gmail.com",
+        phoneNumber: "948xxxx259",
+        emailID: "shxxxxxxxxxxxxxxx15@gmail.com",
       },
       {
         name: "Judith Dsouza ",
-        phoneNumber: "9148960370",
-        emailID: "dszjdy357@gmail.com",
+        phoneNumber: "914xxxx370",
+        emailID: "dsxxxxx57@gmail.com",
       },
     ],
   },
@@ -4706,13 +4706,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Davin Dsouza",
-        phoneNumber: "7892671649",
-        emailID: "davindsouza00@gmail.com",
+        phoneNumber: "789xxxx649",
+        emailID: "daxxxxxxxxx00@gmail.com",
       },
       {
         name: "Swaraj S Shetty",
-        phoneNumber: "9972147513",
-        emailID: "Swarajshetty2001@gmail.com",
+        phoneNumber: "997xxxx513",
+        emailID: "Swxxxxxxxxxxxx01@gmail.com",
       },
     ],
   },
@@ -4760,13 +4760,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Davin Dsouza",
-        phoneNumber: "7892671649",
-        emailID: "davindsouza00@gmail.com",
+        phoneNumber: "789xxxx649",
+        emailID: "daxxxxxxxxx00@gmail.com",
       },
       {
         name: "Swaraj S Shetty",
-        phoneNumber: "9972147513",
-        emailID: "Swarajshetty2001@gmail.com",
+        phoneNumber: "997xxxx513",
+        emailID: "Swxxxxxxxxxxxx01@gmail.com",
       },
     ],
   },
@@ -4814,13 +4814,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Royston Alva",
-        phoneNumber: "9481919294",
-        emailID: "roystonalva0@gmail.com",
+        phoneNumber: "948xxxx294",
+        emailID: "roxxxxxxxxa0@gmail.com",
       },
       {
         name: "M Nikhil Beliraya",
-        phoneNumber: "7676617365",
-        emailID: "nikhilbeliraya7@gmail.com",
+        phoneNumber: "767xxxx365",
+        emailID: "nixxxxxxxxxxxa7@gmail.com",
       },
     ],
   },
@@ -4868,13 +4868,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Royston Alva",
-        phoneNumber: "9481919294",
-        emailID: "roystonalva0@gmail.com",
+        phoneNumber: "948xxxx294",
+        emailID: "roxxxxxxxxa0@gmail.com",
       },
       {
         name: "M Nikhil Beliraya",
-        phoneNumber: "7676617365",
-        emailID: "nikhilbeliraya7@gmail.com",
+        phoneNumber: "767xxxx365",
+        emailID: "nixxxxxxxxxxxa7@gmail.com",
       },
     ],
   },
@@ -4942,13 +4942,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Niriksha A S",
-        phoneNumber: "+919449474638",
-        emailID: "asniriksha@gmail.com",
+        phoneNumber: "+91944xxxx638",
+        emailID: "asxxxxxxha@gmail.com",
       },
       {
         name: "Mohammed",
-        phoneNumber: "8792883046",
-        emailID: "mohammedpothiawala92@gmail.com",
+        phoneNumber: "879xxxx046",
+        emailID: "moxxxxxxxxxxxxxxxx92@gmail.com",
       },
     ],
   },
@@ -5016,13 +5016,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Niriksha A S",
-        phoneNumber: "+919449474638",
-        emailID: "asniriksha@gmail.com",
+        phoneNumber: "+91944xxxx638",
+        emailID: "asxxxxxxha@gmail.com",
       },
       {
         name: "Mohammed",
-        phoneNumber: "8792883046",
-        emailID: "mohammedpothiawala92@gmail.com",
+        phoneNumber: "879xxxx046",
+        emailID: "moxxxxxxxxxxxxxxxx92@gmail.com",
       },
     ],
   },
@@ -5090,13 +5090,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Niriksha A S",
-        phoneNumber: "+919449474638",
-        emailID: "asniriksha@gmail.com",
+        phoneNumber: "+91944xxxx638",
+        emailID: "asxxxxxxha@gmail.com",
       },
       {
         name: "Mohammed",
-        phoneNumber: "8792883046",
-        emailID: "mohammedpothiawala92@gmail.com",
+        phoneNumber: "879xxxx046",
+        emailID: "moxxxxxxxxxxxxxxxx92@gmail.com",
       },
     ],
   },
@@ -5166,13 +5166,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Manasvi",
-        phoneNumber: "9606343357",
-        emailID: "manasvimaani7@gmail.com",
+        phoneNumber: "960xxxx357",
+        emailID: "maxxxxxxxxxi7@gmail.com",
       },
       {
         name: "Harsh Hansalia",
-        phoneNumber: "8970119701",
-        emailID: "hansaliaharsh6@gmail.com",
+        phoneNumber: "897xxxx701",
+        emailID: "haxxxxxxxxxxh6@gmail.com",
       },
     ],
   },
@@ -5242,13 +5242,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Manasvi",
-        phoneNumber: "9606343357",
-        emailID: "manasvimaani7@gmail.com",
+        phoneNumber: "960xxxx357",
+        emailID: "maxxxxxxxxxi7@gmail.com",
       },
       {
         name: "Harsh Hansalia",
-        phoneNumber: "8970119701",
-        emailID: "hansaliaharsh6@gmail.com",
+        phoneNumber: "897xxxx701",
+        emailID: "haxxxxxxxxxxh6@gmail.com",
       },
     ],
   },
@@ -5317,13 +5317,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Manasvi",
-        phoneNumber: "9606343357",
-        emailID: "manasvimaani7@gmail.com",
+        phoneNumber: "960xxxx357",
+        emailID: "maxxxxxxxxxi7@gmail.com",
       },
       {
         name: "Harsh Hansalia",
-        phoneNumber: "8970119701",
-        emailID: "hansaliaharsh6@gmail.com",
+        phoneNumber: "897xxxx701",
+        emailID: "haxxxxxxxxxxh6@gmail.com",
       },
     ],
   },
@@ -5368,13 +5368,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "SameerG",
-        phoneNumber: "7892386974",
-        emailID: "sameergp01@gmail.com ",
+        phoneNumber: "789xxxx974",
+        emailID: "saxxxxxx01@gmail.com ",
       },
       {
         name: "Harsh H Kotian ",
-        phoneNumber: "8050259026",
-        emailID: "harshkotian1204@gmail.com",
+        phoneNumber: "805xxxx026",
+        emailID: "haxxxxxxxxxxx04@gmail.com",
       },
     ],
   },
@@ -5468,13 +5468,13 @@ export const eventData = [
     contactDetails: [
       {
         name: "Yajnesh J Sanil",
-        phoneNumber: "7892415068",
-        emailID: "yajneshjsani113@gmail.com ",
+        phoneNumber: "789xxxx068",
+        emailID: "yaxxxxxxxxxxx13@gmail.com ",
       },
       {
         name: "Walsh William Lewis",
-        phoneNumber: "9108227035",
-        emailID: "walshlewis1234@gmail.com ",
+        phoneNumber: "910xxxx035",
+        emailID: "waxxxxxxxxxx34@gmail.com ",
       },
     ],
   },

@@ -77,7 +77,7 @@ function RefundPolicy() {
                     Contact Information
                   </h2>
                   <p className="text-slate-300 leading-relaxed text-sm sm:text-sm lg:text-base">
-                    If you have any questions or concerns about our refund policy or payment process, please do not hesitate to contact our team. You can reach us at <a href="mailto:tech-incridea@nmamit.in" className="text-sky-300 hover:text-sky-400 transition-colors">tech-incridea@nmamit.in</a> or <a href="tel:+918861337830" className="text-sky-300 hover:text-sky-400 transition-colors">+91 88613 37830</a>, and we will be happy to assist you.
+                    If you have any questions or concerns about our refund policy or payment process, please do not hesitate to contact our team. You can reach us at <a href="mailto:texxxxxxxxxea@nmamit.in" className="text-sky-300 hover:text-sky-400 transition-colors">texxxxxxxxxea@nmamit.in</a> or <a href="tel:+91886xxxx830" className="text-sky-300 hover:text-sky-400 transition-colors">+91 886xxxx830</a>, and we will be happy to assist you.
                   </p>
                 </section>
               </div>

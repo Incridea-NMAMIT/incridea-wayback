@@ -21,11 +21,11 @@ const Contact: NextPage = () => {
           </div>
           <p className="mt-2">
             <a
-              href="mailto:incridea@nmamit.in"
+              href="mailto:inxxxxea@nmamit.in"
               className="mt-2 hover:underline"
             >
               {" "}
-              incridea@nmamit.in
+              inxxxxea@nmamit.in
             </a>
           </p>
           <div className="mt-5 flex items-center space-x-2 text-base font-semibold md:text-2xl">
@@ -34,22 +34,22 @@ const Contact: NextPage = () => {
           </div>
           <p className="mt-2">
             General Query: +91{" "}
-            <a href="tel:9449530107" className="hover:underline">
-              94495 30107
+            <a href="tel:944xxxx107" className="hover:underline">
+              944xxxx107
             </a>{" "}
             or +91{" "}
-            <a href="tel:9513295282" className="hover:underline">
-              95132 95282
+            <a href="tel:951xxxx282" className="hover:underline">
+              951xxxx282
             </a>
           </p>
           <p className="mt-2">
             Tecnichal Query: +91{" "}
-            <a href="tel:9448846524" className="hover:underline">
-              94488 46524
+            <a href="tel:944xxxx524" className="hover:underline">
+              944xxxx524
             </a>{" "}
             or +91{" "}
-            <a href="tel:9686356123" className="hover:underline">
-              96863 56123
+            <a href="tel:968xxxx123" className="hover:underline">
+              968xxxx123
             </a>
           </p>
           <div className="mt-5 flex items-center space-x-2 text-base font-semibold md:text-2xl">

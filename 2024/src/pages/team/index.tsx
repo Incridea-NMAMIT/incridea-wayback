@@ -254,7 +254,7 @@ const TeamMembers = [
     name: "M Sayeem Ahmed",
     role: "Backend",
     instagram: "https://www.instagram.com/ahmedmsayeem/",
-    github: "https://github.com/9964728107",
+    github: "https://github.com/996xxxx107",
     linkedin: "https://www.linkedin.com/in/m-sayeem-ahmed-651a7b254/",
     image: "/team/sayeem.jpg",
     quote: "Damn, Block theory of time is quite scary!",

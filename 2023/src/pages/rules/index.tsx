@@ -481,11 +481,11 @@ const Terms: NextPage = () => {
             organizers and college staff at the following contact information:
           </p>
           Email:
-          <a href="mailto:incridea@nmamit.in" className="mt-2 hover:underline">
+          <a href="mailto:inxxxxea@nmamit.in" className="mt-2 hover:underline">
             {' '}
-            incridea@nmamit.in
+            inxxxxea@nmamit.in
           </a>
-          <p className="mt-2">Phone: +91 94488 15186 or +91 96207 88383</p>
+          <p className="mt-2">Phone: +91 944xxxx186 or +91 962xxxx383</p>
         </div>
         <div className={`flex w-full -translate-x-10 translate-y-8 opacity-75`}>
           <Image

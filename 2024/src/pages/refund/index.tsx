@@ -63,12 +63,12 @@ const Refund: NextPage = () => {
             payment process, please do not hesitate to contact our team. You can
             reach us at{" "}
             <a
-              href="mailto:incridea@nmamit.in"
+              href="mailto:inxxxxea@nmamit.in"
               className="cursor-pointer text-semibold underline"
             >
-              incridea@nmamit.in
+              inxxxxea@nmamit.in
             </a>{" "}
-            <span className="inline-block mr-1">+91 63641 72219</span>, and we
+            <span className="inline-block mr-1">+91 636xxxx219</span>, and we
             will be happy to assist you.
           </p>
         </div>

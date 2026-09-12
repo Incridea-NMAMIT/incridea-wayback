@@ -263,17 +263,17 @@ const PrivacyPage = () => {
                 For inquiries or clarifications on our privacy policy or personal
                 data handling, you may reach us at{" "}
                 <a
-                  href="mailto:incridea@nmamit.in"
+                  href="mailto:inxxxxea@nmamit.in"
                   className="text-sky-300 underline underline-offset-2 hover:text-sky-200"
                 >
-                  incridea@nmamit.in
+                  inxxxxea@nmamit.in
                 </a>{" "}
                 or{" "}
                 <a
-                  href="tel:8861337830"
+                  href="tel:886xxxx830"
                   className="text-sky-300 underline underline-offset-2 hover:text-sky-200"
                 >
-                  +91 88613 37830
+                  +91 886xxxx830
                 </a>
                 .
               </p>

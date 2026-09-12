@@ -3,7 +3,7 @@
 If you discover a security vulnerability, please report it responsibly.
 
 Contact:
-Email us at tech-incridea@nmamit.in
+Email us at texxxxxxxxxea@nmamit.in
 
 # What to include:
 

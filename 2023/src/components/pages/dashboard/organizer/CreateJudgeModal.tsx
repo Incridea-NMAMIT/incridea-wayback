@@ -83,7 +83,7 @@ const CreateJudgeModal: FC<{
               <TextInput
                 name="email"
                 type={'email'}
-                placeholder="admin@incridea.in"
+                placeholder="adxin@incridea.in"
               />
             </div>
             <div className="flex flex-col gap-2">
