@@ -2,7 +2,33 @@
   {
     "year": 2026,
     "name": "Incridea 2026",
+    "theme": "Dimensional Drift",
+    "image": "/2026-meta.png",
     "url": "https://2026.wayback.incridea.in",
+    "status": "published"
+  },
+  {
+    "year": 2025,
+    "name": "Incridea 2025",
+    "theme": "Echoes of Eternity",
+    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80",
+    "url": "https://2025.wayback.incridea.in",
+    "status": "published"
+  },
+  {
+    "year": 2024,
+    "name": "Incridea 2024",
+    "theme": "Dice of Destiny",
+    "image": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=800&q=80",
+    "url": "https://2024.wayback.incridea.in",
+    "status": "published"
+  },
+  {
+    "year": 2023,
+    "name": "Incridea 2023",
+    "theme": "Tides of Change",
+    "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=800&q=80",
+    "url": "https://2023.wayback.incridea.in",
     "status": "published"
   }
 ]
