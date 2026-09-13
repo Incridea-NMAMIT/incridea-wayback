@@ -30,5 +30,13 @@
     "image": "/2023-meta.jpg",
     "url": "https://2023.wayback.incridea.in",
     "status": "published"
+  },
+  {
+    "year": 2022,
+    "name": "Incridea 2022",
+    "theme": "Higher and Higher",
+    "image": "/2022-meta.jpg",
+    "url": "https://2022.wayback.incridea.in",
+    "status": "published"
   }
 ]
