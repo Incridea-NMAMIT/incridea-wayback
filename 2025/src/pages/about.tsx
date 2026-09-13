@@ -2,54 +2,12 @@ import { useMutation } from "@apollo/client";
 import Image from "next/image";
 import React, { useState } from "react";
 import toast from "react-hot-toast";
-import { AddXpDocument, GetCoreTeamMembersDocument, type GetCoreTeamMembersQuery, GetUserXpDocument } from "~/generated/generated";
+import { AddXpDocument, GetUserXpDocument } from "~/generated/generated";
 import Banner from "~/components/aboutUs/banner";
 import { CONSTANT } from "~/constants";
 import CoreTeam from "~/components/aboutUs/coreTeam";
 import { AuthStatus, useAuth } from "~/hooks/useAuth";
-import { type GetStaticProps } from "next";
-import { client } from "~/lib/apollo";
-
-type Props = | {
-  coreTeamMembers: Extract<
-    GetCoreTeamMembersQuery["getCoreTeamMembers"],
-    {
-      __typename: "QueryGetCoreTeamMembersSuccess";
-    }
-  >["data"];
-  error?: never;
-}
-  | {
-    coreTeamMembers?: never;
-    error: string;
-  };
-
-const getStaticProps: GetStaticProps<Props> = async () => {
-  try {
-    const { data: coreTeamMembers } = await client.query({
-      query: GetCoreTeamMembersDocument,
-      fetchPolicy: "no-cache"
-    })
-
-    if (coreTeamMembers.getCoreTeamMembers.__typename === "Error")
-      throw new Error(coreTeamMembers.getCoreTeamMembers.message);
-
-    return {
-      props: {
-        coreTeamMembers: coreTeamMembers.getCoreTeamMembers.data,
-      },
-      revalidate: 60
-    }
-  } catch (error) {
-    console.log(error)
-    return {
-      props: {
-        error: error instanceof Error ? error.message : "Could not fetch techTeamMembers",
-      },
-      revalidate: 60,
-    };
-  }
-}
+import { coreTeam } from "~/archive/team-data";
 
 const images = [
   { id: CONSTANT.ASSETS.ABOUT.IMAGE1, alt: "Image 1" },
@@ -62,7 +20,7 @@ const images = [
   { id: CONSTANT.ASSETS.ABOUT.IMAGE8, alt: "Image 8" },
 ];
 
-const About = ({ coreTeamMembers }: Props) => {
+const About = () => {
   const session = useAuth();
 
   const [isActive, setIsActive] = useState(false);
@@ -286,14 +244,10 @@ const About = ({ coreTeamMembers }: Props) => {
         </div>
       </span>
 
-      {coreTeamMembers &&
-        <CoreTeam coreTeamMembers={coreTeamMembers} />
-      }
+      <CoreTeam coreTeamMembers={coreTeam} />
 
     </div>
   );
 };
 
 export default About;
-
-export { getStaticProps };
