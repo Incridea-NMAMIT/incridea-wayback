@@ -1,6 +1,6 @@
 import { baseImageUrl } from "@/src/utils/url";
 import Image from "next/image";
-import React, { FC } from "react";
+import React, { FC, useEffect, useState } from "react";
 
 const EventsPeek: FC<{
   speed: number;
@@ -28,7 +28,13 @@ const EventsPeek: FC<{
     "Hogathon.jpg",
   ];
 
-  const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    const updateViewport = () => setIsMobile(window.innerWidth < 768);
+    updateViewport();
+    window.addEventListener("resize", updateViewport);
+    return () => window.removeEventListener("resize", updateViewport);
+  }, []);
 
   return !isMobile ? (
     <section style={{ transform: "translateX(-60%)", willChange: "transform" }}>

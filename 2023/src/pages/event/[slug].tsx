@@ -2,10 +2,8 @@ import EventDetails from '@/src/components/pages/event/EventDetails';
 import EventRegistration from '@/src/components/pages/event/EventRegistration';
 import {
   Event,
-  EventByIdDocument,
-  PublishedEventsSlugDocument,
 } from '@/src/generated/generated';
-import { client } from '@/src/lib/apollo';
+import { mockEventById, mockEvents } from '@/src/lib/mock-data';
 
 import Image from 'next/image';
 import Link from 'next/link';
@@ -226,35 +224,11 @@ export default event;
 
 // ISR
 export async function getStaticProps({ params }: { params: Params }) {
-  try {
-    const { data: event } = await client.query({
-      query: EventByIdDocument,
-      variables: {
-        id: params.slug.split('-').pop() as string,
-      },
-    });
-    return {
-      props: {
-        event: event.eventById,
-      },
-      revalidate: 60,
-    };
-  } catch (error: any) {
-    return {
-      props: {
-        error: error?.message || 'Could not find event',
-        event: null,
-      },
-    };
-  }
+  return { props: { event: mockEventById(params.slug.split('-').pop()) } };
 }
 
 export async function getStaticPaths() {
-  // Get the paths we want to pre-render based on posts
-  const { data: events } = await client.query({
-    query: PublishedEventsSlugDocument,
-  });
-  const paths = events.publishedEvents.map((event) => ({
+  const paths = mockEvents.map((event) => ({
     params: {
       slug: `${event.name.toLocaleLowerCase().split(' ').join('-')}-${
         event.id

@@ -4,9 +4,9 @@ import Event from "@/src/components/event";
 import { NextPage } from "next";
 import { useEffect, useState } from "react";
 import { Menu } from "@headlessui/react";
-import { PublishedEventsDocument, PublishedEventsQuery } from "@/src/generated/generated";
+import { PublishedEventsQuery } from "@/src/generated/generated";
 import Image from "next/image";
-import { client } from "@/src/lib/apollo";
+import { mockEvents } from "@/src/lib/mock-data";
 import SearchBox from "@/src/components/searchbox";
 import { AiOutlineSearch } from "react-icons/ai";
 import { BiCaretDown } from "react-icons/bi";
@@ -343,26 +343,6 @@ const Events: NextPage<{ data: PublishedEventsQuery['publishedEvents'] }> = ({
 };
 
 export async function getStaticProps() {
-  try {
-    const { data: events } = await client.query({
-      query: PublishedEventsDocument,
-      fetchPolicy: 'no-cache',
-    });
-
-    return {
-      props: {
-        data: events.publishedEvents,
-      },
-      revalidate: 60,
-    };
-  } catch (error) {
-    console.log(error);
-    return {
-      props: {
-        data: [],
-      },
-      revalidate: 60,
-    };
-  }
+  return { props: { data: mockEvents } };
 }
 export default Events;
