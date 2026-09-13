@@ -7,7 +7,7 @@ const CREATORS = [
     name: 'Akshay S Rai',
     quote: 'My Git history is longer than my therapy notes, and both are full of regrets.',
     photo: '/akshy.webp',
-    photoPosition: 'center 20%',
+    photoPosition: 'center 15%',
     socials: [
       { name: 'GitHub', url: 'https://github.com/akshy-rai', type: 'github' },
       { name: 'LinkedIn', url: 'https://www.linkedin.com/in/akshay-s-rai/', type: 'linkedin' },
