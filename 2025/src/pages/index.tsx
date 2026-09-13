@@ -3,6 +3,7 @@ import gsap from "gsap";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import Parallax from "parallax-js";
 import { useEffect, useRef, useState } from "react";
 
 import { AuthStatus, useAuth } from "~/hooks/useAuth";
@@ -94,16 +95,21 @@ export const HomeFooter = () => {
 };
 
 export const HomeUi = () => {
+  const sceneRef = useRef<HTMLElement>(null);
   const largeClockRef = useRef(null);
   const smallClockRef = useRef(null);
   const floatingObjectsRef = useRef<(HTMLDivElement | null)[]>([]);
-  const parallaxLayersRef = useRef<(HTMLDivElement | null)[]>([]);
   const router = useRouter();
   const session = useAuth();
 
   useEffect(() => {
     // Only run on client-side
     if (typeof window === "undefined") return;
+
+    if (sceneRef.current)
+      new Parallax(sceneRef.current, {
+        relativeInput: true,
+      });
 
     if (largeClockRef.current) {
       gsap.to(largeClockRef.current, {
@@ -122,52 +128,6 @@ export const HomeUi = () => {
         ease: "linear",
       });
     }
-
-    const depths = [12, 18, 24, 32, 42, 48, 54, 60, 66, 72, 78, 86, 94];
-    const moveLayers = (offsetX: number, offsetY: number) => {
-      parallaxLayersRef.current.forEach((layer) => {
-        if (layer) gsap.set(layer, { willChange: "transform", force3D: true });
-      });
-
-      parallaxLayersRef.current.forEach((layer, index) => {
-        if (!layer) return;
-        const depth = depths[index] ?? 0;
-        gsap.to(layer, {
-          x: offsetX * depth,
-          y: offsetY * depth,
-          duration: 0.65,
-          ease: "power2.out",
-          overwrite: "auto",
-        });
-      });
-    };
-
-    const onMouseMove = (event: MouseEvent) => {
-      moveLayers(
-        event.clientX / window.innerWidth - 0.5,
-        event.clientY / window.innerHeight - 0.5,
-      );
-    };
-
-    const onDeviceOrientation = (event: DeviceOrientationEvent) => {
-      if (event.beta === null || event.gamma === null) return;
-      moveLayers(
-        Math.max(-0.5, Math.min(0.5, event.gamma / 50)),
-        Math.max(-0.5, Math.min(0.5, event.beta / 90)),
-      );
-    };
-
-    window.addEventListener("mousemove", onMouseMove, { passive: true });
-    window.addEventListener("deviceorientation", onDeviceOrientation, { passive: true });
-    return () => {
-      window.removeEventListener("mousemove", onMouseMove);
-      window.removeEventListener("deviceorientation", onDeviceOrientation);
-      parallaxLayersRef.current.forEach((layer) => {
-        if (!layer) return;
-        gsap.killTweensOf(layer);
-        gsap.set(layer, { clearProps: "willChange" });
-      });
-    };
   }, []);
 
   useGSAP(() => {
@@ -189,13 +149,11 @@ export const HomeUi = () => {
 
   return (
     <>
-      <section className="relative w-screen h-screen min-h-screen overflow-hidden bg-cover z-0 select-none pointer-events-none font-life-craft">
-        <div
-          ref={(element) => {
-            parallaxLayersRef.current[0] = element;
-          }}
-          className="absolute inset-0 h-screen w-screen"
-        >
+      <section
+        ref={sceneRef}
+        className="relative min-h-screen bg-cover z-0 select-none pointer-events-none font-life-craft "
+      >
+        <div className="absolute h-screen w-screen" data-depth="0.05">
           <div className="absolute top-0 left-1/2 md:-translate-x-[47%] -translate-x-[40%] w-full h-full scale-110 flex justify-center items-center">
             <Image
               src={CONSTANT.ASSETS.LANDING.BACKGROUND}
@@ -209,10 +167,8 @@ export const HomeUi = () => {
         </div>
 
         <div
-          ref={(element) => {
-            parallaxLayersRef.current[1] = element;
-          }}
-          className="absolute inset-0 h-screen w-screen flex justify-center items-center"
+          data-depth="0.1"
+          className=" h-screen w-screen flex justify-center items-center"
         >
           <div className="p-5 w-screen h-screen flex justify-center items-center mb-10 relative">
             <Image
@@ -237,10 +193,8 @@ export const HomeUi = () => {
         </div>
 
         <div
-          ref={(element) => {
-            parallaxLayersRef.current[2] = element;
-          }}
-          className={`shootingStars absolute inset-0 scale-125 w-full h-full z-[0.08] ${styles.shootingStars}`}
+          data-depth="0.08"
+          className={`shootingStars  scale-125 w-full h-full z-[0.08] ${styles.shootingStars}`}
         >
           <span></span>
           <span></span>
@@ -254,12 +208,7 @@ export const HomeUi = () => {
           <span></span>
         </div>
 
-        <div
-          ref={(element) => {
-            parallaxLayersRef.current[3] = element;
-          }}
-          className="absolute inset-0 h-screen w-screen"
-        >
+        <div className="absolute h-screen w-screen">
           <div className="w-full h-full relative">
             <Image
               src={CONSTANT.ASSETS.LANDING.PILLAR}
@@ -276,10 +225,8 @@ export const HomeUi = () => {
 
         {[1, 2, 3, 4, 5, 6, 7].map((item, idx) => (
           <div
-            ref={(element) => {
-              parallaxLayersRef.current[4 + idx] = element;
-            }}
-            className="absolute inset-0 h-screen w-screen"
+            data-depth="0.4"
+            className="absolute h-screen w-screen"
             key={idx}
           >
             <div
@@ -306,10 +253,8 @@ export const HomeUi = () => {
 
         {/* EOE Text */}
         <div
-          ref={(element) => {
-            parallaxLayersRef.current[11] = element;
-          }}
-          className="absolute inset-0 flex h-screen w-screen items-center justify-center z-20"
+          data-depth="0.2"
+          className="absolute flex h-screen w-screen items-center justify-center z-20"
         >
           <div className="mx-auto w-screen h-screen p-5 relative">
             <Image
@@ -323,12 +268,7 @@ export const HomeUi = () => {
           </div>
         </div>
 
-        <div
-          ref={(element) => {
-            parallaxLayersRef.current[12] = element;
-          }}
-          className="absolute inset-0 w-screen h-screen z-20"
-        >
+        <div data-depth="0.2" className="absolute w-screen h-screen z-20">
           <Image
             src={CONSTANT.ASSETS.LANDING.EOETEXT}
             priority
@@ -339,11 +279,12 @@ export const HomeUi = () => {
           />
         </div>
 
-        <div className="absolute inset-0 w-screen h-screen z-50 select-all pointer-events-auto">
+        <div className="w-screen h-screen z-50 relative select-all pointer-events-auto">
           <div className="bottom-[18%] left-1/2 -translate-x-1/2 absolute flex gap-4">
             <div className="flex flex-nowarp flex-row justify-between gap-4 text-white/90">
               <HomeButton
                 onClick={async () => {
+                  if (session.status === AuthStatus.LOADING) return;
                   if (session.status === AuthStatus.AUTHENTICATED) {
                     await router.push("/profile");
                   } else {
@@ -352,7 +293,9 @@ export const HomeUi = () => {
                 }}
                 variant="default"
               >
-                {session.status === AuthStatus.AUTHENTICATED
+                {session.status === AuthStatus.LOADING
+                  ? "Loading..."
+                  : session.status === AuthStatus.AUTHENTICATED
                     ? "Profile"
                     : "Login"}
               </HomeButton>
