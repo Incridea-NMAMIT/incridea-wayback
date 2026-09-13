@@ -40,7 +40,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed titleFont  top-0 z-20 bg-white backdrop-filter backdrop-blur-lg bg-opacity-10 border-b border-gray-200/30 w-full`}
+      className={`fixed titleFont top-10 z-20 bg-white backdrop-filter backdrop-blur-lg bg-opacity-10 border-b border-gray-200/30 w-full`}
     >
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
