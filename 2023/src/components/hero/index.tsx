@@ -8,7 +8,7 @@ import Image from 'next/image';
 
 const Hero: React.FC = () => {
   const { RiveComponent: LandingBg } = useRive({
-    src: `assets/rive/landing-scene-bg-1.riv/`,
+    src: "/assets/rive/landing-scene-bg-1.riv",
     stateMachines: ['state-machine'],
     autoplay: true,
     layout: new Layout({
@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
     }),
   });
   const { RiveComponent: LandingWave } = useRive({
-    src: `assets/rive/landing-scene-wave-1.riv/`,
+    src: "/assets/rive/landing-scene-wave-1.riv",
     stateMachines: ['state-machine'],
     autoplay: true,
     layout: new Layout({

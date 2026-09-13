@@ -10,7 +10,7 @@ import { FaYoutube } from "react-icons/fa";
 
 export function HomePageFooter() {
   const { RiveComponent } = useRive({
-    src: `assets/rive/footer.riv/`,
+    src: "/assets/rive/footer.riv",
     stateMachines: ["State Machine 1"],
     autoplay: true,
     layout: new Layout({
