@@ -4187,43 +4187,51 @@
     "coreTeam": [
       {
         "id": 1,
-        "imageSrc": "/archive-assets/2026/892f96ae7f10ce76e0809ccfd5faca5a749a8514640028fd81e364a97be14c3a.webp",
-        "title": "Shishir Karkera",
-        "subtitle": "HEAD OF MEDIA",
+        "imageSrc": "/archive-assets/2026/634c64ec4646293797bdd90e37660f874c986bb0d168ddd5143a2d8fc0cb393c.webp",
+        "title": "Ansh Bhandary",
+        "subtitle": "HEAD OF ACCOMMODATION",
         "role": "Head",
-        "committee": "MEDIA"
+        "committee": "ACCOMMODATION"
       },
       {
         "id": 2,
-        "imageSrc": null,
-        "title": "Dhanush D Kamath",
-        "subtitle": "CO-HEAD OF MEDIA",
-        "role": "Co-Head",
-        "committee": "MEDIA"
+        "imageSrc": "/archive-assets/2026/af660a57d186ee3cd5d743a530872f5d8bb76413a6724d0edbfa328368b643b0.webp",
+        "title": "Aryan M Chowta",
+        "subtitle": "HEAD OF CREW",
+        "role": "Head",
+        "committee": "CREW"
       },
       {
         "id": 3,
-        "imageSrc": "/archive-assets/2026/52cdd175a541b645421344beca2ce577eb1c3e8b9a047e441c29351e0e51ffc0.webp",
-        "title": "Aaric Rodrigues",
-        "subtitle": "HEAD OF SOCIAL MEDIA",
+        "imageSrc": "/archive-assets/2026/3868d74eefeb35bc1d3292dde38d2ff00fa5334b7936c2c6e3be84afedc9a8fd.webp",
+        "title": "KESHAV NAYAK",
+        "subtitle": "HEAD OF CULTURAL",
         "role": "Head",
-        "committee": "SOCIAL_MEDIA"
+        "committee": "CULTURAL"
       },
       {
         "id": 4,
-        "imageSrc": "/archive-assets/2026/6ab0ae630248464673ff44ef3fe0e242349f29af970147aff62d0e9cf5f784c2.webp",
-        "title": "Srinidhi DS",
-        "subtitle": "CO-HEAD OF SOCIAL MEDIA",
-        "role": "Co-Head",
-        "committee": "SOCIAL_MEDIA"
+        "imageSrc": "/archive-assets/2026/ebe428a5b13783ebd057df88d3e4b0919be94575f03cb9e37a2bb077ed58ab82.webp",
+        "title": "Ashish Hebbar",
+        "subtitle": "HEAD OF DIGITAL",
+        "role": "Head",
+        "committee": "DIGITAL"
       },
       {
         "id": 5,
-        "imageSrc": "/archive-assets/2026/2d523e5f804c65f6e502c09d3e760fdb6e81e9be4c4d2b9298968491a592ddc7.webp",
-        "title": "Adarsh A S",
-        "subtitle": "HEAD OF THORANA",
+        "imageSrc": "/archive-assets/2026/b3eea181b4e544201b3a3df0f14143d0f42b0f817c6e234b3cd8eefc6240bff0.webp",
+        "title": "Nidish U Shetty",
+        "subtitle": "HEAD OF DISCIPLINARY",
         "role": "Head",
-        "committee": "THORANA"
+        "committee": "DISCIPLINARY"
+      },
+      {
+        "id": 6,
+        "imageSrc": "/archive-assets/2026/35a20a3fd9afe525b9801b5180fd971833ecd97187e54139a5fc7193961dcc1c.jpg",
+        "title": "Sannidhi S Shetty",
+        "subtitle": "HEAD OF DOCUMENTATION",
+        "role": "Head",
+        "committee": "DOCUMENTATION"
       },
       {
         "id": 7,
@@ -4235,158 +4243,6 @@
       },
       {
         "id": 8,
-        "imageSrc": "/archive-assets/2026/f588a2b46f8e55d289863023de9f6eaef2d5f7d57c4fc976f598b14e9bb51acb.webp",
-        "title": "SAMPANNA SHETTY",
-        "subtitle": "CO-HEAD OF EVENT MANAGEMENT",
-        "role": "Co-Head",
-        "committee": "EVENT_MANAGEMENT"
-      },
-      {
-        "id": 9,
-        "imageSrc": "/archive-assets/2026/634c64ec4646293797bdd90e37660f874c986bb0d168ddd5143a2d8fc0cb393c.webp",
-        "title": "Ansh Bhandary",
-        "subtitle": "HEAD OF ACCOMMODATION",
-        "role": "Head",
-        "committee": "ACCOMMODATION"
-      },
-      {
-        "id": 10,
-        "imageSrc": "/archive-assets/2026/f5ca9299629f07efbdbc0a083f4afcf2063877da62af4299c951ffd160715caf.jpg",
-        "title": "M PAVAN SHENOY",
-        "subtitle": "CO-HEAD OF ACCOMMODATION",
-        "role": "Co-Head",
-        "committee": "ACCOMMODATION"
-      },
-      {
-        "id": 11,
-        "imageSrc": "/archive-assets/2026/ebe428a5b13783ebd057df88d3e4b0919be94575f03cb9e37a2bb077ed58ab82.webp",
-        "title": "Ashish Hebbar",
-        "subtitle": "HEAD OF DIGITAL",
-        "role": "Head",
-        "committee": "DIGITAL"
-      },
-      {
-        "id": 12,
-        "imageSrc": "/archive-assets/2026/c8c4ac7a6e8ae96a785a797e63c9e6c1b2487f0b42364dacfc2688f9df7db920.jpg",
-        "title": "Meghraj M",
-        "subtitle": "CO-HEAD OF DIGITAL",
-        "role": "Co-Head",
-        "committee": "DIGITAL"
-      },
-      {
-        "id": 13,
-        "imageSrc": "/archive-assets/2026/1da3cb5e5de3e41e246598a91496e2f67f7a4948453c0fce9cea2516c0220421.webp",
-        "title": "Avanthi",
-        "subtitle": "HEAD OF INAUGURAL",
-        "role": "Head",
-        "committee": "INAUGURAL"
-      },
-      {
-        "id": 14,
-        "imageSrc": "/archive-assets/2026/33a52260159aa7e4e1e4506702cad9b15e22dc6f9a9ec2ffe9cd97fdb6ade976.webp",
-        "title": "Prapthi Hegde",
-        "subtitle": "CO-HEAD OF INAUGURAL",
-        "role": "Co-Head",
-        "committee": "INAUGURAL"
-      },
-      {
-        "id": 15,
-        "imageSrc": "/archive-assets/2026/af660a57d186ee3cd5d743a530872f5d8bb76413a6724d0edbfa328368b643b0.webp",
-        "title": "Aryan M Chowta",
-        "subtitle": "HEAD OF CREW",
-        "role": "Head",
-        "committee": "CREW"
-      },
-      {
-        "id": 16,
-        "imageSrc": "/archive-assets/2026/7382e420d96afb6a6abdeac9c47599ae3186ab35343786e8eff30e1e6621482f.jpg",
-        "title": "Jeevan",
-        "subtitle": "CO-HEAD OF CREW",
-        "role": "Co-Head",
-        "committee": "CREW"
-      },
-      {
-        "id": 17,
-        "imageSrc": "/archive-assets/2026/5e177422e66f3152816a39248739b34240f89f260c73449395ee86526ab150ed.webp",
-        "title": "Eshaprasad",
-        "subtitle": "HEAD OF HOUSE KEEPING",
-        "role": "Head",
-        "committee": "HOUSE_KEEPING"
-      },
-      {
-        "id": 18,
-        "imageSrc": null,
-        "title": "Ravi Adiga K",
-        "subtitle": "CO-HEAD OF HOUSE KEEPING",
-        "role": "Co-Head",
-        "committee": "HOUSE_KEEPING"
-      },
-      {
-        "id": 19,
-        "imageSrc": "/archive-assets/2026/c498f7bf7c19ebb5fd493edc05f82a75046a96872605798c7c16cb4a3ef833d1.webp",
-        "title": "Isha Krishna",
-        "subtitle": "HEAD OF FOOD",
-        "role": "Head",
-        "committee": "FOOD"
-      },
-      {
-        "id": 20,
-        "imageSrc": "/archive-assets/2026/9f96d44fb192cbdd4eab0853f86e7e4ab6d53226447c03c7c870767add64550c.jpg",
-        "title": "Pramith P Puthran",
-        "subtitle": "CO-HEAD OF FOOD",
-        "role": "Co-Head",
-        "committee": "FOOD"
-      },
-      {
-        "id": 21,
-        "imageSrc": "/archive-assets/2026/8843f5b4aceab9ad4f0626f3e165ce01f868be00d861bd9868d20a5b7945a17a.webp",
-        "title": "Janardan S Udupa",
-        "subtitle": "HEAD OF TRANSPORT",
-        "role": "Head",
-        "committee": "TRANSPORT"
-      },
-      {
-        "id": 22,
-        "imageSrc": null,
-        "title": "Rishabhraj v anchan",
-        "subtitle": "CO-HEAD OF TRANSPORT",
-        "role": "Co-Head",
-        "committee": "TRANSPORT"
-      },
-      {
-        "id": 23,
-        "imageSrc": "/archive-assets/2026/31ecfd5a1ad9788e717d11e88fe75ab2a2524b414ea33b196aff32733d536e4f.png",
-        "title": "Lakhi A Shetty",
-        "subtitle": "HEAD OF PUBLICITY",
-        "role": "Head",
-        "committee": "PUBLICITY"
-      },
-      {
-        "id": 24,
-        "imageSrc": "/archive-assets/2026/005ed601d1d2f94ec712fa813bd5159fedc0bf932e03f5cec762b9bb963b3bb3.jpg",
-        "title": "Yash tarak bhatt",
-        "subtitle": "CO-HEAD OF PUBLICITY",
-        "role": "Co-Head",
-        "committee": "PUBLICITY"
-      },
-      {
-        "id": 25,
-        "imageSrc": "/archive-assets/2026/35a20a3fd9afe525b9801b5180fd971833ecd97187e54139a5fc7193961dcc1c.jpg",
-        "title": "Sannidhi S Shetty",
-        "subtitle": "HEAD OF DOCUMENTATION",
-        "role": "Head",
-        "committee": "DOCUMENTATION"
-      },
-      {
-        "id": 26,
-        "imageSrc": "/archive-assets/2026/7898559bd5e63e63b9348aa4eff6749e16e84f1ad94476f348e906e9bcef52e3.jpg",
-        "title": "Relisha Sania Machado",
-        "subtitle": "CO-HEAD OF DOCUMENTATION",
-        "role": "Co-Head",
-        "committee": "DOCUMENTATION"
-      },
-      {
-        "id": 27,
         "imageSrc": "/archive-assets/2026/65cf8b035684563af34ed38acf3d5b5d1a0009bb0f8d77656ec612b1397c825a.webp",
         "title": "Shaun Vivek Karkada",
         "subtitle": "HEAD OF FINANCE",
@@ -4394,31 +4250,55 @@
         "committee": "FINANCE"
       },
       {
-        "id": 28,
-        "imageSrc": "/archive-assets/2026/a0a99a84abef26fc7073b6c956d019a9cf78ab2d7778d3129f7b61b0b1102d70.webp",
-        "title": "Shreya Irniraya",
-        "subtitle": "CO-HEAD OF FINANCE",
-        "role": "Co-Head",
-        "committee": "FINANCE"
-      },
-      {
-        "id": 29,
-        "imageSrc": "/archive-assets/2026/3868d74eefeb35bc1d3292dde38d2ff00fa5334b7936c2c6e3be84afedc9a8fd.webp",
-        "title": " KESHAV NAYAK",
-        "subtitle": "HEAD OF CULTURAL",
+        "id": 9,
+        "imageSrc": "/archive-assets/2026/c498f7bf7c19ebb5fd493edc05f82a75046a96872605798c7c16cb4a3ef833d1.webp",
+        "title": "Isha Krishna",
+        "subtitle": "HEAD OF FOOD",
         "role": "Head",
-        "committee": "CULTURAL"
+        "committee": "FOOD"
       },
       {
-        "id": 30,
-        "imageSrc": "/archive-assets/2026/c9f98f69b4e90782c14d40bf99faf78ecb671e810df5c898ff6812d2d2a7134c.webp",
-        "title": "Abhiram N Udupa",
-        "subtitle": "CO-HEAD OF CULTURAL",
-        "role": "Co-Head",
-        "committee": "CULTURAL"
+        "id": 10,
+        "imageSrc": "/archive-assets/2026/5e177422e66f3152816a39248739b34240f89f260c73449395ee86526ab150ed.webp",
+        "title": "Eshaprasad",
+        "subtitle": "HEAD OF HOUSE KEEPING",
+        "role": "Head",
+        "committee": "HOUSE_KEEPING"
       },
       {
-        "id": 31,
+        "id": 11,
+        "imageSrc": "/archive-assets/2026/1da3cb5e5de3e41e246598a91496e2f67f7a4948453c0fce9cea2516c0220421.webp",
+        "title": "Avanthi",
+        "subtitle": "HEAD OF INAUGURAL",
+        "role": "Head",
+        "committee": "INAUGURAL"
+      },
+      {
+        "id": 12,
+        "imageSrc": "/archive-assets/2026/35a20a3fd9afe525b9801b5180fd971833ecd97187e54139a5fc7193961dcc1c.jpg",
+        "title": "Sannidhi S Shetty",
+        "subtitle": "HEAD OF JURY",
+        "role": "Head",
+        "committee": "JURY"
+      },
+      {
+        "id": 13,
+        "imageSrc": "/archive-assets/2026/892f96ae7f10ce76e0809ccfd5faca5a749a8514640028fd81e364a97be14c3a.webp",
+        "title": "Shishir Karkera",
+        "subtitle": "HEAD OF MEDIA",
+        "role": "Head",
+        "committee": "MEDIA"
+      },
+      {
+        "id": 14,
+        "imageSrc": "/archive-assets/2026/31ecfd5a1ad9788e717d11e88fe75ab2a2524b414ea33b196aff32733d536e4f.png",
+        "title": "Lakhi A Shetty",
+        "subtitle": "HEAD OF PUBLICITY",
+        "role": "Head",
+        "committee": "PUBLICITY"
+      },
+      {
+        "id": 15,
         "imageSrc": "/archive-assets/2026/8532239032c9bd9ed74066e6e82b5e54b04b177a173e1e0edd9f2bbd39b13a68.webp",
         "title": "Sudeep",
         "subtitle": "HEAD OF REQUIREMENTS",
@@ -4426,23 +4306,71 @@
         "committee": "REQUIREMENTS"
       },
       {
-        "id": 32,
-        "imageSrc": "/archive-assets/2026/e39f51cb9d51648ca13505cc5b9e928b1e4906551e51b8ecdc3762e76d1ed0d2.webp",
-        "title": "Gourav V Kunder",
-        "subtitle": "CO-HEAD OF REQUIREMENTS",
-        "role": "Co-Head",
-        "committee": "REQUIREMENTS"
-      },
-      {
-        "id": 33,
-        "imageSrc": "/archive-assets/2026/b3eea181b4e544201b3a3df0f14143d0f42b0f817c6e234b3cd8eefc6240bff0.webp",
-        "title": "Nidish U Shetty",
-        "subtitle": "HEAD OF DISCIPLINARY",
+        "id": 16,
+        "imageSrc": "/archive-assets/2026/52cdd175a541b645421344beca2ce577eb1c3e8b9a047e441c29351e0e51ffc0.webp",
+        "title": "Aaric Rodrigues",
+        "subtitle": "HEAD OF SOCIAL MEDIA",
         "role": "Head",
-        "committee": "DISCIPLINARY"
+        "committee": "SOCIAL_MEDIA"
       },
       {
-        "id": 34,
+        "id": 17,
+        "imageSrc": "/archive-assets/2026/892f96ae7f10ce76e0809ccfd5faca5a749a8514640028fd81e364a97be14c3a.webp",
+        "title": "Shishir Karkera",
+        "subtitle": "HEAD OF TECHNICAL",
+        "role": "Head",
+        "committee": "TECHNICAL"
+      },
+      {
+        "id": 18,
+        "imageSrc": "/archive-assets/2026/2d523e5f804c65f6e502c09d3e760fdb6e81e9be4c4d2b9298968491a592ddc7.webp",
+        "title": "Adarsh A S",
+        "subtitle": "HEAD OF THORANA",
+        "role": "Head",
+        "committee": "THORANA"
+      },
+      {
+        "id": 19,
+        "imageSrc": "/archive-assets/2026/8843f5b4aceab9ad4f0626f3e165ce01f868be00d861bd9868d20a5b7945a17a.webp",
+        "title": "Janardan S Udupa",
+        "subtitle": "HEAD OF TRANSPORT",
+        "role": "Head",
+        "committee": "TRANSPORT"
+      },
+      {
+        "id": 20,
+        "imageSrc": "/archive-assets/2026/f5ca9299629f07efbdbc0a083f4afcf2063877da62af4299c951ffd160715caf.jpg",
+        "title": "M PAVAN SHENOY",
+        "subtitle": "CO-HEAD OF ACCOMMODATION",
+        "role": "Co-Head",
+        "committee": "ACCOMMODATION"
+      },
+      {
+        "id": 21,
+        "imageSrc": "/archive-assets/2026/7382e420d96afb6a6abdeac9c47599ae3186ab35343786e8eff30e1e6621482f.jpg",
+        "title": "Jeevan",
+        "subtitle": "CO-HEAD OF CREW",
+        "role": "Co-Head",
+        "committee": "CREW"
+      },
+      {
+        "id": 22,
+        "imageSrc": "/archive-assets/2026/c9f98f69b4e90782c14d40bf99faf78ecb671e810df5c898ff6812d2d2a7134c.webp",
+        "title": "Abhiram N Udupa",
+        "subtitle": "CO-HEAD OF CULTURAL",
+        "role": "Co-Head",
+        "committee": "CULTURAL"
+      },
+      {
+        "id": 23,
+        "imageSrc": "/archive-assets/2026/c8c4ac7a6e8ae96a785a797e63c9e6c1b2487f0b42364dacfc2688f9df7db920.jpg",
+        "title": "Meghraj M",
+        "subtitle": "CO-HEAD OF DIGITAL",
+        "role": "Co-Head",
+        "committee": "DIGITAL"
+      },
+      {
+        "id": 24,
         "imageSrc": "/archive-assets/2026/2e3cd48c0b087d427a51bedf6a20cd580a21f291bf008e343edfee51b3fbd8a6.webp",
         "title": "Bhuvan Hegde",
         "subtitle": "CO-HEAD OF DISCIPLINARY",
@@ -4450,12 +4378,92 @@
         "committee": "DISCIPLINARY"
       },
       {
+        "id": 25,
+        "imageSrc": "/archive-assets/2026/7898559bd5e63e63b9348aa4eff6749e16e84f1ad94476f348e906e9bcef52e3.jpg",
+        "title": "Relisha Sania Machado",
+        "subtitle": "CO-HEAD OF DOCUMENTATION",
+        "role": "Co-Head",
+        "committee": "DOCUMENTATION"
+      },
+      {
+        "id": 26,
+        "imageSrc": "/archive-assets/2026/f588a2b46f8e55d289863023de9f6eaef2d5f7d57c4fc976f598b14e9bb51acb.webp",
+        "title": "SAMPANNA SHETTY",
+        "subtitle": "CO-HEAD OF EVENT MANAGEMENT",
+        "role": "Co-Head",
+        "committee": "EVENT_MANAGEMENT"
+      },
+      {
+        "id": 27,
+        "imageSrc": "/archive-assets/2026/a0a99a84abef26fc7073b6c956d019a9cf78ab2d7778d3129f7b61b0b1102d70.webp",
+        "title": "Shreya Irniraya",
+        "subtitle": "CO-HEAD OF FINANCE",
+        "role": "Co-Head",
+        "committee": "FINANCE"
+      },
+      {
+        "id": 28,
+        "imageSrc": "/archive-assets/2026/9f96d44fb192cbdd4eab0853f86e7e4ab6d53226447c03c7c870767add64550c.jpg",
+        "title": "Pramith P Puthran",
+        "subtitle": "CO-HEAD OF FOOD",
+        "role": "Co-Head",
+        "committee": "FOOD"
+      },
+      {
+        "id": 29,
+        "imageSrc": null,
+        "title": "Ravi Adiga K",
+        "subtitle": "CO-HEAD OF HOUSE KEEPING",
+        "role": "Co-Head",
+        "committee": "HOUSE_KEEPING"
+      },
+      {
+        "id": 30,
+        "imageSrc": "/archive-assets/2026/33a52260159aa7e4e1e4506702cad9b15e22dc6f9a9ec2ffe9cd97fdb6ade976.webp",
+        "title": "Prapthi Hegde",
+        "subtitle": "CO-HEAD OF INAUGURAL",
+        "role": "Co-Head",
+        "committee": "INAUGURAL"
+      },
+      {
+        "id": 31,
+        "imageSrc": "/archive-assets/2026/ca3ecabe8b2d46f0b0f659ce210071cc0434d44f34f58cd26f4361050f49eb56.jpg",
+        "title": "Ridhi T Kotian",
+        "subtitle": "CO-HEAD OF JURY",
+        "role": "Co-Head",
+        "committee": "JURY"
+      },
+      {
+        "id": 32,
+        "imageSrc": null,
+        "title": "Dhanush D Kamath",
+        "subtitle": "CO-HEAD OF MEDIA",
+        "role": "Co-Head",
+        "committee": "MEDIA"
+      },
+      {
+        "id": 33,
+        "imageSrc": "/archive-assets/2026/005ed601d1d2f94ec712fa813bd5159fedc0bf932e03f5cec762b9bb963b3bb3.jpg",
+        "title": "Yash tarak bhatt",
+        "subtitle": "CO-HEAD OF PUBLICITY",
+        "role": "Co-Head",
+        "committee": "PUBLICITY"
+      },
+      {
+        "id": 34,
+        "imageSrc": "/archive-assets/2026/e39f51cb9d51648ca13505cc5b9e928b1e4906551e51b8ecdc3762e76d1ed0d2.webp",
+        "title": "Gourav V Kunder",
+        "subtitle": "CO-HEAD OF REQUIREMENTS",
+        "role": "Co-Head",
+        "committee": "REQUIREMENTS"
+      },
+      {
         "id": 35,
-        "imageSrc": "/archive-assets/2026/892f96ae7f10ce76e0809ccfd5faca5a749a8514640028fd81e364a97be14c3a.webp",
-        "title": "Shishir Karkera",
-        "subtitle": "HEAD OF TECHNICAL",
-        "role": "Head",
-        "committee": "TECHNICAL"
+        "imageSrc": "/archive-assets/2026/6ab0ae630248464673ff44ef3fe0e242349f29af970147aff62d0e9cf5f784c2.webp",
+        "title": "Srinidhi DS",
+        "subtitle": "CO-HEAD OF SOCIAL MEDIA",
+        "role": "Co-Head",
+        "committee": "SOCIAL_MEDIA"
       },
       {
         "id": 36,
@@ -4467,19 +4475,11 @@
       },
       {
         "id": 37,
-        "imageSrc": "/archive-assets/2026/35a20a3fd9afe525b9801b5180fd971833ecd97187e54139a5fc7193961dcc1c.jpg",
-        "title": "Sannidhi S Shetty",
-        "subtitle": "HEAD OF JURY",
-        "role": "Head",
-        "committee": "JURY"
-      },
-      {
-        "id": 38,
-        "imageSrc": "/archive-assets/2026/ca3ecabe8b2d46f0b0f659ce210071cc0434d44f34f58cd26f4361050f49eb56.jpg",
-        "title": "Ridhi T Kotian",
-        "subtitle": "CO-HEAD OF JURY",
+        "imageSrc": null,
+        "title": "Rishabhraj v anchan",
+        "subtitle": "CO-HEAD OF TRANSPORT",
         "role": "Co-Head",
-        "committee": "JURY"
+        "committee": "TRANSPORT"
       }
     ],
     "committeeMembers": [
