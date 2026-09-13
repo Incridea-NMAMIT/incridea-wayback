@@ -1,0 +1,27 @@
+# Block search engine image crawlers from indexing images
+User-agent: Googlebot-Image
+Disallow: /
+
+User-agent: msnbot-media
+Disallow: /
+
+# Disallow crawling and indexing of image files for all search engine bots
+User-agent: *
+Disallow: /*.jpg$
+Disallow: /*.jpeg$
+Disallow: /*.png$
+Disallow: /*.gif$
+Disallow: /*.webp$
+Disallow: /*.svg$
+Disallow: /*.ico$
+Disallow: /*.avif$
+Disallow: /*.bmp$
+Disallow: /*.jpg?
+Disallow: /*.jpeg?
+Disallow: /*.png?
+Disallow: /*.gif?
+Disallow: /*.webp?
+Disallow: /*.svg?
+Disallow: /*.ico?
+Disallow: /*.avif?
+Disallow: /*.bmp?
