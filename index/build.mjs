@@ -41,6 +41,10 @@ const publishedYears = editions
   .filter((edition) => edition.status === "published")
   .map((edition) => String(edition.year));
 
+const directoryUrl = "https://wayback.incridea.in/";
+const directoryTitle = "Incridea Wayback | Official Festival Archive";
+const directoryDescription = "Explore the official archive of Incridea at NMAM Institute of Technology, Nitte. Revisit past festival editions, events, teams, galleries, and memories.";
+
 const styles =
   '@font-face{font-family:Trap;src:local("Trap"),local("Trap-Regular");font-display:swap}' +
   ':root{color-scheme:dark;--ink:#edf2ff;--muted:#abb7d3;--line:rgba(231,204,149,.28);--gold:#eccb8a}' +
@@ -58,7 +62,7 @@ const styles =
   '.footnote{display:flex;justify-content:space-between;gap:20px;margin-top:auto;padding-top:15px;border-top:1px solid rgba(255,255,255,.12);color:#8290b2;font-size:9px;line-height:1.5}.footnote strong{color:#bec8e3;font-weight:500}@media(max-width:600px){.shell{width:min(100% - 28px,1180px)}.topline span:last-child,.footnote{display:none}.hero{padding:clamp(42px,9vh,70px) 0 24px}.hero h1{font-size:clamp(41px,13vw,62px)}.hero-copy{font-size:11px}.archive-heading{display:block}.archive-heading p{display:none}.edition-card{flex-basis:min(205px,72vw);min-height:158px}.carousel{padding-bottom:4px}}@media(max-height:650px) and (min-width:601px){.hero{padding:28px 0 20px}.hero-copy{display:none}.edition-card{min-height:145px}.footnote{display:none}}';
 
 const html =
-  '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#080b17"><title>Incridea Wayback</title><style>' +
+  '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#080b17"><meta name="description" content="' + escapeHtml(directoryDescription) + '"><meta name="robots" content="index,follow"><link rel="canonical" href="' + directoryUrl + '"><meta property="og:type" content="website"><meta property="og:site_name" content="Incridea Wayback"><meta property="og:title" content="' + escapeHtml(directoryTitle) + '"><meta property="og:description" content="' + escapeHtml(directoryDescription) + '"><meta property="og:url" content="' + directoryUrl + '"><meta property="og:image" content="https://wayback.incridea.in/wayback-hero.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="' + escapeHtml(directoryTitle) + '"><meta name="twitter:description" content="' + escapeHtml(directoryDescription) + '"><meta name="twitter:image" content="https://wayback.incridea.in/wayback-hero.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Incridea Wayback","url":"https://wayback.incridea.in/","description":"' + escapeHtml(directoryDescription) + '"}</script><title>' + escapeHtml(directoryTitle) + '</title><style>' +
   styles +
   '</style></head><body><main class="shell" id="app"><header class="topline"><span class="mark"><i></i> Incridea / Wayback</span><span>Preserved festival records</span></header><section class="hero"><p class="eyebrow">The archive is open</p><h1>A time portal to Incridea’s <em>unforgettable chapters.</em></h1><p class="hero-copy">Step into preserved, read-only editions of Incridea—each one a record of the people, events and ideas that moved through it.</p></section><section class="archive" aria-labelledby="edition-heading"><div class="archive-heading"><h2 id="edition-heading">Select an edition</h2><p>Swipe through the preserved festival years.</p></div><div class="carousel">' +
   cards +
@@ -72,3 +76,5 @@ await copyFile(
   new URL("./dist/wayback-hero.png", import.meta.url),
 );
 await writeFile(new URL("./dist/index.html", import.meta.url), html);
+await writeFile(new URL("./dist/robots.txt", import.meta.url), `User-agent: *\nAllow: /\n\nSitemap: ${directoryUrl}sitemap.xml\n`);
+await writeFile(new URL("./dist/sitemap.xml", import.meta.url), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url><loc>${directoryUrl}</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>\n</urlset>\n`);

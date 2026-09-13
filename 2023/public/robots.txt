@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /login
+Disallow: /register
+Disallow: /dashboard
+Disallow: /profile
+Disallow: /quiz
+
+Sitemap: https://2023.wayback.incridea.in/sitemap.xml

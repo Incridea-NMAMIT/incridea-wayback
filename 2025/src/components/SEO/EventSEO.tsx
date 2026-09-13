@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { useRouter } from 'next/router';
 
 /**
  * Props interface for SEO component
@@ -22,16 +23,20 @@ const EventSEO = ({
     image,
     url
 }: SEOProps) => {
-
-
-    console.log(title, description, image, url)
+    const router = useRouter();
+    const baseUrl = "https://2025.wayback.incridea.in";
+    const canonicalUrl = url ?? `${baseUrl}${(router.asPath || "/").split("?")[0]}`;
+    const archiveTitle = title?.includes("Archive") ? title : `${title ?? "Event"} | Incridea 2025 Archive`;
+    const archiveDescription = description ?? "Revisit this event from the official Incridea 2025 archive at NMAM Institute of Technology, Nitte.";
     return (
         <Head>
-            <title>{title}</title>
+            <title>{archiveTitle}</title>
+            <meta name="description" content={archiveDescription} />
+            <link rel="canonical" href={canonicalUrl} />
             {/* Open Graph */}
-            <meta property="og:url" content={url ?? "https://incridea.in"} />
-            <meta property="og:title" content={title ?? "Incridea | Techno-Cultural Fest of NMAM Institute of Technology"} />
-            <meta property="og:description" content={description ?? " National level techno-cultural fest, NMAMIT, Nitte. Innovate. Create. Ideate."} />
+            <meta property="og:url" content={canonicalUrl} />
+            <meta property="og:title" content={archiveTitle} />
+            <meta property="og:description" content={archiveDescription} />
             <meta property="og:image" content={image ?? "/favicon/favicon-16x16.png"} />
         </Head>
     );

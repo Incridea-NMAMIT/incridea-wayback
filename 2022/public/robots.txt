@@ -1,3 +1,8 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /
+Disallow: /auth
+Disallow: /dashboard
+Disallow: /profile
+
+Sitemap: https://2022.wayback.incridea.in/sitemap.xml
