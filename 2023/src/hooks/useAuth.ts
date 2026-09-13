@@ -13,7 +13,7 @@ export const useAuth = () => {
   if (loading) {
     return { status: AuthStatus.LOADING, loading, error };
   }
-  if (data?.me.__typename === "QueryMeSuccess") {
+  if (data?.me?.__typename === "QueryMeSuccess") {
     return {
       user: data?.me.data,
       loading,
