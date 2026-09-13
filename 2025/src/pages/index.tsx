@@ -123,12 +123,11 @@ export const HomeUi = () => {
       });
     }
 
-    const depths = [4, 6, 7, 10, 16, 18, 20, 22, 24, 26, 28, 30, 34];
-    const moveLayers = (event: PointerEvent) => {
-      if (event.pointerType === "touch") return;
-
-      const offsetX = event.clientX / window.innerWidth - 0.5;
-      const offsetY = event.clientY / window.innerHeight - 0.5;
+    const depths = [12, 18, 24, 32, 42, 48, 54, 60, 66, 72, 78, 86, 94];
+    const moveLayers = (offsetX: number, offsetY: number) => {
+      parallaxLayersRef.current.forEach((layer) => {
+        if (layer) gsap.set(layer, { willChange: "transform", force3D: true });
+      });
 
       parallaxLayersRef.current.forEach((layer, index) => {
         if (!layer) return;
@@ -143,10 +142,31 @@ export const HomeUi = () => {
       });
     };
 
-    window.addEventListener("pointermove", moveLayers);
+    const onMouseMove = (event: MouseEvent) => {
+      moveLayers(
+        event.clientX / window.innerWidth - 0.5,
+        event.clientY / window.innerHeight - 0.5,
+      );
+    };
+
+    const onDeviceOrientation = (event: DeviceOrientationEvent) => {
+      if (event.beta === null || event.gamma === null) return;
+      moveLayers(
+        Math.max(-0.5, Math.min(0.5, event.gamma / 50)),
+        Math.max(-0.5, Math.min(0.5, event.beta / 90)),
+      );
+    };
+
+    window.addEventListener("mousemove", onMouseMove, { passive: true });
+    window.addEventListener("deviceorientation", onDeviceOrientation, { passive: true });
     return () => {
-      window.removeEventListener("pointermove", moveLayers);
-      parallaxLayersRef.current.forEach((layer) => layer && gsap.killTweensOf(layer));
+      window.removeEventListener("mousemove", onMouseMove);
+      window.removeEventListener("deviceorientation", onDeviceOrientation);
+      parallaxLayersRef.current.forEach((layer) => {
+        if (!layer) return;
+        gsap.killTweensOf(layer);
+        gsap.set(layer, { clearProps: "willChange" });
+      });
     };
   }, []);
 
