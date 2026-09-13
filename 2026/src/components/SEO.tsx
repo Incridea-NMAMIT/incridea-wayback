@@ -13,8 +13,9 @@ const SEO = ({ title, description, image, url }: SEOProps) => {
     ? "Incridea " + archiveYear + " Archive"
     : "Incridea'26";
   const defaultTitle = editionLabel + " | Innovate, Create, Ideate";
-  const defaultDescription =
-    "Incridea'26 is the annual techno-cultural fest of NMAM Institute of Technology, Nitte. Join us for a celebration of innovation and creativity.";
+  const defaultDescription = isArchiveMode
+    ? `Explore the official Incridea ${archiveYear} archive: events, teams, galleries, and festival memories from NMAM Institute of Technology, Nitte.`
+    : "Incridea'26 is the annual techno-cultural fest of NMAM Institute of Technology, Nitte. Join us for a celebration of innovation and creativity.";
   const defaultImage = "/Meta.png"; // Ensure this file exists in public/
   const siteUrl = isArchiveMode ? archiveSiteUrl : "https://incridea.in";
 
@@ -53,15 +54,19 @@ const SEO = ({ title, description, image, url }: SEOProps) => {
     };
     const finalTitle = title || defaultTitle;
     const finalDescription = description || defaultDescription;
-    const finalImage = `${siteUrl}${defaultImage}`;
+    const finalImage = image
+      ? image.startsWith("http") ? image : `${siteUrl}${image}`
+      : `${siteUrl}${defaultImage}`;
     const finalUrl = url
       ? url.startsWith("http")
         ? url
         : `${siteUrl}${url}`
-      : window.location.href;
+      : `${siteUrl}${window.location.pathname}`;
 
     // Standard Meta Tags
     setMetaTag("description", finalDescription);
+    const noindex = /^\/(profile|register|login|reset-password|dashboard|admin|quiz|faculty-registrations)/.test(window.location.pathname);
+    setMetaTag("robots", noindex ? "noindex,nofollow" : "index,follow");
 
     // Open Graph
     setMetaTag("og:title", finalTitle, true);
@@ -73,7 +78,7 @@ const SEO = ({ title, description, image, url }: SEOProps) => {
 
     // Twitter Card
     setMetaTag("twitter:card", "summary_large_image");
-    setMetaTag("twitter:title", title);
+    setMetaTag("twitter:title", finalTitle);
     setMetaTag("twitter:description", finalDescription);
     setMetaTag("twitter:image", finalImage);
 

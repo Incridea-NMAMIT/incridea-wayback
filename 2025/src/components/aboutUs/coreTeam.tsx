@@ -1,10 +1,8 @@
 import CoreTeamCard from "~/components/aboutUs/coreTeamCard";
-import { type GetCoreTeamMembersQuery } from "~/generated/generated";
+import { type CoreTeamMember } from "~/archive/team-data";
 
 const CoreTeam = ({ coreTeamMembers }: {
-  coreTeamMembers: Extract<GetCoreTeamMembersQuery["getCoreTeamMembers"], {
-    __typename: "QueryGetCoreTeamMembersSuccess";
-  }>["data"]
+  coreTeamMembers: CoreTeamMember[];
 }) => {
   return (
     <div className="flex flex-col justify-center items-center gap-y-8 bg-transparent pb-10 pt-12">

@@ -2,7 +2,15 @@ import React from "react";
 import styles from "./EventDetails.module.css";
 import draftToHtml from "draftjs-to-html";
 function EventDetails({ details }: { details: string }) {
-  const data = JSON.parse(details as string);
+  let data;
+  try {
+    data = JSON.parse(details as string);
+  } catch {
+    data = {
+      blocks: [{ key: "description", text: details, type: "unstyled", depth: 0, inlineStyleRanges: [], entityRanges: [], data: {} }],
+      entityMap: {},
+    };
+  }
   const markup = draftToHtml(data);
 
   return (

@@ -2,5 +2,6 @@ export const generateEventUrl = (eventName: string, eventID: string) => {
   return `/event/${eventName.toLowerCase().replaceAll(" ", "-")}-${eventID}`;
 };
 
-export const baseImageUrl = "https://res.cloudinary.com/drzra1b9g/image/upload/v1681720160";
-
+// Historical media is bundled in public/ so the archive does not rely on the
+// retired Cloudinary account.
+export const baseImageUrl = "";

@@ -1,20 +1,19 @@
-import { baseImageUrl } from "@/src/utils/url";
 import Image from "next/image";
-import React, { FC } from "react";
+import React, { FC, useEffect, useState } from "react";
 
 const EventsPeek: FC<{
   speed: number;
 }> = ({ speed }) => {
   const images = [
     "Battle_of_Bands_WEB.jpg",
-    "Copy_of_NAVARASA_WithoutContact.png",
+    "Copy of NAVARASA_WithoutContact.png",
     "Desafio.jpg",
-    "Stomp_That.jpg",
+    "Stomp That.jpg",
     "VibeV3.jpg",
     "COUTURE_WEB.jpg",
-    "Knuckle_Down.jpg",
+    "Knuckle Down.jpg",
     "TULU_POSTER_WEB.jpg",
-    "usaravalli_3x.jpg",
+    "usaravalli@3x.jpg",
     "Hogathon.jpg",
     "Battle_of_Bands_WEB.jpg",
     "Copy_of_NAVARASA_WithoutContact.png",
@@ -28,7 +27,13 @@ const EventsPeek: FC<{
     "Hogathon.jpg",
   ];
 
-  const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    const updateViewport = () => setIsMobile(window.innerWidth < 768);
+    updateViewport();
+    window.addEventListener("resize", updateViewport);
+    return () => window.removeEventListener("resize", updateViewport);
+  }, []);
 
   return !isMobile ? (
     <section style={{ transform: "translateX(-60%)", willChange: "transform" }}>
@@ -41,7 +46,7 @@ const EventsPeek: FC<{
           return (
             <div className="flex justify-center items-start gap-5" key={idx}>
               <Image
-                src={baseImageUrl + "/assets/Core_Event_Posters/" + i}
+                src={'/assets/Core_Event_Posters/' + i}
                 alt="Gallery Image"
                 width={500}
                 height={300}
@@ -68,7 +73,7 @@ const EventsPeek: FC<{
               return (
                 <li className="w-[250px] py-2 px-1" key={idx}>
                   <Image
-                    src={baseImageUrl + "/assets/Core_Event_Posters/" + i}
+                    src={'/assets/Core_Event_Posters/' + i}
                     alt={i.slice(0, i.indexOf("."))}
                     width={500}
                     height={300}
@@ -94,7 +99,7 @@ const EventsPeek: FC<{
               return (
                 <li className="w-[250px] py-2 px-1" key={idx}>
                   <Image
-                    src={baseImageUrl + "/assets/Core_Event_Posters/" + i}
+                    src={'/assets/Core_Event_Posters/' + i}
                     alt={i.slice(0, i.indexOf("."))}
                     width={500}
                     height={300}

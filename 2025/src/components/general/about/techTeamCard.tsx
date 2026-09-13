@@ -1,13 +1,11 @@
 import Image from "next/image";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { RiLinkedinFill } from "react-icons/ri";
-import { type GetTechTeamMembersQuery } from "~/generated/generated";
+import { type TechnicalTeamMember } from "~/archive/team-data";
 
 
 const TechTeamCard = ({ techTeamMember }: {
-  techTeamMember: Extract<GetTechTeamMembersQuery["getTechTeamMembers"], {
-    __typename: "QueryGetTechTeamMembersSuccess";
-  }>["data"][number];
+  techTeamMember: TechnicalTeamMember;
 }) => {
   return (
     <div className="flex w-[20rem] gap-4 rounded-xl border border-primary-200/80 bg-primary-500 bg-opacity-20 bg-clip-padding px-5 pt-5 duration-200 hover:scale-[1.02]">

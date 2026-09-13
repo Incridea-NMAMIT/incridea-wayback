@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import React, { useEffect, useRef, useState } from "react";
-import YouTube, { YouTubePlayer } from "react-youtube";
+import YouTube, { YouTubeEvent, YouTubePlayer } from "react-youtube";
 import Button from "../components/button";
 import { IoIosSkipForward } from "react-icons/io";
 import { SlVolumeOff, SlVolume2 } from "react-icons/sl";
@@ -95,32 +95,32 @@ const Explore = () => {
             mute: 1,
           },
         }}
-        onReady={(e) => {
+        onReady={(e: YouTubeEvent) => {
           YTPlayerRef.current = e.target;
           e.target.playVideo();
         }}
-        onPlay={(e) => {
+        onPlay={(e: YouTubeEvent<number>) => {
           console.log(YTPlayerRef.current);
           if (blackScreenRef.current)
             blackScreenRef.current.style.display = "none";
           setClickThru(false);
         }}
-        onPause={(e) => {
+        onPause={(e: YouTubeEvent<number>) => {
           e.target.playVideo();
         }}
-        onEnd={(e) => {
+        onEnd={(e: YouTubeEvent<number>) => {
           if (blackScreenRef.current)
             blackScreenRef.current.style.display = "initial";
           router.push("/explore/level1");
         }}
-        onError={(e) => {
+        onError={(e: YouTubeEvent<number>) => {
           if (blackScreenRef.current)
             blackScreenRef.current.style.display = "initial";
           router.push("/explore/level1");
         }}
-        onStateChange={(e) => {}}
-        onPlaybackRateChange={(e) => {}}
-        onPlaybackQualityChange={(e) => {}}
+        onStateChange={(_e: YouTubeEvent<number>) => {}}
+        onPlaybackRateChange={(_e: YouTubeEvent<number>) => {}}
+        onPlaybackQualityChange={(_e: YouTubeEvent<string>) => {}}
       />
     </div>
   );
