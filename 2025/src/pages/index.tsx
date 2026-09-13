@@ -13,6 +13,10 @@ import { SessionProvider } from "next-auth/react";
 import HomeButton from "~/components/button/home";
 import { CONSTANT } from "~/constants";
 
+type MouseDrivenParallax = Parallax & {
+  onMouseMove: (event: MouseEvent) => void;
+};
+
 export default function Page() {
   return (
     <SessionProvider>
@@ -106,10 +110,22 @@ export const HomeUi = () => {
     // Only run on client-side
     if (typeof window === "undefined") return;
 
-    if (sceneRef.current)
-      new Parallax(sceneRef.current, {
+    let destroyParallax: (() => void) | undefined;
+    if (sceneRef.current) {
+      const parallax = new Parallax(sceneRef.current, {
         relativeInput: true,
-      });
+      }) as MouseDrivenParallax;
+      const onMouseMove = (event: MouseEvent) => parallax.onMouseMove(event);
+
+      // Some mobile/hybrid browsers expose orientation APIs without providing
+      // usable motion values. Feed pointer movement directly in that case.
+      window.addEventListener("mousemove", onMouseMove, { passive: true });
+
+      destroyParallax = () => {
+        window.removeEventListener("mousemove", onMouseMove);
+        parallax.destroy();
+      };
+    }
 
     if (largeClockRef.current) {
       gsap.to(largeClockRef.current, {
@@ -128,6 +144,8 @@ export const HomeUi = () => {
         ease: "linear",
       });
     }
+
+    return destroyParallax;
   }, []);
 
   useGSAP(() => {
