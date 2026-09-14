@@ -387,7 +387,7 @@ const MobileNav = ({
           clipPath:
             "polygon(3% 0%, 97% 0%, 100% 50%, 97% 100%, 3% 100%, 0% 50%)",
         }}
-        className="fixed top-4 z-40 flex h-16 w-screen items-center justify-between bg-white/10 px-6 backdrop-blur-2xl lg:hidden"
+        className="fixed top-12 z-40 flex h-16 w-screen items-center justify-between bg-white/10 px-6 backdrop-blur-2xl lg:hidden"
       >
         <Link href="/">
           {isClient && (
