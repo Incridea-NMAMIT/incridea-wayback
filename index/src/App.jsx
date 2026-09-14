@@ -16,7 +16,7 @@ const CREATORS = [
   },
   {
     id: 'shishir',
-    name: 'Shishir G Karkera',
+    name: 'Shishir Karkera',
     quote: 'I treat production like my pet… feed it, monitor it, pray for it.',
     photo: '/shishir.webp',
     photoPosition: 'center 15%',
@@ -622,10 +622,11 @@ function App() {
 
       {/* Top Header */}
       <header className="topline">
-        <div className="brand-lockup">
-          <img src="/incridea.png" alt="Incridea Logo" className="brand-logo" />
-          <span className="brand-badge">Wayback</span>
-        </div>
+        <a href="https://incridea.in/" target="_blank" rel="noopener noreferrer">
+          <div className="brand-lockup">
+            <img src="/incridea.png" alt="Incridea Logo" className="brand-logo" />
+          </div>
+        </a>
 
         <div className="topline-right">
           {/* Anthem Audio Toggle */}
@@ -650,9 +651,11 @@ function App() {
           </button>
 
           {/* NMAMIT png */}
-          <div className="crest-badge" title="NMAM Institute of Technology, Nitte">
-            <img src="/nmamit.png" alt="NMAMIT Emblem" className="header-crest" />
-          </div>
+          <a href='https://nitte.edu.in/nmamit/' target="_blank" rel="noopener noreferrer">
+            <div className="crest-badge" title="NMAM Institute of Technology, Nitte">
+              <img src="/nmamit.png" alt="NMAMIT Emblem" className="header-crest" />
+            </div>
+          </a>
         </div>
       </header>
 
@@ -660,7 +663,6 @@ function App() {
       <div className="portal-content">
         {/* Hero Section */}
         <section className="hero">
-          <p className="eyebrow">The archive is open</p>
           <h1>A time portal to Incridea’s <em className="shimmer-text">unforgettable chapters.</em></h1>
           <p className="hero-copy">Step into preserved, read-only editions of Incridea, each one a record of the people, events and ideas that moved through it.</p>
         </section>
@@ -733,7 +735,6 @@ function App() {
                 </div>
 
                 <div className="card-bottom">
-                  <span className="card-dash-label">{edition.year}</span>
                   <h2 className="card-theme-title">{edition.theme || edition.name}</h2>
                   <div className="card-footer">
                     <span>Enter archive</span>
@@ -771,7 +772,7 @@ function App() {
               className="creator-link-btn"
               onClick={() => setActiveCreator('shishir')}
             >
-              Shishir G Karkera
+              Shishir Karkera
             </button>
             <span className="footnote-divider" aria-hidden="true">&middot;</span>
             <button

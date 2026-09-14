@@ -17,7 +17,7 @@ export default function Page() {
   return (
     <SessionProvider>
       <main className="relative h-screen overflow-hidden select-none">
-        <div className="absolute top-0">
+        <div className="absolute inset-0 w-full h-full">
           <HomeUi />
           <HomeFooter />
         </div>
