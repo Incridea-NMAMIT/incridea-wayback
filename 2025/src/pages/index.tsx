@@ -230,23 +230,27 @@ export const HomeUi = () => {
             key={idx}
           >
             <div
-              ref={(el) => {
-                floatingObjectsRef.current[idx] = el;
-              }}
               className="absolute lg:bottom-0 md:bottom-24 bottom-60 left-[50%] aspect-video w-screen md:scale-[90%] scale-[125%] -translate-x-1/2 -translate-y-16 transition-transform"
             >
-              <Image
-                src={
-                  CONSTANT.ASSETS.LANDING[
-                    `OBJECT${item as 1 | 2 | 3 | 4 | 5 | 6 | 7}`
-                  ]
-                }
-                priority
-                alt="Floating objects"
-                width={1920}
-                height={1080}
-                className="h-full w-full object-contain object-bottom"
-              />
+              <div
+                ref={(el) => {
+                  floatingObjectsRef.current[idx] = el;
+                }}
+                className="h-full w-full"
+              >
+                <Image
+                  src={
+                    CONSTANT.ASSETS.LANDING[
+                      `OBJECT${item as 1 | 2 | 3 | 4 | 5 | 6 | 7}`
+                    ]
+                  }
+                  priority
+                  alt="Floating objects"
+                  width={1920}
+                  height={1080}
+                  className="h-full w-full object-contain object-bottom"
+                />
+              </div>
             </div>
           </div>
         ))}
