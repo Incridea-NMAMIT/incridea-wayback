@@ -221,7 +221,7 @@ const Page = ({ data }: Props) => {
                       leaveFrom="transform scale-100 opacity-100"
                       leaveTo="transform scale-95 opacity-0"
                     >
-                      <Menu.Items className="absolute top-11 z-10 mt-1 flex flex-col gap-2 overflow-hidden rounded-3xl border border-primary-300/80 bg-primary-800 p-2 text-center shadow-2xl shadow-black/80">
+                      <Menu.Items className="absolute top-12 z-10 mt-1 flex flex-col gap-2 overflow-hidden rounded-3xl border border-primary-300/80 bg-primary-800 p-2 text-center shadow-2xl shadow-black/80">
                         {dayFilters.map((filter) => (
                           <Menu.Item key={filter}>
                             {() => (
@@ -272,7 +272,7 @@ const Page = ({ data }: Props) => {
                       leaveFrom="transform scale-100 opacity-100"
                       leaveTo="transform scale-95 opacity-0"
                     >
-                      <Menu.Items className="absolute top-11 z-10 mt-1 flex flex-col gap-2 overflow-hidden rounded-3xl border border-primary-300/80 bg-primary-800 p-2 text-center shadow-2xl shadow-black/70">
+                      <Menu.Items className="absolute top-12 z-10 mt-1 flex flex-col gap-2 overflow-hidden rounded-3xl border border-primary-300/80 bg-primary-800 p-2 text-center shadow-2xl shadow-black/70">
                         {[
                           EventCategory.Core,
                           EventCategory.Technical,
