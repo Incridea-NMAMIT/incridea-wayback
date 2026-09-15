@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import editionsData from '../editions.json';
+import AudioPlayer from './components/AudioPlayer';
 
 const CREATORS = [
   {
@@ -22,7 +23,7 @@ const CREATORS = [
     photoPosition: 'center 15%',
     socials: [
       { name: 'GitHub', url: 'https://github.com/shishirkarkeraa', type: 'github' },
-      { name: 'LinkedIn', url: 'https://linkedin.com', type: 'linkedin' },
+      { name: 'LinkedIn', url: 'https://www.linkedin.com/in/shishir-karkera-ba2146437/', type: 'linkedin' },
       { name: 'Instagram', url: 'https://www.instagram.com/shishir.karkeraa/', type: 'instagram' },
     ],
   },
@@ -249,8 +250,6 @@ function App() {
   const [isNotFound, setIsNotFound] = useState(false);
   const [activeCreator, setActiveCreator] = useState(null);
   const [isDevNotesOpen, setIsDevNotesOpen] = useState(false);
-  const [isPlayingAudio, setIsPlayingAudio] = useState(false);
-  const audioRef = useRef(null);
   const carouselRef = useRef(null);
   const canvasRef = useRef(null);
   const [isDragging, setIsDragging] = useState(false);
@@ -389,21 +388,6 @@ function App() {
     };
   }, []);
 
-  // Ambient sound control
-  const toggleAudio = useCallback(() => {
-    if (!audioRef.current) return;
-    if (isPlayingAudio) {
-      audioRef.current.pause();
-      setIsPlayingAudio(false);
-    } else {
-      audioRef.current.volume = 0.4;
-      audioRef.current.play().then(() => {
-        setIsPlayingAudio(true);
-      }).catch((err) => {
-        console.warn('Audio play restricted or unavailable:', err);
-      });
-    }
-  }, [isPlayingAudio]);
 
   // Carousel boundary check
   const checkScroll = useCallback(() => {
@@ -611,9 +595,6 @@ function App() {
 
   return (
     <main className="shell terminal-shell" id="app">
-      {/* Background anthem audio */}
-      <audio ref={audioRef} src="/incridea-anthem.mp3" loop preload="none" />
-
       {/* Interactive Cosmic Stardust Particles */}
       <canvas ref={canvasRef} className="cosmic-canvas" aria-hidden="true" />
 
@@ -629,27 +610,6 @@ function App() {
         </a>
 
         <div className="topline-right">
-          {/* Anthem Audio Toggle */}
-          <button 
-            type="button" 
-            className={`anthem-btn ${isPlayingAudio ? 'is-playing' : ''}`}
-            onClick={toggleAudio}
-            aria-label={isPlayingAudio ? "Pause fest anthem" : "Play fest anthem"}
-            title={isPlayingAudio ? "Pause anthem" : "Play anthem"}
-          >
-            {isPlayingAudio ? (
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                <rect x="5" y="4" width="4.5" height="16" rx="1.5" />
-                <rect x="14.5" y="4" width="4.5" height="16" rx="1.5" />
-              </svg>
-            ) : (
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                <polygon points="6 4 20 12 6 20 6 4" />
-              </svg>
-            )}
-            <span className="anthem-btn-text">{isPlayingAudio ? 'Anthem playing' : 'Play anthem'}</span>
-          </button>
-
           {/* NMAMIT png */}
           <a href='https://nitte.edu.in/nmamit/' target="_blank" rel="noopener noreferrer">
             <div className="crest-badge" title="NMAM Institute of Technology, Nitte">
@@ -661,11 +621,17 @@ function App() {
 
       {/* Central Portal Container*/}
       <div className="portal-content">
-        {/* Hero Section */}
-        <section className="hero">
-          <h1>A time portal to Incridea’s <em className="shimmer-text">unforgettable chapters.</em></h1>
-          <p className="hero-copy">Step into preserved, read-only editions of Incridea, each one a record of the people, events and ideas that moved through it.</p>
-        </section>
+        {/* Portal Stage: Split Hero & Audio Player */}
+        <div className="portal-stage">
+          <section className="hero">
+            <h1>A time portal to Incridea’s <em className="shimmer-text">unforgettable chapters.</em></h1>
+            <p className="hero-copy">Step into preserved, read-only editions of Incridea, each one a record of the people, events and ideas that moved through it.</p>
+          </section>
+
+          <aside className="portal-anthem-slot" aria-label="Fest Anthem Music Player">
+            <AudioPlayer />
+          </aside>
+        </div>
 
         {/* Archive Carousel Section */}
         <section className="archive" aria-labelledby="edition-heading">

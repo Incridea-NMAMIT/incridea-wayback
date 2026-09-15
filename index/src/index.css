@@ -225,55 +225,6 @@ body:after {
   height: clamp(58px, 7.2vh, 78px);
 }
 
-/* Clean Human-Designed Anthem Toggle */
-.anthem-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 6px 14px;
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  border-radius: 9999px;
-  color: rgba(255, 255, 255, 0.78);
-  font-family: var(--font-body);
-  font-size: 11.5px;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  flex-shrink: 0;
-  white-space: nowrap;
-}
-
-.anthem-btn:hover {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(236, 203, 138, 0.4);
-  color: #ffffff;
-  transform: translateY(-1px);
-}
-
-.anthem-btn.is-playing {
-  background: rgba(236, 203, 138, 0.12);
-  border-color: rgba(236, 203, 138, 0.38);
-  color: var(--gold);
-  box-shadow: 0 0 14px rgba(236, 203, 138, 0.16);
-}
-
-.anthem-btn svg {
-  flex-shrink: 0;
-  transition: transform 0.2s ease;
-}
-
-.anthem-btn:hover svg {
-  transform: scale(1.15);
-}
-
-.anthem-btn-text {
-  line-height: 1;
-  font-size: 11px;
-}
-
 .crest-badge {
   display: flex;
   align-items: center;
@@ -295,10 +246,50 @@ body:after {
   transform: scale(1.05);
 }
 
+/* Portal Stage: Two-column hero row hosting Hero copy & Audio Player */
+.portal-stage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: clamp(20px, 3.2vw, 44px);
+  width: 100%;
+  min-height: 0;
+  flex-shrink: 0;
+}
+
+.portal-stage .hero {
+  flex: 1;
+  min-width: 0;
+  max-width: 680px;
+}
+
+.portal-anthem-slot {
+  flex-shrink: 0;
+  width: clamp(330px, 29vw, 430px);
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 960px) {
+  .portal-stage {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+  }
+
+  .portal-stage .hero {
+    max-width: 100%;
+  }
+
+  .portal-anthem-slot {
+    width: 100%;
+    justify-content: stretch;
+  }
+}
+
 /* Hero Section */
 .hero {
   padding: 0;
-  max-width: 840px;
   animation: pageFadeIn 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.08s both;
   flex-shrink: 0;
 }
@@ -314,10 +305,10 @@ body:after {
 }
 
 .hero h1 {
-  max-width: 820px;
+  max-width: 660px;
   margin: 0;
-  font: 700 clamp(28px, 3.8vw, 50px) / 1.1 var(--font-display);
-  letter-spacing: -0.035em;
+  font: 700 clamp(24px, 3.1vw, 42px) / 1.15 var(--font-display);
+  letter-spacing: -0.03em;
   text-wrap: balance;
   overflow: visible;
 }
@@ -470,15 +461,21 @@ body:after {
   gap: clamp(14px, 1.8vw, 22px);
   overflow-x: auto;
   overflow-y: hidden;
-  padding: 8px 4px 16px;
-  scroll-snap-type: x mandatory;
-  scroll-padding-left: 4px;
+  padding: 24px 20px 28px;
+  margin: -16px -20px -12px;
+  scroll-snap-type: x proximity;
+  scroll-padding-left: 20px;
+  scroll-padding-right: 20px;
   scrollbar-width: thin;
   scrollbar-color: rgba(236, 203, 138, 0.35) transparent;
   -webkit-overflow-scrolling: touch;
   overscroll-behavior-x: contain;
   cursor: grab;
-  perspective: 1200px;
+  isolation: isolate;
+}
+
+.carousel:hover {
+  scroll-snap-type: none;
 }
 
 .carousel:focus-visible {
@@ -510,20 +507,18 @@ body:after {
   background: var(--gold);
 }
 
-/* =========================================================
-   BYTEWEBSTER-STYLE CARDS (Rounded, Photographic, Thematic)
-   ========================================================= */
-
 .edition-card {
   position: relative;
-  flex: 0 0 clamp(210px, 20vw, 260px);
-  height: clamp(270px, 33vh, 335px);
+  z-index: 1;
+  flex: 0 0 clamp(280px, 24vw, 380px);
+  aspect-ratio: 16 / 9;
+  height: auto;
   border-radius: 18px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: clamp(14px, 1.8vh, 18px) clamp(16px, 1.6vw, 20px) clamp(14px, 1.8vh, 18px);
+  padding: clamp(12px, 1.6vh, 16px) clamp(14px, 1.5vw, 18px);
   border: 1.5px solid rgba(255, 255, 255, 0.14);
   background-size: cover;
   background-position: center;
@@ -533,10 +528,16 @@ body:after {
   text-decoration: none;
   scroll-snap-align: start;
   cursor: pointer;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   transform-style: preserve-3d;
   transform: perspective(1000px) rotateX(var(--card-rot-x, 0deg)) rotateY(var(--card-rot-y, 0deg)) translateY(var(--card-lift, 0px));
   will-change: transform;
-  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease, box-shadow 0.25s ease;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.edition-card:not(:hover) {
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
 /* Bottom Dark Gradient Scrim */
@@ -544,9 +545,9 @@ body:after {
   position: absolute;
   inset: 0;
   background: linear-gradient(to top,
-      rgba(6, 9, 20, 0.96) 0%,
-      rgba(6, 9, 20, 0.6) 44%,
-      transparent 80%);
+      rgba(6, 9, 20, 0.94) 0%,
+      rgba(6, 9, 20, 0.45) 45%,
+      transparent 75%);
   pointer-events: none;
   z-index: 1;
 }
@@ -581,19 +582,10 @@ body:after {
   gap: 4px;
 }
 
-.card-dash-label {
-  font-family: var(--font-mono);
-  font-size: 10.5px;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.75);
-  font-weight: 500;
-}
-
 .card-theme-title {
   margin: 2px 0 0;
   font-family: var(--font-display);
-  font-size: clamp(15px, 1.3vw, 18.5px);
+  font-size: clamp(14px, 1.2vw, 17px);
   line-height: 1.22;
   letter-spacing: -0.015em;
   text-transform: uppercase;
@@ -607,12 +599,12 @@ body:after {
   align-items: center;
   justify-content: space-between;
   gap: 8px;
-  margin-top: 10px;
-  padding-top: 8px;
+  margin-top: 6px;
+  padding-top: 6px;
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   color: var(--gold);
   font-family: var(--font-body);
-  font-size: 10px;
+  font-size: 9.5px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   font-weight: 600;
@@ -626,6 +618,7 @@ body:after {
 
 /* Interactive Hover States */
 .edition-card:hover {
+  z-index: 10;
   --card-lift: -8px;
   border-color: var(--gold);
   box-shadow: 0 26px 52px rgba(0, 0, 0, 0.65), 0 0 20px rgba(236, 203, 138, 0.3);
@@ -777,10 +770,6 @@ body:after {
   text-shadow: 0 0 10px rgba(236, 203, 138, 0.5);
 }
 
-/* =========================================================
-   CREATORS MODAL - STREAMLINED ARCHITECT SHOWCASE
-   ========================================================= */
-
 .arch-modal-overlay {
   position: fixed;
   inset: 0;
@@ -804,7 +793,8 @@ body:after {
     0 40px 100px rgba(0, 0, 0, 0.92),
     0 0 50px rgba(236, 203, 138, 0.09),
     inset 0 1px 1px rgba(255, 255, 255, 0.15);
-  width: min(880px, calc(100vw - 36px));
+  width: min(740px, calc(100vw - 36px));
+  max-height: min(92vh, 880px);
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -884,14 +874,6 @@ body:after {
   gap: 10px;
 }
 
-.arch-live-pulse {
-  width: 7.5px;
-  height: 7.5px;
-  border-radius: 50%;
-  background: var(--gold);
-  box-shadow: 0 0 9px var(--gold);
-}
-
 .arch-modal-title {
   margin: 0;
   font-family: var(--font-display);
@@ -905,19 +887,6 @@ body:after {
   display: flex;
   align-items: center;
   gap: 10px;
-}
-
-.esc-badge {
-  font-family: var(--font-mono);
-  font-size: 9.5px;
-  font-weight: 600;
-  color: #8b9ab8;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 3px 7px;
-  border-radius: 5px;
-  letter-spacing: 0.05em;
-  user-select: none;
 }
 
 .arch-close-trigger {
@@ -950,7 +919,9 @@ body:after {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  overflow: hidden;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(236, 203, 138, 0.3) transparent;
 }
 
 /* Architect Card */
@@ -979,17 +950,17 @@ body:after {
   background: linear-gradient(175deg, rgba(24, 34, 68, 0.9) 0%, rgba(11, 16, 35, 0.96) 100%);
   box-shadow: 0 0 32px rgba(236, 203, 138, 0.2), 0 18px 40px rgba(0, 0, 0, 0.6);
 }
-
 /* Portrait Box */
 .arch-portrait-box {
   position: relative;
   width: 100%;
-  height: 220px;
+  max-width: 230px;
+  aspect-ratio: 3 / 4;
   border-radius: 14px;
   overflow: hidden;
   background: #080c1b;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  margin-bottom: 14px;
+  margin: 0 auto 14px;
 }
 
 .arch-portrait-img {
@@ -1118,7 +1089,9 @@ body:after {
   }
 
   .arch-portrait-box {
-    height: 190px;
+    max-width: 200px;
+    aspect-ratio: 3 / 4;
+    height: auto;
   }
 }
 
@@ -1231,25 +1204,25 @@ body:after {
   }
 }
 
-/* =========================================================
-   RESPONSIVE DESIGN BREAKPOINTS
-   ========================================================= */
-
 /* Desktop & Laptop L (Width >= 1100px): Cards span full width, balanced poster proportion */
 @media (min-width: 1100px) {
   .carousel {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     gap: clamp(16px, 1.6vw, 24px);
     overflow-x: auto;
-    padding: 8px 4px 18px;
+    padding: 24px 20px 28px;
+    margin: -16px -20px -12px;
+    scroll-padding-left: 20px;
+    scroll-padding-right: 20px;
   }
 
   .edition-card {
-    flex: 1 1 0;
-    min-width: 235px;
-    max-width: 320px;
-    height: clamp(310px, 37vh, 390px);
+    flex: 0 0 clamp(320px, 25vw, 420px);
+    aspect-ratio: 16 / 9;
+    height: auto;
+    max-width: none;
+    min-width: 0;
   }
 }
 
@@ -1264,19 +1237,23 @@ body:after {
   }
 
   .edition-card {
-    height: clamp(330px, 39vh, 410px);
+    flex: 0 0 clamp(360px, 26vw, 460px);
+    aspect-ratio: 16 / 9;
+    height: auto;
   }
 }
 
 /* Tablets (Width <= 1099px) */
 @media (max-width: 1099px) {
   .carousel {
-    scroll-padding-left: 16px;
+    scroll-padding-left: 20px;
+    scroll-padding-right: 20px;
   }
 
   .edition-card {
-    flex: 0 0 clamp(220px, 30vw, 265px);
-    height: clamp(285px, 35vh, 340px);
+    flex: 0 0 clamp(280px, 36vw, 360px);
+    aspect-ratio: 16 / 9;
+    height: auto;
   }
 }
 
@@ -1307,8 +1284,10 @@ body:after {
   }
 
   .edition-card {
-    height: clamp(240px, 31vh, 285px) !important;
-    padding: 12px 14px;
+    flex: 0 0 clamp(260px, 22vw, 320px);
+    aspect-ratio: 16 / 9;
+    height: auto !important;
+    padding: 10px 14px;
   }
 
   .card-theme-title {
@@ -1399,13 +1378,16 @@ body:after {
 
   /* Carousel edge-bleed with inner padding on mobile */
   .carousel {
-    margin: 0 -16px;
-    padding: 8px 16px 16px;
+    margin: -16px -16px -12px;
+    padding: 24px 16px 28px;
+    scroll-padding-left: 16px;
+    scroll-padding-right: 16px;
   }
 
   .edition-card {
-    flex: 0 0 clamp(195px, 58vw, 230px);
-    height: 285px;
+    flex: 0 0 clamp(260px, 72vw, 340px);
+    aspect-ratio: 16 / 9;
+    height: auto;
   }
 
   .footnote {
@@ -1496,15 +1478,11 @@ body:after {
     font-size: clamp(23px, 7.2vw, 32px);
   }
 
-  .carousel {
-    margin: 0 -14px;
-    padding: 8px 14px 14px;
-  }
-
   .edition-card {
-    flex: 0 0 190px;
-    height: 265px;
-    padding: 14px 14px 14px;
+    flex: 0 0 clamp(240px, 80vw, 300px);
+    aspect-ratio: 16 / 9;
+    height: auto;
+    padding: 12px 14px;
     border-radius: 16px;
   }
 
