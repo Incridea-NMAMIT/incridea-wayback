@@ -1,0 +1,28 @@
+query EventById($id: ID!) {
+  eventById(id: $id) {
+    id
+    description
+    eventType
+    name
+    venue
+    minTeamSize
+    maxTeams
+    maxTeamSize
+    image
+    fees
+    published
+    category
+    organizers {
+      user {
+        email
+        name
+        phoneNumber
+      }
+    }
+    rounds {
+      completed
+      roundNo
+      date
+    }
+  }
+}

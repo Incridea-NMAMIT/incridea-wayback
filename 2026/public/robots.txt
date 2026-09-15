@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /profile
+Disallow: /register
+Disallow: /login
+Disallow: /reset-password
+Disallow: /dashboard
+Disallow: /admin
+Disallow: /quiz
+Disallow: /faculty-registrations
+
+Sitemap: https://2026.wayback.incridea.in/sitemap.xml

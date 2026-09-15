@@ -1,0 +1,197 @@
+import apiClient, { archiveAuthClient } from './client'
+import { isArchiveMode } from '../archive/archive'
+
+export interface SignupPayload {
+  name: string
+  email: string
+  password: string
+  confirmPassword: string
+  phoneNumber: string
+  selection: 'NMAMIT' | 'OTHER' | 'ALUMNI'
+  collegeId?: number
+  yearOfGraduation?: number
+  idDocument?: string
+
+}
+
+export interface UserPayload {
+  id: string
+  name: string
+  email: string
+  profileImage?: string | null
+  category: string
+  collegeId: number
+  college?: string
+  roles: string[]
+  isVerified: boolean
+  phoneNumber: string
+  isBranchRep?: boolean
+  isOrganiser?: boolean
+  isJudge?: boolean
+  yearOfGraduation?: number | null
+  alumniIdDocument?: string | null
+  alumniStatus?: 'ACCEPTED' | 'DECLINED' | 'PENDING' | null
+  alumniRegStatus?: boolean
+  pid?: string | null
+  regType?: 'GENERAL' | 'EVENTS_ONLY' | null
+  completedTasks: {
+    userId: string
+    taskId: string
+    taskKey: string
+    completedAt: string
+  }[]
+  isMerchPurchased?: boolean
+  hasMerchOrder?: boolean
+  committeeRole?: string
+  committeeName?: string
+  committeeStatus?: string
+  HeadOfCommittee?: any[]
+  CoHeadOfCommittee?: any[]
+}
+
+export interface SignupResponse {
+  message: string
+  token: string
+  user: UserPayload
+}
+
+export interface VerifyOtpResponse {
+  message: string
+  token: string
+  user: UserPayload
+}
+
+export interface LoginPayload {
+  email: string
+  password: string
+}
+
+export interface LoginResponse {
+  message: string
+  token: string
+  user: UserPayload
+}
+
+export interface MeResponse {
+  user: UserPayload
+}
+
+export interface ChangePasswordPayload {
+  currentPassword: string
+  newPassword: string
+  confirmNewPassword: string
+}
+
+export interface ChangePasswordResponse {
+  message: string
+}
+
+export interface ResetPasswordRequestPayload {
+  email: string
+}
+
+export interface ResetPasswordResponse {
+  message: string
+}
+
+export interface ResetPasswordConfirmPayload {
+  token: string
+  newPassword: string
+  confirmNewPassword: string
+}
+
+export async function signup(payload: SignupPayload): Promise<SignupResponse> {
+  const { data } = await apiClient.post<SignupResponse>('/auth/signup', payload)
+  return data
+}
+
+export async function verifyOtp(payload: { email: string; otp: string }): Promise<VerifyOtpResponse> {
+  const { data } = await apiClient.post<VerifyOtpResponse>('/auth/verify-otp', payload)
+  return data
+}
+
+export async function login(payload: LoginPayload): Promise<LoginResponse> {
+  const { data } = await apiClient.post<LoginResponse>('/auth/login', payload)
+  return data
+}
+
+export async function fetchMe(): Promise<MeResponse> {
+  const client = isArchiveMode ? archiveAuthClient : apiClient
+  const { data } = await client.get<MeResponse>('/auth/me')
+  return data
+}
+
+export async function logoutUser(): Promise<{ message: string }> {
+  const { data } = await apiClient.post<{ message: string }>('/auth/logout')
+  return data
+}
+
+export async function changePassword(
+  payload: ChangePasswordPayload,
+): Promise<ChangePasswordResponse> {
+  const { data } = await apiClient.post<ChangePasswordResponse>('/auth/change-password', payload)
+  return data
+}
+
+export async function requestPasswordReset(
+  payload: ResetPasswordRequestPayload,
+): Promise<ResetPasswordResponse> {
+  const { data } = await apiClient.post<ResetPasswordResponse>('/auth/request-password-reset', payload)
+  return data
+}
+
+export async function resetPasswordConfirm(
+  payload: ResetPasswordConfirmPayload,
+): Promise<ResetPasswordResponse> {
+  const { data } = await apiClient.post<ResetPasswordResponse>('/auth/reset-password', payload)
+  return data
+}
+
+
+export interface VerifyMasterKeyResponse {
+  success: boolean
+  message: string
+}
+
+export async function verifyMasterKey(key: string): Promise<VerifyMasterKeyResponse> {
+  const { data } = await apiClient.post<VerifyMasterKeyResponse>(
+    '/auth/verify-master',
+    { key }
+  )
+  return data
+}
+
+export interface Session {
+  id: string
+  device?: string | null
+  ip?: string | null
+  userAgent?: string | null
+  createdAt: string
+  expiresAt: string
+  updatedAt: string
+}
+
+export interface GetSessionsResponse {
+  sessions: Session[]
+  currentSessionId: string
+}
+
+export async function getSessions(): Promise<GetSessionsResponse> {
+  const { data } = await apiClient.get<GetSessionsResponse>('/auth/sessions')
+  return data
+}
+
+export async function revokeSession(sessionId: string): Promise<{ message: string }> {
+  const { data } = await apiClient.delete<{ message: string }>(`/auth/sessions/${sessionId}`)
+  return data
+}
+
+export async function updateProfile(data: { name: string; profileImage?: string | null }): Promise<{ message: string; user: UserPayload }> {
+  const response = await apiClient.post<{ message: string; user: UserPayload }>('/auth/update-profile', data)
+  return response.data
+}
+
+export async function updateUserCollege(collegeId: number): Promise<{ message: string; user: UserPayload }> {
+  const response = await apiClient.post<{ message: string; user: UserPayload }>('/auth/update-college', { collegeId })
+  return response.data
+}

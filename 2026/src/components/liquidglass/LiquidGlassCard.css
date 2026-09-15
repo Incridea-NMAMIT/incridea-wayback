@@ -1,0 +1,138 @@
+.card {
+  max-width: 100%;
+  display: block;
+  padding: 2rem;
+  overflow: visible;
+  border-radius: 1.75rem;
+  transition: opacity 0.26s ease-out;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background:
+    linear-gradient(to top, rgba(0, 0, 0, 0.20), transparent 60%),
+    rgba(21, 21, 21, 0.30);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.22);
+  backdrop-filter: brightness(1.1) blur(1px);
+  -webkit-backdrop-filter: brightness(1.1) blur(1px);
+  box-sizing: border-box;
+  
+  /* Button reset styles */
+  border-style: solid;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  text-align: left; /* Reset default center alignment for button */
+  /* Remove default button focus ring - add custom one if needed or leave to browser for now */
+}
+
+/* ... (omitted middle section for brevity, targeting .card and .card__content only) */
+
+/* ... */
+
+.card__content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  overflow: hidden;
+}
+
+/* ... (rest of the file remains similar, but omitting intermediate parts for brevity in this tool call is allowed if I target specific lines. However, since I need to touch .card and .card__content which are at opposite ends, I might use multi_replace or just append the button styles and modify card__content separately. Let's look at the file again.) */
+
+/* Actually, I should probably do two chunks or just replace the specific parts. 
+   Line 1-20 is .card
+   Line 103-110 is .card__content
+*/
+
+
+/* Dark color scheme (default) */
+.card--dark {
+  background:
+    linear-gradient(to top, rgba(0, 0, 0, 0), transparent 40%),
+    rgba(0, 0, 0, 0.521);
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+/* Orange color scheme */
+.card--orange {
+  background:
+    linear-gradient(to top, rgba(64, 23, 9, 0.4), transparent 60%),
+    rgba(92, 35, 10, 0.50);
+  /* border-color: rgba(251, 146, 60, 0.3); */
+}
+
+.card--orange::after {
+  background: linear-gradient(135deg, rgba(124, 45, 18, 0.611), rgba(92, 35, 10, 0.342), transparent 60%);
+}
+
+/* Purple color scheme */
+.card--purple {
+  background:
+    linear-gradient(to top, rgba(91, 33, 182, 0.496), transparent 60%),
+    rgba(91, 33, 182, 0.50);
+  filter: drop-shadow(-0.5rem -0.625rem 2.875rem #5b21b74d);
+  border-color: #5b21b74d;
+}
+
+.card--purple::after {
+  background: linear-gradient(135deg, rgba(88, 28, 135, 0.611), rgba(58, 13, 110, 0.571), transparent 60%);
+}
+
+/* Light color scheme */
+.card--light {
+  background:
+    linear-gradient(to top, rgba(255, 255, 255, 0.1), transparent 60%),
+    rgba(255, 255, 255, 0.15);
+}
+
+.card--light::after {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1), transparent 60%);
+}
+
+/* @media (min-width: 640px) {
+  .card {
+    padding: 1.25rem;
+    border-radius: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    padding: 2rem;
+    border-radius: 1.75rem;
+  }
+} */
+
+.card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  border-radius: inherit;
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.22);
+  pointer-events: none;
+}
+
+.card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: inherit;
+  background: transparent;
+  pointer-events: none;
+}
+
+.card__content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  overflow: visible;
+}

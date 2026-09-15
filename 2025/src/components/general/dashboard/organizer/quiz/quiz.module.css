@@ -1,0 +1,109 @@
+.glassBbutton {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.glassButton:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.glassBbutton:hover {
+  background: linear-gradient(
+    45deg,
+    rgba(16, 185, 129, 0.5),
+    /* emerald-500 */ rgba(245, 158, 11, 0.5),
+    /* amber-500 */ rgba(234, 179, 8, 0.5)
+  );
+  /* yellow-500 */
+  background-size: 200% auto;
+  animation: gradient-animation 1s linear infinite alternate;
+}
+
+/* Ensuring we use the same animation keyframes as before */
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.progressBarEffect {
+  background: linear-gradient(
+    110deg,
+    #2d5a27,
+    #4a7a3f,
+    #7ba166,
+    #e7ca46,
+    #c5a53c,
+    #6ec04d,
+    #2d5a27
+  );
+  background-size: 200% 100%;
+  animation: gradient-flow 12s ease infinite;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Slower, smoother gradient movement */
+@keyframes gradient-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Optional shimmer effect */
+.shimmer {
+  position: relative;
+}
+
+.shimmer::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent 45%,
+    rgba(255, 255, 255, 0.1) 48%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.1) 52%,
+    transparent 55%
+  );
+  animation: shimmer 8s infinite linear;
+  pointer-events: none;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .quizNav {
+    @apply absolute flex-row justify-center items-center top-[100px] right-2 w-[85%] sm:w-[60%] z-20;
+  }
+
+  /* .ctrl-btns {
+      @apply w-3/4 h-1/2 place-self-center;
+    } */
+}

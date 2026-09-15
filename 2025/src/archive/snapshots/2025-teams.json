@@ -1,0 +1,455 @@
+{
+  "schemaVersion": 1,
+  "edition": 2025,
+  "source": "Sanitized operator-supplied team export",
+  "technicalTeam": [
+    {
+      "name": "Satwik Prabhu",
+      "role": "Team Head",
+      "instagram": "https://www.instagram.com/satwikprabhu",
+      "github": "https://github.com/satwikrprabhu",
+      "linkedin": "https://www.linkedin.com/in/satwikprabhu",
+      "imageUrl": "/2025/team/technical-02-satwik-prabhu.webp",
+      "quote": "I know where you live.",
+      "order": 1000
+    },
+    {
+      "name": "A Omkar G Prabhu",
+      "role": "Co-Head",
+      "instagram": null,
+      "github": "https://github.com/Prabhuomkar9",
+      "linkedin": "https://www.linkedin.com/in/prabhuomkar9/",
+      "imageUrl": "/2025/team/technical-04-a-omkar-g-prabhu.webp",
+      "quote": "Control yourself, Not others! Tbh atp idc",
+      "order": 869
+    },
+    {
+      "name": "Aryan Singh",
+      "role": "3D | Pronite",
+      "instagram": "https://www.instagram.com/just_aryansingh",
+      "github": "https://github.com/Wizhill05",
+      "linkedin": "https://www.linkedin.com/in/justaryansingh",
+      "imageUrl": "/2025/team/technical-12-aryan-singh.webp",
+      "quote": "but Attendance <<<",
+      "order": 913
+    },
+    {
+      "name": "Ashton Prince Mathias",
+      "role": "Frontend",
+      "instagram": "https://www.instagram.com/_ashtonmathias_/",
+      "github": "https://github.com/Subtilizer28",
+      "linkedin": "https://www.linkedin.com/in/ashtonmths/",
+      "imageUrl": "/2025/team/technical-17-ashton-prince-mathias.webp",
+      "quote": "\\\"your fone linging 📞\\\"",
+      "order": 391
+    },
+    {
+      "name": "Athul D Bhandary",
+      "role": "Full Stack",
+      "instagram": "https://www.instagram.com/athul_bhandary",
+      "github": "https://github.com/athul28",
+      "linkedin": "https://www.linkedin.com/in/athul-d-bhandary-0b1912247/",
+      "imageUrl": "/2025/team/technical-13-athul-d-bhandary.webp",
+      "quote": "Hey wassup!!!",
+      "order": 565
+    },
+    {
+      "name": "Chaithra S Nayak",
+      "role": "Backend",
+      "instagram": "https://www.instagram.com/chaithrasnayak3/",
+      "github": "https://github.com/Chaithra-S-Nayak",
+      "linkedin": "https://www.linkedin.com/in/chaithra-s-nayak/",
+      "imageUrl": "/2025/team/technical-19-chaithra-s-nayak.webp",
+      "quote": "git commit, git push, git regret",
+      "order": 130
+    },
+    {
+      "name": "Gaurav Dhanraja",
+      "role": "Frontend | Merch Incridea",
+      "instagram": "https://instagram.com/gaurav.dhanraja",
+      "github": "https://github.com/gauravdhanraja",
+      "linkedin": "https://linkedin.com/in/gauravdhanraja",
+      "imageUrl": "/2025/team/technical-15-gaurav-dhanraja.webp",
+      "quote": "Ishans a stalker",
+      "order": 304
+    },
+    {
+      "name": "Shishir Karkera",
+      "role": "Media Co-Head | Capture Incridea Head",
+      "instagram": "https://www.instagram.com/shishir.karkeraa",
+      "github": "https://github.com/shishirkarkeraa",
+      "linkedin": "https://www.linkedin.com/in/shishir-girish-karkera-a61542262/",
+      "imageUrl": "/2025/team/technical-03-shishir-karkera.webp",
+      "quote": "Never gonna let you down!",
+      "order": 608
+    },
+    {
+      "name": "Ishan Shetty",
+      "role": "Full Stack | Merch Incridea",
+      "instagram": "https://www.instagram.com/ishanshetty_",
+      "github": "https://github.com/Ishan-Shetty",
+      "linkedin": "https://www.linkedin.com/in/ishan-shetty-0a889821a/",
+      "imageUrl": "/2025/team/technical-16-ishan-shetty.webp",
+      "quote": "Im just a chill guy 👾",
+      "order": 347
+    },
+    {
+      "name": "Karthik P K",
+      "role": "Backend",
+      "instagram": "https://www.instagram.com/_karthik_p_k/",
+      "github": "https://github.com/karthikpk-o",
+      "linkedin": "https://linkedin.com/in/karthik-p-k",
+      "imageUrl": "/2025/team/technical-14-karthik-p-k.webp",
+      "quote": "The trouble is, you think you have time.",
+      "order": 434
+    },
+    {
+      "name": "Karthik Salian",
+      "role": "Frontend",
+      "instagram": "https://www.instagram.com/karthik_s_.salian/",
+      "github": "https://github.com/Karthik-S-Salian",
+      "linkedin": "https://www.linkedin.com/in/karthik-salian-3a7a26246/",
+      "imageUrl": "/2025/team/technical-07-karthik-salian.webp",
+      "quote": "Once take a deep breath and say NO",
+      "order": 739
+    },
+    {
+      "name": "Keerthan K",
+      "role": "3D | Explore Page",
+      "instagram": "https://www.instagram.com/keetha_k11",
+      "github": "https://github.com/keetha1011",
+      "linkedin": "https://www.linkedin.com/in/kkeerthan/",
+      "imageUrl": "/2025/team/technical-01-keerthan-k.webp",
+      "quote": "passion && :) >>>",
+      "order": 956
+    },
+    {
+      "name": "Len Mendonca",
+      "role": "Frontend",
+      "instagram": "https://www.instagram.com/lendanieo/",
+      "github": "https://github.com/len-mendonca",
+      "linkedin": "https://in.linkedin.com/in/len-mendonca",
+      "imageUrl": "/2025/team/technical-20-len-mendonca.webp",
+      "quote": "Maria Pitache",
+      "order": 217
+    },
+    {
+      "name": "M Sayeem Ahmed",
+      "role": "Backend",
+      "instagram": "https://www.instagram.com/ahmedmsayeem/",
+      "github": "https://github.com/ahmedmsayeem",
+      "linkedin": "https://www.linkedin.com/in/m-sayeem-ahmed-651a7b254",
+      "imageUrl": "/2025/team/technical-23-m-sayeem-ahmed.webp",
+      "quote": "womp womp",
+      "order": 86
+    },
+    {
+      "name": "Nandan R Pai",
+      "role": "Full Stack",
+      "instagram": "https://www.instagram.com/nandanpi__/",
+      "github": "https://github.com/nandanpi",
+      "linkedin": "https://www.linkedin.com/in/nandanpai09",
+      "imageUrl": "/2025/team/technical-09-nandan-r-pai.webp",
+      "quote": "My touch is the solution to all problems 🥰",
+      "order": 695
+    },
+    {
+      "name": "Pratham A Kadekar",
+      "role": "Full Stack",
+      "instagram": "https://www.instagram.com/pratham_ak2004",
+      "github": "https://github.com/pratham-ak2004",
+      "linkedin": "https://www.linkedin.com/in/pratham-a-kadekar-8397a7249",
+      "imageUrl": "/2025/team/technical-06-pratham-a-kadekar.webp",
+      "quote": "Konnichiwa",
+      "order": 782
+    },
+    {
+      "name": "Rahul N Bangera",
+      "role": "Full Stack",
+      "instagram": "https://www.instagram.com/rahul_n_bangera",
+      "github": "https://github.com/Bnir",
+      "linkedin": "https://www.linkedin.com/in/rahul-n-bangera",
+      "imageUrl": "/2025/team/technical-08-rahul-n-bangera.webp",
+      "quote": "Give 200% or Give nothing",
+      "order": 652
+    },
+    {
+      "name": "Riyaz Ahmed",
+      "role": "Frontend",
+      "instagram": "https://www.instagram.com/ria_yz24",
+      "github": "https://github.com/RiaAug24",
+      "linkedin": "https://www.linkedin.com/in/riyaz-ahmed24",
+      "imageUrl": "/2025/team/technical-21-riyaz-ahmed.webp",
+      "quote": "Try to be the fitting piece, for a missing piece. 🧩",
+      "order": 260
+    },
+    {
+      "name": "Samarth H Shetty",
+      "role": "Full Stack",
+      "instagram": "https://www.instagram.com/sammonster1920/",
+      "github": "https://github.com/Sammonster495",
+      "linkedin": "https://www.linkedin.com/in/samarth-shetty-a53018247/",
+      "imageUrl": "/2025/team/technical-05-samarth-h-shetty.webp",
+      "quote": "Coding and dancing my way through life",
+      "order": 826
+    },
+    {
+      "name": "Sathwik Nayak",
+      "role": "Frontend | Capture Incridea",
+      "instagram": "https://www.instagram.com/sathwik_hh",
+      "github": "https://github.com/002sathwik",
+      "linkedin": "https://www.linkedin.com/in/sathwik-h-085758246",
+      "imageUrl": "/2025/team/technical-18-sathwik-nayak.webp",
+      "quote": "Being part of a team is the greatest contribution Ive made.",
+      "order": 173
+    },
+    {
+      "name": "Snehal Shetty",
+      "role": "Full Stack",
+      "instagram": "https://www.instagram.com/shettysnehal__05",
+      "github": "https://github.com/shettysnehal",
+      "linkedin": "https://www.linkedin.com/in/snehalshetty105",
+      "imageUrl": "/2025/team/technical-11-snehal-shetty.webp",
+      "quote": "Life so cooked that my luck is on airplane mode",
+      "order": 478
+    },
+    {
+      "name": "Sourav Bangera",
+      "role": "Digital | Explore Videos",
+      "instagram": "https://www.instagram.com/grungygrid?igsh=OGQ5ZDc2ODk2ZA==",
+      "github": null,
+      "linkedin": "https://www.linkedin.com/in/souravbangera",
+      "imageUrl": "/2025/team/technical-22-sourav-bangera.webp",
+      "quote": "i wish to be touched by Nandan",
+      "order": 43
+    },
+    {
+      "name": "Varshith Pawar H R",
+      "role": "Frontend | Capture Incridea",
+      "instagram": "https://www.instagram.com/mr.pawar_10/",
+      "github": "https://github.com/VarshithPawarHR",
+      "linkedin": "https://www.linkedin.com/in/varshithpawarhr",
+      "imageUrl": "/2025/team/technical-10-varshith-pawar-h-r.webp",
+      "quote": "No bugs here—just your system struggling to keep up with our brilliance",
+      "order": 521
+    }
+  ],
+  "coreTeam": [
+    {
+      "name": "Varun S Amin",
+      "committee": "Accommodation",
+      "designation": "HEAD",
+      "imageUrl": "/2025/team/core-08-varun-s-amin.webp"
+    },
+    {
+      "name": "Ansh P Bhandary",
+      "committee": "Accommodation",
+      "designation": "CO_HEAD",
+      "imageUrl": "/2025/team/core-01-ansh-p-bhandary.webp"
+    },
+    {
+      "name": "Aryan M Chowta",
+      "committee": "Crew",
+      "designation": "HEAD",
+      "imageUrl": "/2025/team/core-05-aryan-m-chowta.webp"
+    },
+    {
+      "name": "Advik A Rai",
+      "committee": "Crew",
+      "designation": "CO_HEAD",
+      "imageUrl": "/2025/team/core-07-advik-a-rai.webp"
+    },
+    {
+      "name": "Vandya Kamath",
+      "committee": "Cultural",
+      "designation": "HEAD",
+      "imageUrl": "/2025/team/core-10-vandya-kamath.webp"
+    },
+    {
+      "name": "Keshav Nayak",
+      "committee": "Cultural",
+      "designation": "CO_HEAD",
+      "imageUrl": "/2025/team/core-11-keshav-nayak.webp"
+    },
+    {
+      "name": "Pavan C",
+      "committee": "Digital",
+      "designation": "CO_HEAD",
+      "imageUrl": "/2025/team/core-02-pavan-c.webp"
+    },
+    {
+      "name": "Prathvi G Karkera",
+      "committee": "Documentation",
+      "designation": "HEAD",
+      "imageUrl": "/2025/team/core-03-prathvi-g-karkera.webp"
+    },
+    {
+      "name": "Sannidhi S Shetty",
+      "committee": "Documentation",
+      "designation": "CO_HEAD",
+      "imageUrl": "/2025/team/core-13-sannidhi-s-shetty.webp"
+    },
+    {
+      "name": "Uday Bhaskar",
+      "committee": "Event Management",
+      "designation": "HEAD",
+      "imageUrl": "/2025/team/core-06-uday-bhaskar.webp"
+    },
+    {
+      "name": "Amrith R Naik",
+      "committee": "Event Management",
+      "designation": "CO_HEAD",
+      "imageUrl": "/2025/team/core-12-amrith-r-naik.webp"
+    },
+    {
+      "name": "Tvisha Prakash",
+      "committee": "Finance",
+      "designation": "HEAD",
+      "imageUrl": "/2025/team/core-04-tvisha-prakash.webp"
+    },
+    {
+      "name": "Shaun V Karkada",
+      "committee": "Finance",
+      "designation": "CO_HEAD",
+      "imageUrl": "/2025/team/core-09-shaun-v-karkada.webp"
+    },
+    {
+      "name": "Dhanush Pai",
+      "committee": "Food",
+      "designation": "HEAD",
+      "imageUrl": "/2025/team/core-14-dhanush-pai.webp"
+    },
+    {
+      "name": "Shravan Sp",
+      "committee": "Food",
+      "designation": "CO_HEAD",
+      "imageUrl": "/2025/team/core-17-shravan-sp.webp"
+    },
+    {
+      "name": "Sakshath S Shetty",
+      "committee": "House-Keeping",
+      "designation": "HEAD",
+      "imageUrl": "/2025/team/core-16-sakshath-s-shetty.webp"
+    },
+    {
+      "name": "Eshaprasad",
+      "committee": "House-Keeping",
+      "designation": "CO_HEAD",
+      "imageUrl": "/2025/team/core-15-eshaprasad.webp"
+    },
+    {
+      "name": "Shreya S Rao",
+      "committee": "Inaugural",
+      "designation": "HEAD",
+      "imageUrl": "/2025/team/core-18-shreya-s-rao.webp"
+    },
+    {
+      "name": "Avanthi",
+      "committee": "Inaugural",
+      "designation": "CO_HEAD",
+      "imageUrl": "/2025/team/core-19-avanthi.webp"
+    },
+    {
+      "name": "Apeksha Nayak",
+      "committee": "Jury",
+      "designation": "HEAD",
+      "imageUrl": "/2025/team/core-22-apeksha-nayak.webp"
+    },
+    {
+      "name": "Nandan R Pai",
+      "committee": "Jury",
+      "designation": "CO_HEAD",
+      "imageUrl": "/2025/team/core-20-nandan-r-pai.webp"
+    },
+    {
+      "name": "S Abishek",
+      "committee": "Media",
+      "designation": "HEAD",
+      "imageUrl": "/2025/team/core-23-s-abishek.webp"
+    },
+    {
+      "name": "Shishir Girish Karkera",
+      "committee": "Media",
+      "designation": "CO_HEAD",
+      "imageUrl": "/2025/team/core-26-shishir-girish-karkera.webp"
+    },
+    {
+      "name": "Sumedha S Kini",
+      "committee": "Publicity",
+      "designation": "HEAD",
+      "imageUrl": "/2025/team/core-21-sumedha-s-kini.webp"
+    },
+    {
+      "name": "Lakhi A Shetty",
+      "committee": "Publicity",
+      "designation": "CO_HEAD",
+      "imageUrl": "/2025/team/core-27-lakhi-a-shetty.webp"
+    },
+    {
+      "name": "Prathama S J",
+      "committee": "Requirements",
+      "designation": "HEAD",
+      "imageUrl": "/2025/team/core-32-prathama-s-j.webp"
+    },
+    {
+      "name": "Sudeep",
+      "committee": "Requirements",
+      "designation": "CO_HEAD",
+      "imageUrl": "/2025/team/core-24-sudeep.webp"
+    },
+    {
+      "name": "Saurabh Sunish",
+      "committee": "Social Media",
+      "designation": "HEAD",
+      "imageUrl": "/2025/team/core-30-saurabh-sunish.webp"
+    },
+    {
+      "name": "Aaric Johan Rodrigues",
+      "committee": "Social Media",
+      "designation": "CO_HEAD",
+      "imageUrl": "/2025/team/core-25-aaric-johan-rodrigues.webp"
+    },
+    {
+      "name": "Mesha Shetty BM",
+      "committee": "Sponsorship",
+      "designation": "HEAD",
+      "imageUrl": "/2025/team/core-28-mesha-shetty-bm.webp"
+    },
+    {
+      "name": "Cleton Chris Dsouza",
+      "committee": "Sponsorship",
+      "designation": "CO_HEAD",
+      "imageUrl": "/2025/team/core-29-cleton-chris-dsouza.webp"
+    },
+    {
+      "name": "Satwik R Prabhu",
+      "committee": "Technical",
+      "designation": "HEAD",
+      "imageUrl": "/2025/team/core-33-satwik-r-prabhu.webp"
+    },
+    {
+      "name": "A Omkar G Prabhu",
+      "committee": "Technical",
+      "designation": "CO_HEAD",
+      "imageUrl": "/2025/team/core-31-a-omkar-g-prabhu.webp"
+    },
+    {
+      "name": "Adarsh A S",
+      "committee": "Thorana",
+      "designation": "HEAD",
+      "imageUrl": "/2025/team/core-34-adarsh-a-s.webp"
+    },
+    {
+      "name": "Janardan S Udupa",
+      "committee": "Transport",
+      "designation": "HEAD",
+      "imageUrl": "/2025/team/core-36-janardan-s-udupa.webp"
+    },
+    {
+      "name": "P Sandesh Rao",
+      "committee": "Transport",
+      "designation": "CO_HEAD",
+      "imageUrl": "/2025/team/core-35-p-sandesh-rao.webp"
+    }
+  ]
+}

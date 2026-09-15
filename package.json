@@ -1,0 +1,8 @@
+{
+  "name": "incridea-wayback",
+  "private": true,
+  "scripts": {
+    "build:directory": "npm --prefix index run build",
+    "wayback:snapshot": "bash helper-script/create-wayback-snapshot.sh"
+  }
+}

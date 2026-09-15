@@ -1,0 +1,8 @@
+schema: "https://incridea-pai3.onrender.com/graphql"
+documents: "./src/**/*.graphql"
+generates:
+  ./src/generated/generated.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typed-document-node
