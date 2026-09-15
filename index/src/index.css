@@ -41,12 +41,16 @@ body {
 }
 
 /* Viewport lock on spacious desktop screens */
-@media (min-width: 900px) and (min-height: 680px) {
+@media (min-width: 1024px) and (min-height: 780px) {
 
   html,
   body {
     height: 100%;
     overflow: hidden;
+  }
+
+  .shell {
+    height: 100svh;
   }
 }
 
@@ -133,14 +137,14 @@ body:after {
 /* Shell Layout: Responsive container with balanced padding */
 .shell {
   width: min(1360px, 100%);
-  height: 100svh;
+  min-height: 100svh;
   margin: 0 auto;
-  padding: clamp(14px, 2.4vh, 30px) clamp(16px, 3.5vw, 44px) clamp(12px, 1.8vh, 22px);
+  padding: clamp(18px, 2.6vh, 32px) clamp(20px, 3.5vw, 44px) calc(clamp(20px, 3vh, 36px) + env(safe-area-inset-bottom, 0px));
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
-  gap: clamp(12px, 1.8vh, 20px);
+  gap: clamp(14px, 2vh, 22px);
 }
 
 /* Central Portal Content: Groups Hero + Archive into a single cohesive, vertically centered block */
@@ -666,8 +670,8 @@ body:after {
   justify-content: space-between;
   gap: 16px;
   margin-top: auto;
-  padding-top: clamp(14px, 2.2vh, 22px);
-  padding-bottom: clamp(4px, 0.8vh, 10px);
+  padding-top: clamp(16px, 2.4vh, 26px);
+  padding-bottom: clamp(10px, 1.6vh, 18px);
   border-top: 1px solid rgba(255, 255, 255, 0.12);
   color: #8b9ab8;
   font-family: var(--font-body);
@@ -1076,6 +1080,10 @@ body:after {
 
 /* Responsive Modal Styling (Mobile Only) */
 @media (max-width: 640px) {
+  .arch-modal-overlay {
+    padding: 16px 14px calc(24px + env(safe-area-inset-bottom, 0px));
+  }
+
   .arch-showcase-grid {
     grid-template-columns: 1fr;
     gap: 16px;
@@ -1257,30 +1265,38 @@ body:after {
   }
 }
 
-/* Short Laptops & Restricted Heights (Height <= 750px and Width >= 769px) */
-@media (max-height: 750px) and (min-width: 769px) {
+/* Short Laptops & Restricted Heights (Height <= 780px and Width >= 769px) */
+@media (max-height: 780px) and (min-width: 769px) {
+  html,
+  body {
+    height: auto !important;
+    overflow-y: auto !important;
+  }
+
   .shell {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    gap: 10px;
+    height: auto;
+    min-height: 100svh;
+    padding-top: 18px;
+    padding-bottom: calc(24px + env(safe-area-inset-bottom, 0px));
+    gap: 14px;
   }
 
   .portal-content {
-    gap: 12px;
-    margin: 0;
+    gap: 16px;
+    margin: 6px 0;
   }
 
   .hero h1 {
-    font-size: clamp(22px, 3.2vw, 36px);
+    font-size: clamp(22px, 3vw, 34px);
   }
 
   .hero-copy {
-    margin-top: 5px;
-    font-size: 11.5px;
+    margin-top: 6px;
+    font-size: 12px;
   }
 
   .archive-heading {
-    margin-bottom: 6px;
+    margin-bottom: 8px;
   }
 
   .edition-card {
@@ -1295,7 +1311,8 @@ body:after {
   }
 
   .footnote {
-    padding-top: 6px;
+    padding-top: 14px;
+    padding-bottom: 10px;
   }
 }
 
@@ -1311,12 +1328,12 @@ body:after {
   .shell {
     height: auto !important;
     min-height: 100svh;
-    padding: 16px 20px 20px;
+    padding: 20px 22px calc(28px + env(safe-area-inset-bottom, 0px));
     gap: 16px;
   }
 
   .portal-content {
-    margin: 12px 0;
+    margin: 14px 0;
   }
 }
 
@@ -1333,14 +1350,14 @@ body:after {
   .shell {
     height: auto;
     min-height: 100svh;
-    padding: 16px 16px 20px;
-    gap: 18px;
+    padding: 20px 20px calc(30px + env(safe-area-inset-bottom, 0px));
+    gap: 20px;
     justify-content: flex-start;
   }
 
   .portal-content {
-    margin: 4px 0 16px;
-    gap: 18px;
+    margin: 6px 0 20px;
+    gap: 20px;
     flex: none;
   }
 
@@ -1378,10 +1395,10 @@ body:after {
 
   /* Carousel edge-bleed with inner padding on mobile */
   .carousel {
-    margin: -16px -16px -12px;
-    padding: 24px 16px 28px;
-    scroll-padding-left: 16px;
-    scroll-padding-right: 16px;
+    margin: -16px -20px -12px;
+    padding: 24px 20px 28px;
+    scroll-padding-left: 20px;
+    scroll-padding-right: 20px;
   }
 
   .edition-card {
@@ -1394,9 +1411,9 @@ body:after {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 10px;
-    padding-top: 18px;
-    padding-bottom: 8px;
+    gap: 12px;
+    padding-top: 22px;
+    padding-bottom: 12px;
   }
 
   .crest-badge {
@@ -1435,13 +1452,13 @@ body:after {
 /* Small Phones (Width <= 480px) */
 @media (max-width: 480px) {
   .shell {
-    padding: 14px 14px 18px;
-    gap: 16px;
+    padding: 18px 18px calc(28px + env(safe-area-inset-bottom, 0px));
+    gap: 18px;
   }
 
   .portal-content {
-    gap: 16px;
-    margin: 4px 0 12px;
+    gap: 18px;
+    margin: 6px 0 16px;
   }
 
   .topline {
@@ -1478,6 +1495,13 @@ body:after {
     font-size: clamp(23px, 7.2vw, 32px);
   }
 
+  .carousel {
+    margin: -16px -18px -12px;
+    padding: 24px 18px 28px;
+    scroll-padding-left: 18px;
+    scroll-padding-right: 18px;
+  }
+
   .edition-card {
     flex: 0 0 clamp(240px, 80vw, 300px);
     aspect-ratio: 16 / 9;
@@ -1494,9 +1518,9 @@ body:after {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 9px;
-    padding-top: 16px;
-    padding-bottom: 6px;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
   }
 
   .footnote-left {
@@ -1520,8 +1544,20 @@ body:after {
 
 /* Narrowest screens (Width <= 360px) */
 @media (max-width: 360px) {
+  .shell {
+    padding: 16px 14px calc(24px + env(safe-area-inset-bottom, 0px));
+  }
+
+  .carousel {
+    margin: -16px -14px -12px;
+    padding: 20px 14px 24px;
+    scroll-padding-left: 14px;
+    scroll-padding-right: 14px;
+  }
+
   .edition-card {
-    flex: 0 0 180px;
-    height: 250px;
+    flex: 0 0 clamp(210px, 82vw, 260px);
+    aspect-ratio: 16 / 9;
+    height: auto;
   }
 }
