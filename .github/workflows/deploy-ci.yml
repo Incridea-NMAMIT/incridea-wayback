@@ -1,0 +1,22 @@
+name: Application CI and staging candidates
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+  packages: write
+  id-token: write
+  attestations: write
+concurrency:
+  group: ci-${{ github.repository }}-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  application:
+    uses: Incridea-NMAMIT/incridea-deploy/.github/workflows/application-ci.yml@main
+    with:
+      application_id: incridea-wayback
+      dockerfile: infra/directory.Dockerfile
+      android_paths: '[]'
+    secrets: inherit
